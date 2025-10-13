@@ -1,0 +1,62 @@
+import { motion } from 'framer-motion';
+import { Trophy, Users } from 'lucide-react';
+
+export const Footer = () => {
+  return (
+    <footer className="relative py-16 px-4 mt-32 border-t border-border">
+      <div className="max-w-6xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-center"
+        >
+          <h2 className="font-orbitron text-3xl md:text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--space-cyan))] to-[hsl(var(--space-gold))]">
+            Crestora'25
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="space-y-2">
+              <h3 className="font-orbitron text-lg font-semibold text-[hsl(var(--space-cyan))]">Event Details</h3>
+              <p className="text-sm text-muted-foreground">9 Main Rounds</p>
+              <p className="text-sm text-muted-foreground">4 Rolling Events</p>
+              <p className="text-sm text-muted-foreground">60 Teams Registered</p>
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="font-orbitron text-lg font-semibold text-[hsl(var(--space-gold))]">Team Structure</h3>
+              <p className="text-sm text-muted-foreground">4 Members per Team</p>
+              <p className="text-sm text-muted-foreground">UG 2nd & 3rd Years</p>
+              <div className="flex items-center justify-center gap-2 pt-2">
+                <Users className="w-4 h-4 text-[hsl(var(--space-gold))]" />
+                <span className="text-sm text-muted-foreground">Team Event</span>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="font-orbitron text-lg font-semibold text-[hsl(var(--space-violet))]">Prizes</h3>
+              <div className="flex items-center justify-center gap-2">
+                <Trophy className="w-4 h-4 text-[hsl(var(--space-gold))]" />
+                <span className="text-sm text-muted-foreground">Winner Team</span>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Trophy className="w-4 h-4 text-[hsl(var(--space-cyan))]" />
+                <span className="text-sm text-muted-foreground">Runner-up Team</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 border-t border-border">
+            <p className="text-sm text-muted-foreground mb-2">
+              Organized by Personality Development Association
+            </p>
+            <p className="text-xs text-muted-foreground">
+              MIT Campus, Anna University
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </footer>
+  );
+};

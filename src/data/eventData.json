@@ -1,0 +1,136 @@
+{
+  "event": {
+    "title": "Crestora'25",
+    "theme": "Beyond Limits – A Space Odyssey of Personality Development",
+    "organized_by": "Personality Development Association, MIT Campus, Anna University",
+    "team_structure": "4 members (UG 2nd and 3rd years)",
+    "total_rounds": 9,
+    "total_rolling_events": 4,
+    "prizes": {
+      "winner": "1 Team",
+      "runner": "1 Team"
+    },
+    "registration": {
+      "opened": "2025-10-06T18:00:00",
+      "closed": "2025-10-13T18:00:00",
+      "teams_registered": "60 (approx)"
+    }
+  },
+  "rounds": [
+    {
+      "id": "round1",
+      "round_number": 1,
+      "name": "Visionary Voyage",
+      "club": "PDA",
+      "type": "Offline",
+      "date": "2025-10-15",
+      "description": "Participants read about Dr. A.P.J. Abdul Kalam's life and achievements, then answer 20 MCQs to test their insight and observation."
+    },
+    {
+      "id": "round2",
+      "round_number": 2,
+      "name": "Quiz",
+      "club": "MIT Meteorology Club",
+      "type": "Online",
+      "date": "2025-10-17",
+      "description": "A competitive multi-domain quiz testing general knowledge, teamwork, and speed under pressure."
+    },
+    {
+      "id": "round3",
+      "round_number": 3,
+      "name": "Once Upon a Time...",
+      "club": "MIT Quill",
+      "type": "Offline",
+      "date": "2025-10-20",
+      "description": "A creative writing challenge celebrating imagination and originality through spontaneous storytelling prompts."
+    },
+    {
+      "id": "round4",
+      "round_number": 4,
+      "name": "Mimik Talk",
+      "club": "TED Club of MIT",
+      "type": "Offline",
+      "date": "2025-10-22",
+      "description": "Participants mimic a TED Talk speaker's tone, gestures, and expression while speaking on a totally different topic."
+    },
+    {
+      "id": "round5",
+      "round_number": 5,
+      "name": "Channel Surfing",
+      "club": "The Box Office of MIT",
+      "type": "Offline",
+      "date": "2025-10-24",
+      "description": "An improvisational performance event where participants act out spontaneous TV channel scenes using humor and wit."
+    },
+    {
+      "id": "round6",
+      "round_number": 6,
+      "name": "Campaign (Wild Card)",
+      "club": "PDA",
+      "type": "Offline",
+      "date": "2025-10-27",
+      "description": "Teams create and promote a cause or idea using slogans and visuals—testing persuasion and creative marketing."
+    },
+    {
+      "id": "round7",
+      "round_number": 7,
+      "name": "Quiz Whizz",
+      "club": "Quiz Club of MIT",
+      "type": "Offline",
+      "date": "2025-10-29",
+      "description": "A multi-round quiz featuring direct, rapid-fire, and buzzer rounds across various domains like sports, science, and business."
+    },
+    {
+      "id": "round8",
+      "round_number": 8,
+      "name": "Market Mavericks",
+      "club": "AUSEC MIT",
+      "type": "Offline",
+      "date": "2025-10-31",
+      "description": "A virtual investing challenge simulating real-world trading decisions and reacting to market news in real time."
+    },
+    {
+      "id": "round9",
+      "round_number": 9,
+      "name": "Pixel Pitch – Create Your App Idea (Finale)",
+      "club": "CSMIT",
+      "type": "Offline",
+      "date": "2025-11-06",
+      "description": "Teams pitch a creative app or gadget that solves real-life problems, judged on creativity, feasibility, and presentation."
+    }
+  ],
+  "rolling_events": [
+    {
+      "id": "rolling1",
+      "name": "Vibretto",
+      "club": "Vibes",
+      "type": "Offline",
+      "date": "2025-10-21",
+      "description": "A four-round, music-themed event featuring song guessing, lyric recall, and Pictionary challenges promoting teamwork."
+    },
+    {
+      "id": "rolling2",
+      "name": "Meme & Reel Contest",
+      "club": "Variety Team",
+      "type": "Offline",
+      "date": "2025-10-23",
+      "description": "Online Instagram contest celebrating humor and creativity through original memes and short reels."
+    },
+    {
+      "id": "rolling3",
+      "name": "கருத்தரங்கம் (Karutharangam)",
+      "club": "Tamil Mandram",
+      "type": "Offline",
+      "date": "2025-10-25",
+      "description": "Tamil discussion-based event promoting respectful debates, expressive language, and clarity of thought."
+    },
+    {
+      "id": "rolling4",
+      "name": "Plot Twist Paradox",
+      "club": "Book Readers Club of MIT",
+      "type": "Offline",
+      "date": "2025-10-28",
+      "description": "A literary crossover challenge where participants merge plots or characters from different worlds with creativity and humor."
+    }
+  ]
+}

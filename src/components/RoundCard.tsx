@@ -1,0 +1,144 @@
+import { motion } from 'framer-motion';
+import { useInView } from 'framer-motion';
+import { useRef } from 'react';
+import { Calendar } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+
+// Import logos
+import round1Logo from '@/assets/logos/round1.png';
+import round2Logo from '@/assets/logos/round2.png';
+import round3Logo from '@/assets/logos/round3.png';
+import round4Logo from '@/assets/logos/round4.png';
+import round5Logo from '@/assets/logos/round5.png';
+import round6Logo from '@/assets/logos/round6.png';
+import round7Logo from '@/assets/logos/round7.png';
+import round8Logo from '@/assets/logos/round8.png';
+import round9Logo from '@/assets/logos/round9.png';
+
+const roundLogos: Record<number, string> = {
+  1: round1Logo,
+  2: round2Logo,
+  3: round3Logo,
+  4: round4Logo,
+  5: round5Logo,
+  6: round6Logo,
+  7: round7Logo,
+  8: round8Logo,
+  9: round9Logo,
+};
+
+interface Round {
+  id: string;
+  round_number: number;
+  name: string;
+  club: string;
+  type: string;
+  date: string;
+  description: string;
+}
+
+interface RoundCardProps {
+  round: Round;
+  index: number;
+}
+
+export const RoundCard = ({ round, index }: RoundCardProps) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isEven = index % 2 === 0;
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  };
+
+  return (
+    <div ref={ref} className="relative">
+      {/* Central Planet/Node */}
+      <motion.div
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hidden md:block"
+        initial={{ scale: 0, rotate: -180 }}
+        animate={isInView ? { scale: 1, rotate: 0 } : { scale: 0, rotate: -180 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+      >
+        <div className="relative">
+          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[hsl(var(--space-cyan))] to-[hsl(var(--space-violet))] flex items-center justify-center shadow-[var(--shadow-neon)] animate-pulse-glow">
+            <span className="font-orbitron font-bold text-2xl text-background">
+              {round.round_number}
+            </span>
+          </div>
+          {/* Orbiting ring */}
+          <motion.div
+            className="absolute inset-0 rounded-full border-2 border-[hsl(var(--space-gold))]/30"
+            animate={{ rotate: 360 }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+            style={{ scale: 1.4 }}
+          />
+        </div>
+      </motion.div>
+
+      {/* Content Card */}
+      <motion.div
+        className={`md:w-[calc(50%-4rem)] ${isEven ? 'md:ml-0' : 'md:ml-auto'}`}
+        initial={{ opacity: 0, x: isEven ? -50 : 50 }}
+        animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: isEven ? -50 : 50 }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="relative group">
+          {/* Glow Effect */}
+          <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(var(--space-cyan))] to-[hsl(var(--space-violet))] rounded-2xl opacity-20 group-hover:opacity-40 blur transition-opacity" />
+          
+          {/* Card */}
+          <div className="relative bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 transition-transform group-hover:scale-[1.02]">
+            {/* Logo Section */}
+            <div className="flex items-start gap-6 mb-4">
+              {/* Logo */}
+              <div className="flex-shrink-0">
+                <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl bg-gradient-to-br from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 p-3 flex items-center justify-center">
+                  <img 
+                    src={roundLogos[round.round_number]} 
+                    alt={`${round.name} logo`}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+
+              {/* Mobile Round Number & Title */}
+              <div className="flex-1 min-w-0">
+                <div className="md:hidden mb-2">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[hsl(var(--space-cyan))] to-[hsl(var(--space-violet))] flex items-center justify-center shadow-[var(--shadow-neon)]">
+                    <span className="font-orbitron font-bold text-lg text-background">
+                      {round.round_number}
+                    </span>
+                  </div>
+                </div>
+                <h3 className="font-orbitron text-lg md:text-xl lg:text-2xl font-bold mb-2 text-[hsl(var(--space-cyan))] break-words">
+                  {round.name}
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline" className="border-[hsl(var(--space-gold))] text-[hsl(var(--space-gold))]">
+                    {round.type}
+                  </Badge>
+                  <Badge variant="outline" className="border-[hsl(var(--space-violet))] text-[hsl(var(--space-violet))]">
+                    {round.club}
+                  </Badge>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-muted-foreground mb-4 leading-relaxed">
+              {round.description}
+            </p>
+
+            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Calendar className="w-4 h-4 text-[hsl(var(--space-cyan))]" />
+                <span>{formatDate(round.date)}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  );
+};

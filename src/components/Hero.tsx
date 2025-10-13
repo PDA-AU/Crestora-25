@@ -11,9 +11,9 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ 
+        style={{
           backgroundImage: `url(${heroImage})`,
           filter: 'brightness(0.4)',
         }}
@@ -40,7 +40,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Beyond Limits – A Space Odyssey
+          Beyond Limits – A Talent Odyssey
         </motion.p>
 
         <motion.p
@@ -53,25 +53,45 @@ export const Hero = () => {
         </motion.p>
 
         <motion.div
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
+          className="flex flex-col sm:flex-col gap-4 justify-center items-center mb-16"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScFxZSWGixzAKsZbVfpTxcn2A2zv3IZy0aIcrLPWGA-S92I0A/viewform?usp=header"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Register for Crestora'25 - Google Form"
-        >
-          <Button
-            size="lg"
-            className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
+          {/* Register Button */}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScFxZSWGixzAKsZbVfpTxcn2A2zv3IZy0aIcrLPWGA-S92I0A/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Register for Crestora'25 - Google Form"
           >
-            Click here to Register!
-          </Button>
-        </a>
-          <Button 
+            <Button
+              size="lg"
+              className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
+            >
+              Click here to Register!
+            </Button>
+          </a>
+
+          {/* WhatsApp Group Button */}
+          <a
+            href="https://chat.whatsapp.com/LCmsRUtkXIbJFsleaX8VIT?mode=ems_copy_t"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Join WhatsApp Group"
+          >
+            <Button
+              size="lg"
+              className="mt-2 bg-green-500 text-background font-orbitron text-lg px-8 py-6 
+                         shadow-[0_0_20px_#00ff88] hover:shadow-[0_0_35px_#00ff88] 
+                         hover:bg-green-400 transition-all duration-300"
+            >
+              Join WhatsApp Group
+            </Button>
+          </a>
+
+          {/* Explore Button */}
+          <Button
             size="lg"
             variant="outline"
             onClick={scrollToTimeline}
@@ -87,14 +107,13 @@ export const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
         >
-
-          <p className="text-xs text-muted-foreground">Organized by PDA, MIT Campus, Anna University</p>
-          <p className="text-xs text-muted-foreground">In collaboration with 12+ clubs</p>
-    
- 
+          <p className="text-xs text-muted-foreground">
+            Organized by PDA, MIT Campus, Anna University
+          </p>
+          <p className="text-xs text-muted-foreground">
+            In collaboration with 12+ clubs
+          </p>
         </motion.div>
-
- 
       </div>
     </section>
   );

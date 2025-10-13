@@ -19,14 +19,14 @@ export const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="space-y-2">
               <h3 className="font-orbitron text-lg font-semibold text-[hsl(var(--space-cyan))]">Event Details</h3>
-              <p className="text-sm text-muted-foreground">9 Main Rounds</p>
+              <p className="text-sm text-muted-foreground">8 Main Rounds</p>
               <p className="text-sm text-muted-foreground">4 Rolling Events</p>
-              <p className="text-sm text-muted-foreground">60 Teams Registered</p>
+              <p className="text-sm text-muted-foreground">Compete with 50+ teams</p>
             </div>
 
             <div className="space-y-2">
               <h3 className="font-orbitron text-lg font-semibold text-[hsl(var(--space-gold))]">Team Structure</h3>
-              <p className="text-sm text-muted-foreground">4 Members per Team</p>
+              <p className="text-sm text-muted-foreground">3-4 Members per Team</p>
               <p className="text-sm text-muted-foreground">UG 2nd & 3rd Years</p>
               <div className="flex items-center justify-center gap-2 pt-2">
                 <Users className="w-4 h-4 text-[hsl(var(--space-gold))]" />

@@ -63,17 +63,8 @@
       "description": "An improvisational performance event where participants act out spontaneous TV channel scenes using humor and wit."
     },
     {
-      "id": "round6",
+      "id": "round",
       "round_number": 6,
-      "name": "Campaign (Wild Card)",
-      "club": "PDA",
-      "type": "Offline",
-      "date": "2025-10-27",
-      "description": "Teams create and promote a cause or idea using slogans and visuals—testing persuasion and creative marketing."
-    },
-    {
-      "id": "round7",
-      "round_number": 7,
       "name": "Quiz Whizz",
       "club": "Quiz Club of MIT",
       "type": "Offline",
@@ -82,7 +73,7 @@
     },
     {
       "id": "round8",
-      "round_number": 8,
+      "round_number": 7,
       "name": "Market Mavericks",
       "club": "AUSEC MIT",
       "type": "Offline",
@@ -91,7 +82,7 @@
     },
     {
       "id": "round9",
-      "round_number": 9,
+      "round_number": 8,
       "name": "Pixel Pitch – Create Your App Idea (Finale)",
       "club": "CSMIT",
       "type": "Offline",

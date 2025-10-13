@@ -63,7 +63,7 @@
       "description": "An improvisational performance event where participants act out spontaneous TV channel scenes using humor and wit."
     },
     {
-      "id": "round",
+      "id": "round6",
       "round_number": 6,
       "name": "Quiz Whizz",
       "club": "Quiz Club of MIT",
@@ -72,7 +72,7 @@
       "description": "A multi-round quiz featuring direct, rapid-fire, and buzzer rounds across various domains like sports, science, and business."
     },
     {
-      "id": "round8",
+      "id": "round7",
       "round_number": 7,
       "name": "Market Mavericks",
       "club": "AUSEC MIT",
@@ -81,7 +81,7 @@
       "description": "A virtual investing challenge simulating real-world trading decisions and reacting to market news in real time."
     },
     {
-      "id": "round9",
+      "id": "round7",
       "round_number": 8,
       "name": "Pixel Pitch – Create Your App Idea (Finale)",
       "club": "CSMIT",

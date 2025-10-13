@@ -13,7 +13,7 @@ import round5Logo from '@/assets/logos/round5.png';
 import round6Logo from '@/assets/logos/round6.png';
 import round7Logo from '@/assets/logos/round7.png';
 import round8Logo from '@/assets/logos/round8.png';
-import round9Logo from '@/assets/logos/round9.png';
+
 
 const roundLogos: Record<number, string> = {
   1: round1Logo,
@@ -24,7 +24,7 @@ const roundLogos: Record<number, string> = {
   6: round6Logo,
   7: round7Logo,
   8: round8Logo,
-  9: round9Logo,
+  
 };
 
 interface Round {

@@ -159,10 +159,10 @@ export default function LeaderboardNeonPaginated({
         const withContent = dataRows.filter((r) => r.teamName || r.rankRaw);
 
         // sort by rank asc, then team name
-        withContent.sort((a, b) => {
-          if (a.rank !== b.rank) return a.rank - b.rank;
-          return String(a.teamName || "").localeCompare(String(b.teamName || ""));
-        });
+        //withContent.sort((a, b) => {
+         // if (a.rank !== b.rank) return a.rank - b.rank;
+         // return String(a.teamName || "").localeCompare(String(b.teamName || ""));
+        //});
 
         // apply maxRows cap (if finite)
         const limited = Number.isFinite(maxRows) ? withContent.slice(0, maxRows) : withContent;

@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Trophy } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Trophy } from "lucide-react";
 
 export const PrizesSection = () => {
   return (
@@ -12,9 +12,9 @@ export const PrizesSection = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          {/* Neon glow effect */}
+          {/* Neon glow effect background */}
           <div className="absolute -inset-1 bg-[hsl(var(--space-gold))] rounded-2xl opacity-30 blur-xl" />
-          
+
           {/* Main prizes box */}
           <div className="relative bg-background/90 backdrop-blur-sm border-2 border-[hsl(var(--space-gold))] rounded-2xl p-8 shadow-[0_0_30px_hsl(var(--space-gold))]">
             <div className="flex items-center justify-center gap-3 mb-8">
@@ -29,15 +29,29 @@ export const PrizesSection = () => {
               {/* Main Event Prizes */}
               <div className="text-center">
                 <h3 className="font-orbitron text-xl font-bold mb-4 text-[hsl(var(--space-cyan))]">
-                 Title Event 
+                  Title Event
                 </h3>
                 <div className="space-y-2">
-                  <div className="text-2xl font-bold text-[hsl(var(--space-gold))]">
-                    Winner - ₹6,000
-                  </div>
-                  <div className="text-xl font-semibold text-[hsl(var(--space-violet))]">
-                    Runner - ₹4,000
-                  </div>
+                  {/* 🔥 Glowing Text Animation */}
+                  <motion.div
+                    initial={{ opacity: 0.7, textShadow: "0 0 10px hsl(var(--space-gold))" }}
+                    animate={{
+                      opacity: [0.8, 1, 0.8],
+                      textShadow: [
+                        "0 0 10px hsl(var(--space-gold))",
+                        "0 0 20px hsl(var(--space-gold))",
+                        "0 0 10px hsl(var(--space-gold))",
+                      ],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                    className="text-2xl md:text-3xl font-extrabold text-[hsl(var(--space-gold))] drop-shadow-[0_0_12px_hsl(var(--space-gold))]"
+                  >
+                    TOTAL CASH POOL ₹10,000+
+                  </motion.div>
                 </div>
               </div>
 
@@ -50,12 +64,26 @@ export const PrizesSection = () => {
                   </span>
                 </h3>
                 <div className="space-y-2">
-                  <div className="text-2xl font-bold text-[hsl(var(--space-gold))]">
-                    Winner - ₹400
-                  </div>
-                  <div className="text-xl font-semibold text-[hsl(var(--space-violet))]">
-                    Runner - ₹250
-                  </div>
+                  {/* 🔥 Glowing Text Animation */}
+                  <motion.div
+                    initial={{ opacity: 0.7, textShadow: "0 0 10px hsl(var(--space-gold))" }}
+                    animate={{
+                      opacity: [0.8, 1, 0.8],
+                      textShadow: [
+                        "0 0 10px hsl(var(--space-gold))",
+                        "0 0 20px hsl(var(--space-gold))",
+                        "0 0 10px hsl(var(--space-gold))",
+                      ],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                    className="text-2xl md:text-3xl font-extrabold text-[hsl(var(--space-gold))] drop-shadow-[0_0_12px_hsl(var(--space-gold))]"
+                  >
+                    TOTAL CASH POOL ₹2000
+                  </motion.div>
                 </div>
               </div>
             </div>

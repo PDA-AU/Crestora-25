@@ -40,9 +40,11 @@ interface Round {
 interface RoundCardProps {
   round: Round;
   index: number;
+  // <- new prop: when true, blur the description
+  blur?: boolean;
 }
 
-export const RoundCard = ({ round, index }: RoundCardProps) => {
+export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const isEven = index % 2 === 0;
@@ -126,7 +128,7 @@ export const RoundCard = ({ round, index }: RoundCardProps) => {
               </div>
             </div>
 
-            <p className="text-muted-foreground mb-4 leading-relaxed">
+            <p className={`${blur ? 'blur-sm opacity-80' : ''} text-muted-foreground mb-4 leading-relaxed`}>
               {round.description}
             </p>
 

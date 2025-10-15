@@ -69,7 +69,7 @@ export const Hero = () => {
               size="lg"
               className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
             >
-              Click here to Register!
+              Click here to Register!⚡️
             </Button>
           </a>
 

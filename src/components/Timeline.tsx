@@ -6,7 +6,6 @@ import { RoundCard } from './RoundCard';
 import { RollingEvents } from './RollingEvents';
 
 // <-- EXPLICIT: number of rounds after which descriptions should be blurred
-// Set this to however many rounds you want to show normally; rounds with index >= this will be blurred.
 const NO_OF_ROUNDS_TO_SHOW_CLEAR = 1; // <- change this number to control which rounds get blurred
 
 export const Timeline = () => {
@@ -36,7 +35,6 @@ export const Timeline = () => {
           {/* Rounds */}
           <div className="space-y-32">
             {eventData.rounds.map((round, index) => (
-              // pass explicit blur flag based on NO_OF_ROUNDS_TO_SHOW_CLEAR
               <RoundCard
                 key={round.id}
                 round={round}
@@ -49,6 +47,11 @@ export const Timeline = () => {
 
         {/* Rolling Events */}
         <RollingEvents />
+
+        {/* Note about schedule changes */}
+        <p className="text-center text-sm text-muted-foreground mt-10 italic">
+          *Dates are subject to change.
+        </p>
       </div>
     </section>
   );

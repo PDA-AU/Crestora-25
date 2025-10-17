@@ -23,7 +23,7 @@
       "name": "Visionary Voyage",
       "club": "PDA",
       "type": "Offline",
-      "date": "2025-10-16",
+      "date": "",
       "description": "Participants engage with an inspiring reading passage and then answer a set of multiple-choice questions designed to assess their comprehension, observation, and analytical skills."
     },
     {
@@ -32,7 +32,7 @@
       "name": "Quiz",
       "club": "MIT Meteorology Club",
       "type": "Online",
-      "date": "2025-10-17",
+      "date": "",
       "description": "A competitive multi-domain quiz testing general knowledge, teamwork, and speed under pressure."
     },
     {
@@ -50,7 +50,7 @@
       "name": "Mimik Talk",
       "club": "TED Club of MIT",
       "type": "Offline",
-      "date": "2025-10-22",
+      "date": "",
       "description": "Participants mimic a TED Talk speaker's tone, gestures, and expression while speaking on a totally different topic."
     },
     {
@@ -59,7 +59,7 @@
       "name": "Channel Surfing",
       "club": "The Box Office of MIT",
       "type": "Offline",
-      "date": "2025-10-24",
+      "date": "",
       "description": "An improvisational performance event where participants act out spontaneous TV channel scenes using humor and wit."
     },
     {
@@ -68,7 +68,7 @@
       "name": "Quiz Whizz",
       "club": "Quiz Club of MIT",
       "type": "Offline",
-      "date": "2025-10-29",
+      "date": "",
       "description": "A multi-round quiz featuring direct, rapid-fire, and buzzer rounds across various domains like sports, science, and business."
     },
     {
@@ -77,7 +77,7 @@
       "name": "Market Mavericks",
       "club": "AUSEC MIT",
       "type": "Offline",
-      "date": "2025-10-31",
+      "date": "",
       "description": "A virtual investing challenge simulating real-world trading decisions and reacting to market news in real time."
     },
     {
@@ -86,7 +86,7 @@
       "name": "Pixel Pitch ",
       "club": "CSMIT",
       "type": "Offline",
-      "date": "2025-11-06",
+      "date": "",
       "description": "Teams pitch a creative app or gadget that solves real-life problems, judged on creativity, feasibility, and presentation."
     }
   ],

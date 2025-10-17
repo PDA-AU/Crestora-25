@@ -96,7 +96,7 @@
       "name": "Vibretto",
       "club": "Vibes",
       "type": "Offline",
-      "date": "2025-10-21",
+      "date": "",
       "description": "A four-round, music-themed event featuring song guessing, lyric recall, and Pictionary challenges promoting teamwork."
     },
     {
@@ -104,7 +104,7 @@
       "name": "Meme & Reel Contest",
       "club": "Variety Team",
       "type": "Online",
-      "date": "2025-10-23",
+      "date": "",
       "description": "Online Instagram contest celebrating humor and creativity through original memes and short reels."
     },
     {
@@ -112,7 +112,7 @@
       "name": "கருத்தரங்கம் (Karutharangam)",
       "club": "Tamil Mandram",
       "type": "Offline",
-      "date": "2025-10-25",
+      "date": "",
       "description": "Tamil discussion-based event promoting respectful debates, expressive language, and clarity of thought."
     },
     {
@@ -120,7 +120,7 @@
       "name": "Plot Twist Paradox",
       "club": "Book Readers Club of MIT",
       "type": "Offline",
-      "date": "2025-10-28",
+      "date": "",
       "description": "A literary crossover challenge where participants merge plots or characters from different worlds with creativity and humor."
     }
   ]

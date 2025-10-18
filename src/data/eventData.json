@@ -20,11 +20,11 @@
     {
       "id": "round1",
       "round_number": 1,
-      "name": "Visionary Voyage",
+      "name": "Team Introduction",
       "club": "PDA",
-      "type": "Offline",
-      "date": "",
-      "description": "Participants engage with an inspiring reading passage and then answer a set of multiple-choice questions designed to assess their comprehension, observation, and analytical skills."
+      "type": "Online",
+      "date": "2025-10-18",
+      "description": "A 24-hour online competition (Oct 18-19) is being held for teams to creatively introduce themselves in any format, such as a video, website, or meme. Original works must be submitted via the provided Google Form link."
     },
     {
       "id": "round2",

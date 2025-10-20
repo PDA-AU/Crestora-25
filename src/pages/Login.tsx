@@ -68,7 +68,7 @@ const Login = () => {
                   className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
                   value={regNo}
                   onChange={(e) => setRegNo(e.target.value)}
-                  placeholder="e.g., 2023505017"
+                  placeholder="e.g., 2027503053"
                   required
                 />
               </div>

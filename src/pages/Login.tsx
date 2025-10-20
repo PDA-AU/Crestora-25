@@ -79,7 +79,7 @@ const Login = () => {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Your team password"
+                  placeholder="e.g., 2027503053"
                   required
                 />
               </div>

@@ -54,7 +54,12 @@ const TeamProfile = () => {
               <h1 className="font-orbitron text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--space-cyan))] via-[hsl(var(--space-violet))] to-[hsl(var(--space-gold))]">
                 {team.teamName}
               </h1>
-              <Button onClick={handleLogout} variant="outline">Logout</Button>
+              <div className="flex items-center gap-3">
+                <Button asChild variant="outline">
+                  <a href="mailto:pda@mitindia.edu" aria-label="Email PDA for queries">Email PDA</a>
+                </Button>
+                <Button onClick={handleLogout} variant="outline">Logout</Button>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -73,7 +78,6 @@ const TeamProfile = () => {
                 <h2 className="font-orbitron text-xl text-[hsl(var(--space-cyan))]">Leader</h2>
                 <p>{team.leaderName}</p>
                 <p>Reg No: {team.leaderRegisterNumber}</p>
-                // <p>Contact: {team.leaderContactNumber}</p>
                 <p>Email: {team.leaderEmail}</p>
               </div>
             </div>
@@ -95,6 +99,9 @@ const TeamProfile = () => {
                 <p className="text-sm text-muted-foreground">{team.member4RegisterNumber || ''}</p>
               </div>
             </div>
+            <p className="mt-6 text-sm text-muted-foreground text-center">
+              For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>.
+            </p>
           </div>
         </div>
       </div>

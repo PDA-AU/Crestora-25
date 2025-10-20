@@ -73,7 +73,7 @@ const TeamProfile = () => {
                 <h2 className="font-orbitron text-xl text-[hsl(var(--space-cyan))]">Leader</h2>
                 <p>{team.leaderName}</p>
                 <p>Reg No: {team.leaderRegisterNumber}</p>
-                <p>Contact: {team.leaderContactNumber}</p>
+                // <p>Contact: {team.leaderContactNumber}</p>
                 <p>Email: {team.leaderEmail}</p>
               </div>
             </div>

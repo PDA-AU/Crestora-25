@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import pdaLogo from '@/assets/pda-logo.png';
 import rocketship from '@/assets/rocketship.png';
+import { Button } from '@/components/ui/button';
 
 export const Header = () => {
   return (
@@ -23,6 +24,13 @@ export const Header = () => {
             </h1>
             <p className="text-xs text-muted-foreground">PDA, MIT Campus</p>
           </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <a href="/login" aria-label="Team Login">
+            <Button size="sm" className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron">
+              Team Login
+            </Button>
+          </a>
         </div>
       </div>
     </header>

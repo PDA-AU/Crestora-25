@@ -58,18 +58,16 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          {/* Register Button */}
+          {/* Login Button */}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScFxZSWGixzAKsZbVfpTxcn2A2zv3IZy0aIcrLPWGA-S92I0A/viewform?usp=header"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Register for Crestora'25 - Google Form"
+            href="/login"
+            aria-label="Login to Team Profile"
           >
             <Button
               size="lg"
               className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
             >
-              Click here to Register!⚡️
+              Login
             </Button>
           </a>
 

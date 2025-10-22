@@ -24,12 +24,15 @@ export const round1Content: RoundContent = {
   ],
   content: (
     <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+      {/* 🌟✨ PDA MIT Presents — CRESTORA'25 (ODD SEM SIGNATURE EVENT) ✨🌟 */}
       <div className="text-lg font-semibold">🌟✨ PDA MIT Presents — CRESTORA'25 (ODD SEM SIGNATURE EVENT) ✨🌟</div>
 
+      {/* 🎯 Round 1: "Team Identity — The Creative Prelude" */}
       <div>
         <strong>🎯 Round 1:</strong> "Team Identity — The Creative Prelude"
       </div>
 
+      {/* 📅 Event Duration */}
       <div className="space-y-1">
         <strong>📅 Event Duration:</strong>
         <div>🕚 Starts: 18th Oct, 11:00 AM</div>
@@ -37,8 +40,10 @@ export const round1Content: RoundContent = {
         <div>⏰ Total Duration: 24 hours</div>
       </div>
 
+      {/* 💻 Mode: ONLINE ROUND 🌐 */}
       <div><strong>💻 Mode:</strong> ONLINE ROUND 🌐</div>
 
+      {/* 🎬 ROUND DETAILS */}
       <div>
         <strong>🎬 ROUND DETAILS:</strong>
         <div>
@@ -56,11 +61,13 @@ export const round1Content: RoundContent = {
         </div>
       </div>
 
+      {/* 📩 Submission */}
       <div>
         <strong>📩 Submission:</strong>
         <div>You will be given a Google Form to submit your works. Submit your work as a link in the form.</div>
       </div>
 
+      {/* ⚠️ GUIDELINES (STRICTLY TO BE FOLLOWED) */}
       <div>
         <strong>⚠️ GUIDELINES (STRICTLY TO BE FOLLOWED):</strong>
         <ul className="list-disc ml-6 mt-1">
@@ -71,6 +78,7 @@ export const round1Content: RoundContent = {
         </ul>
       </div>
 
+      {/* 🏆 EVALUATION CRITERIA */}
       <div>
         <strong>🏆 EVALUATION CRITERIA:</strong>
         <div className="ml-6">
@@ -82,10 +90,12 @@ export const round1Content: RoundContent = {
         </div>
       </div>
 
+      {/* 💥 BONUS */}
       <div>
         <strong>💥 BONUS:</strong> Add a creative record of your team's strengths to earn extra points!
       </div>
 
+      {/* 🔥 Showcase your identity. Unleash your creativity. Leave your mark. */}
       <div className="pt-2">
         <strong>🔥 Showcase your identity. Unleash your creativity. Leave your mark.</strong>
         <div>💫 Let CRESTORA'25 witness your team's spark!</div>
@@ -156,16 +166,20 @@ export const round3Content: RoundContent = {
   ],
   content: (
     <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+      {/* 📝 Creative Writing Challenge */}
       <div className="text-lg font-semibold">📝 Creative Writing Challenge</div>
       
+      {/* 📅 Event Duration */}
       <div>
         <strong>📅 Event Duration:</strong>
         <div>🕚 Date: 20th Oct</div>
         <div>⏰ Duration: 3 hours</div>
       </div>
 
+      {/* 💻 Mode: OFFLINE ROUND 📝 */}
       <div><strong>💻 Mode:</strong> OFFLINE ROUND 📝</div>
 
+      {/* 🎬 ROUND DETAILS */}
       <div>
         <strong>🎬 ROUND DETAILS:</strong>
         <div>
@@ -173,6 +187,7 @@ export const round3Content: RoundContent = {
         </div>
       </div>
 
+      {/* 📖 WRITING PROMPTS */}
       <div>
         <strong>📖 WRITING PROMPTS:</strong>
         <div className="ml-4">
@@ -183,6 +198,7 @@ export const round3Content: RoundContent = {
         </div>
       </div>
 
+      {/* 🏆 EVALUATION CRITERIA */}
       <div>
         <strong>🏆 EVALUATION CRITERIA:</strong>
         <div className="ml-6">
@@ -202,14 +218,18 @@ export const defaultRoundContent: RoundContent = {
   subtitle: "Coming Soon",
   content: (
     <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+      {/* 📋 Round Information */}
       <div className="text-lg font-semibold">📋 Round Information</div>
+      {/* 📅 Event Details */}
       <div>
         <strong>📅 Event Details:</strong>
         <div>More information will be available soon.</div>
       </div>
+      {/* 💻 Mode: TBA */}
       <div>
         <strong>💻 Mode:</strong> TBA
       </div>
+      {/* 🎯 ROUND DETAILS */}
       <div>
         <strong>🎯 ROUND DETAILS:</strong>
         <div>Detailed information about this round will be updated shortly.</div>

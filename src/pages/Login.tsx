@@ -26,6 +26,7 @@ const Login = () => {
   const [regNo, setRegNo] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [userType, setUserType] = useState<'participant' | 'organizer'>('participant');
 
   const teamsByLeader = useMemo(() => {
     const byReg = new Map<string, Team>();
@@ -38,6 +39,12 @@ const Login = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+    
+    if (userType === 'organizer') {
+      window.location.href = 'http://3.110.143.60:8080/login';
+      return;
+    }
+    
     const key = String(regNo).trim();
     const team = teamsByLeader.get(key);
     if (!team) {
@@ -61,33 +68,68 @@ const Login = () => {
             <h1 className="font-orbitron text-2xl text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--space-cyan))] via-[hsl(var(--space-violet))] to-[hsl(var(--space-gold))]">
               Team Login
             </h1>
+            <div className="mb-6">
+              <div className="flex bg-background/20 rounded-lg p-1">
+                <button
+                  type="button"
+                  onClick={() => setUserType('participant')}
+                  className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all ${
+                    userType === 'participant'
+                      ? 'bg-[hsl(var(--space-cyan))] text-background shadow-sm'
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Participant
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setUserType('organizer')}
+                  className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all ${
+                    userType === 'organizer'
+                      ? 'bg-[hsl(var(--space-cyan))] text-background shadow-sm'
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Organizer
+                </button>
+              </div>
+            </div>
             <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="block text-sm mb-1">Leader Register Number</label>
-                <input
-                  className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
-                  value={regNo}
-                  onChange={(e) => setRegNo(e.target.value)}
-                  placeholder="e.g., 2027503053"
-                  required
-                />
-              </div>
-              <div>
-                <label className="block text-sm mb-1">Password</label>
-                <input
-                  className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  placeholder="e.g., 2027503053"
-                  required
-                />
-              </div>
+              {userType === 'participant' && (
+                <>
+                  <div>
+                    <label className="block text-sm mb-1">Leader Register Number</label>
+                    <input
+                      className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
+                      value={regNo}
+                      onChange={(e) => setRegNo(e.target.value)}
+                      placeholder="e.g., 2027503053"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm mb-1">Password</label>
+                    <input
+                      className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
+                      type="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="e.g., 2027503053"
+                      required
+                    />
+                  </div>
+                </>
+              )}
+              {userType === 'organizer' && (
+                <div className="text-center py-4">
+                  <p className="text-muted-foreground mb-4">You will be redirected to the organizer portal</p>
+                </div>
+              )}
               {error && (
                 <p className="text-red-500 text-sm">{error}</p>
               )}
               <Button type="submit" className="w-full bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron">
-                Login
+                {userType === 'participant' ? 'Login' : 'Go to Organizer Portal'}
               </Button>
             </form>
           </div>

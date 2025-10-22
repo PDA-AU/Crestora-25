@@ -66,7 +66,7 @@ const Login = () => {
         <div className="max-w-md mx-auto">
           <div className="relative bg-background/80 backdrop-blur-md border border-[hsl(var(--space-cyan))]/40 rounded-xl p-6 shadow-[0_0_30px_hsl(var(--space-cyan))/0.2]">
             <h1 className="font-orbitron text-2xl text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--space-cyan))] via-[hsl(var(--space-violet))] to-[hsl(var(--space-gold))]">
-              Team Login
+              Login
             </h1>
             <div className="mb-6">
               <div className="flex bg-background/20 rounded-lg p-1">

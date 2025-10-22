@@ -134,35 +134,34 @@ export default function LeaderboardNeonPaginated({
 
         // detect header
         const header = parsed[0].map((h) => normalizeHeader(h));
-        const idxTeamName =
-          header.findIndex((h) => h.includes("team_name") || h.includes("team name") || h.includes("team"));
-        const idxRank =
-          header.findIndex((h) => h.includes("rank") || h.includes("position") || h.includes("place") || h === "#");
+        const idxTeamName = 1; // Team Name is at index 1
+        const idxPercentile = 8; // Percentile is at index 8
 
-        const fallback = idxTeamName === -1 || idxRank === -1;
+        const fallback = idxTeamName === -1 || idxPercentile === -1;
 
         // map data rows (skip header)
         const dataRows = parsed.slice(1).map((cells) => {
           const cellsNorm = Array.from(cells, (c) => (c == null ? "" : String(c).trim()));
           const teamName = !fallback && idxTeamName >= 0 ? (cellsNorm[idxTeamName] || "") : (cellsNorm[0] || "");
-          const rankRaw = !fallback && idxRank >= 0 ? (cellsNorm[idxRank] || "") : (cellsNorm[1] || "");
-          const rankNum = Number(String(rankRaw).replace(/[^0-9.-]/g, ""));
+          const percentileRaw = !fallback && idxPercentile >= 0 ? (cellsNorm[idxPercentile] || "") : (cellsNorm[8] || "");
+          const percentileNum = Number(String(percentileRaw).replace(/[^0-9.-]/g, ""));
           return {
             teamName: teamName || "",
-            rankRaw: rankRaw || "",
-            rank: Number.isFinite(rankNum) ? rankNum : Infinity,
+            percentileRaw: percentileRaw || "",
+            percentile: Number.isFinite(percentileNum) ? percentileNum : 0,
             rawCells: cellsNorm,
           };
         });
 
         // filter empty rows
-        const withContent = dataRows.filter((r) => r.teamName || r.rankRaw);
+        const withContent = dataRows.filter((r) => r.teamName || r.percentileRaw);
 
-        // sort by rank asc, then team name
-        //withContent.sort((a, b) => {
-         // if (a.rank !== b.rank) return a.rank - b.rank;
-         // return String(a.teamName || "").localeCompare(String(b.teamName || ""));
-        //});
+        // sort by percentile desc, then team name
+        withContent.sort((a, b) => {
+          // Sort by percentile descending (highest first)
+          if (a.percentile !== b.percentile) return b.percentile - a.percentile;
+          return String(a.teamName || "").localeCompare(String(b.teamName || ""));
+        });
 
         // apply maxRows cap (if finite)
         const limited = Number.isFinite(maxRows) ? withContent.slice(0, maxRows) : withContent;
@@ -248,8 +247,8 @@ export default function LeaderboardNeonPaginated({
                 <thead>
                   <tr>
                     <th style={thStyle}>S.no</th>
-                    <th style={thStyle}>Team Name</th>
-                    <th style={thStyle}>Rank</th>
+                    <th style={thStyle}>Team Code</th>
+                    <th style={thStyle}>Percentile</th>
                   </tr>
                 </thead>
 
@@ -267,7 +266,7 @@ export default function LeaderboardNeonPaginated({
                         <tr key={globalIndex} style={globalIndex % 2 === 0 ? rowEvenStyle : rowOddStyle}>
                           <td style={tdCenter}>{globalIndex}</td>
                           <td style={tdLeft}>{r.teamName || "-"}</td>
-                          <td style={tdCenter}>{r.rank === Infinity ? "-" : r.rankRaw || r.rank}</td>
+                          <td style={tdCenter}>{r.percentile === 0 ? "-" : r.percentileRaw || r.percentile}</td>
                         </tr>
                       );
                     })

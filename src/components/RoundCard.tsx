@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 import { Calendar } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { RoundModal } from '@/components/RoundModal';
+import { getRoundContent } from '@/data/roundContent';
 
 // Import logos
 import round1Logo from '@/assets/logos/round1.png';
@@ -41,34 +43,21 @@ interface RoundCardProps {
   blur?: boolean;
 }
 
-const GOOGLE_FORM_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdF2RndaINy13_wv_b0ulYwg2iCCJ-k7nj3zwjtU55v7DgfrA/viewform?usp=header';
 
 export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
   const ref = useRef<HTMLDivElement | null>(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const isEven = index % 2 === 0;
 
-  // Modal state — only enabled for Round 1 by default
+  // Modal state — now enabled for all rounds
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const modalOpenable = round.round_number === 1; // change to true to allow all rounds
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   };
 
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setIsModalOpen(false);
-    };
-    if (isModalOpen) window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [isModalOpen]);
-
   const openModal = () => {
-    if (!modalOpenable) return;
     setIsModalOpen(true);
   };
 
@@ -111,9 +100,9 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
 
           <div
             onClick={openModal}
-            role={modalOpenable ? 'button' : undefined}
-            tabIndex={modalOpenable ? 0 : -1}
-            className={`${modalOpenable ? 'cursor-pointer' : ''}`}
+            role="button"
+            tabIndex={0}
+            className="cursor-pointer"
           >
             <div className="relative bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 transition-transform group-hover:scale-[1.02]">
               {/* Logo Section */}
@@ -159,162 +148,20 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
                   <Calendar className="w-4 h-4 text-[hsl(var(--space-cyan))]" />
                   <span>{formatDate(round.date)}</span>
                 </div>
-                {modalOpenable && (
-                  <div className="ml-auto text-xs text-muted-foreground italic">Click to view full details & form link</div>
-                )}
+                <div className="ml-auto text-xs text-muted-foreground italic">Click to view full details & form link</div>
               </div>
             </div>
           </div>
 
-          {/* Modal: only show full details (no form inputs) */}
-          {isModalOpen && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 z-[90] flex items-center justify-center"
-            >
-              <div className="absolute inset-0 bg-black/60" onClick={closeModal} aria-hidden />
-
-              <motion.div
-                initial={{ y: 20, opacity: 0, scale: 0.98 }}
-                animate={{ y: 0, opacity: 1, scale: 1 }}
-                exit={{ y: 20, opacity: 0, scale: 0.98 }}
-                transition={{ duration: 0.25 }}
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby={`modal-title-round-${round.round_number}`}
-                className="relative z-50 w-[min(920px,95%)] max-h-[90vh] overflow-auto rounded-2xl bg-card/95 border border-border p-6"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 rounded-lg bg-gradient-to-br from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 p-2 flex items-center justify-center">
-                      <img src={roundLogos[round.round_number]} alt="" className="w-full h-full object-contain" />
-                    </div>
-                  </div>
-
-                  <div className="flex-1">
-                    <h2 id={`modal-title-round-${round.round_number}`} className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))]">
-                      {round.name} — Full Details
-                    </h2>
-                    <p className="text-sm text-muted-foreground mt-1">All details & official submission link for this round.</p>
-                  </div>
-
-                  <div>
-                    <button
-                      onClick={closeModal}
-                      aria-label="Close modal"
-                      className="rounded-md px-3 py-1 text-sm border border-border bg-transparent hover:bg-muted"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-
-                {/* Content: exact text you provided */}
-                <div className="mt-4 space-y-3 text-sm text-muted-foreground leading-relaxed">
-                  <div className="text-lg font-semibold">🌟✨ PDA MIT Presents — CRESTORA’25 (ODD SEM SIGNATURE EVENT) ✨🌟</div>
-
-                  <div>
-                    <strong>🎯 Round 1:</strong> “Team Identity — The Creative Prelude”
-                  </div>
-
-                  <div className="space-y-1">
-                    <strong>📅 Event Duration:</strong>
-                    <div>🕚 Starts: 18th Oct, 11:00 AM</div>
-                    <div>🕚 Ends: 19th Oct, 11:00 AM</div>
-                    <div>⏰ Total Duration: 24 hours</div>
-                  </div>
-
-                  <div><strong>💻 Mode:</strong> ONLINE ROUND 🌐</div>
-
-                  <div>
-                    <strong>🎬 ROUND DETAILS:</strong>
-                    <div>
-                      This round is all about introducing your team — let the world know who you are in the most creative, spontaneous, and original way possible!
-                    </div>
-                    <div className="mt-2">
-                      Your team introduction can be in any form —
-                      <ul className="list-disc ml-6 mt-1">
-                        <li>A website</li>
-                        <li>A video</li>
-                        <li>An article</li>
-                        <li>A meme</li>
-                        <li>Anything unique that speaks for your team’s name, spirit, and originality!</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div>
-                    <strong>📩 Submission:</strong>
-                    <div>You will be given a Google Form to submit your works. Submit your work as a link in the form.</div>
-                  </div>
-
-                  <div>
-                    <strong>⚠️ GUIDELINES (STRICTLY TO BE FOLLOWED):</strong>
-                    <ul className="list-disc ml-6 mt-1">
-                      <li>🚫 No Plagiarism — originality is key.</li>
-                      <li>🤖 Excessive dependency on AI tools = score reduction.</li>
-                      <li>❌ Vulgarity or personal offense = direct disqualification.</li>
-                      <li>🧠 No lame excuses! This round tests your critical thinking, spontaneity & creativity.</li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <strong>🏆 EVALUATION CRITERIA:</strong>
-                    <div className="ml-6">
-                      <div>✨ Professionalism</div>
-                      <div>✨ Clarity</div>
-                      <div>✨ Team Spirit</div>
-                      <div>✨ Individuality</div>
-                      <div>✨ Content Creation</div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <strong>💥 BONUS:</strong> Add a creative record of your team’s strengths to earn extra points!
-                  </div>
-
-                  <div>
-                    <strong>Contact:</strong>
-                    <div>Ms. Akshaya Gothandabani - +91 88387 42309</div>
-                    <div>Ms. Dhivya - 9080682474</div>
-                  </div>
-
-                  <div className="pt-2">
-                    <strong>🔥 Showcase your identity. Unleash your creativity. Leave your mark.</strong>
-                    <div>💫 Let CRESTORA’25 witness your team’s spark!</div>
-                    <div className="mt-2 font-semibold">📣 All the best, warriors of PDA! 💪</div>
-                  </div>
-                </div>
-
-                {/* Form link / actions */}
-                <div className="mt-4 flex flex-col md:flex-row items-start md:items-center gap-3">
-                  <button
-                    onClick={() => window.open(GOOGLE_FORM_URL, '_blank')}
-                    className="rounded-lg px-4 py-2 bg-[hsl(var(--space-cyan))] text-background font-semibold shadow-sm hover:brightness-95"
-                  >
-                    Open Submission Google Form
-                  </button>
-
-                  <button
-                    onClick={() => {
-                      navigator.clipboard?.writeText(GOOGLE_FORM_URL);
-                    }}
-                    className="rounded-lg px-3 py-2 border border-border text-sm"
-                    title="Copy form link"
-                  >
-                    Copy Form Link
-                  </button>
-
-                  <div className="ml-auto text-xs text-muted-foreground">
-                    <div>Click outside or press <strong>Esc</strong> to close.</div>
-                  </div>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-          {/* end modal */}
+          {/* Reusable Modal */}
+          <RoundModal
+            isOpen={isModalOpen}
+            onClose={closeModal}
+            roundNumber={round.round_number}
+            roundName={round.name}
+            content={getRoundContent(round.round_number)}
+            logo={roundLogos[round.round_number]}
+          />
         </div>
       </motion.div>
     </div>

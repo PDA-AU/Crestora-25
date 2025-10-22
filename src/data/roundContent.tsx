@@ -105,113 +105,6 @@ export const round1Content: RoundContent = {
   )
 };
 
-// Round 2 content (example with different structure)
-export const round2Content: RoundContent = {
-  title: "Quiz Challenge",
-  subtitle: "Round 2 Details",
-  formUrl: "https://docs.google.com/forms/d/e/example2/viewform",
-  contact: [
-    { name: "MIT Meteorology Club", phone: "+91 98765 43210" }
-  ],
-  content: (
-    <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
-      <div className="text-lg font-semibold">🧠 Quiz Challenge — Test Your Knowledge</div>
-      
-      <div>
-        <strong>📅 Event Duration:</strong>
-        <div>🕚 Date: TBA</div>
-        <div>⏰ Duration: 2 hours</div>
-      </div>
-
-      <div><strong>💻 Mode:</strong> ONLINE ROUND 🌐</div>
-
-      <div>
-        <strong>🎯 ROUND DETAILS:</strong>
-        <div>
-          A competitive multi-domain quiz testing general knowledge, teamwork, and speed under pressure.
-        </div>
-      </div>
-
-      <div>
-        <strong>📋 TOPICS COVERED:</strong>
-        <ul className="list-disc ml-6 mt-1">
-          <li>General Knowledge</li>
-          <li>Current Affairs</li>
-          <li>Science & Technology</li>
-          <li>Sports & Entertainment</li>
-          <li>History & Geography</li>
-        </ul>
-      </div>
-
-      <div>
-        <strong>🏆 EVALUATION CRITERIA:</strong>
-        <div className="ml-6">
-          <div>✨ Accuracy</div>
-          <div>✨ Speed</div>
-          <div>✨ Team Coordination</div>
-          <div>✨ Knowledge Depth</div>
-        </div>
-      </div>
-    </div>
-  )
-};
-
-// Round 3 content (example with different structure)
-export const round3Content: RoundContent = {
-  title: "Once Upon a Time...",
-  subtitle: "Round 3 Details",
-  formUrl: "https://docs.google.com/forms/d/e/example3/viewform",
-  contact: [
-    { name: "MIT Quill", phone: "+91 87654 32109" }
-  ],
-  content: (
-    <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
-      {/* 📝 Creative Writing Challenge */}
-      <div className="text-lg font-semibold">📝 Creative Writing Challenge</div>
-      
-      {/* 📅 Event Duration */}
-      <div>
-        <strong>📅 Event Duration:</strong>
-        <div>🕚 Date: 20th Oct</div>
-        <div>⏰ Duration: 3 hours</div>
-      </div>
-
-      {/* 💻 Mode: OFFLINE ROUND 📝 */}
-      <div><strong>💻 Mode:</strong> OFFLINE ROUND 📝</div>
-
-      {/* 🎬 ROUND DETAILS */}
-      <div>
-        <strong>🎬 ROUND DETAILS:</strong>
-        <div>
-          A creative writing challenge celebrating imagination and originality through spontaneous storytelling prompts.
-        </div>
-      </div>
-
-      {/* 📖 WRITING PROMPTS */}
-      <div>
-        <strong>📖 WRITING PROMPTS:</strong>
-        <div className="ml-4">
-          <div>• Character development</div>
-          <div>• Plot construction</div>
-          <div>• Dialogue writing</div>
-          <div>• Creative expression</div>
-        </div>
-      </div>
-
-      {/* 🏆 EVALUATION CRITERIA */}
-      <div>
-        <strong>🏆 EVALUATION CRITERIA:</strong>
-        <div className="ml-6">
-          <div>✨ Creativity</div>
-          <div>✨ Originality</div>
-          <div>✨ Language Skills</div>
-          <div>✨ Story Structure</div>
-        </div>
-      </div>
-    </div>
-  )
-};
-
 // Placeholder content for other rounds
 export const defaultRoundContent: RoundContent = {
   title: "Round Details",
@@ -241,8 +134,7 @@ export const defaultRoundContent: RoundContent = {
 // Round content mapping
 export const roundContentMap: Record<number, RoundContent> = {
   1: round1Content,
-  2: round2Content,
-  3: round3Content,
+ 
   // Add more rounds as needed
 };
 

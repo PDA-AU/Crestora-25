@@ -247,7 +247,7 @@ export default function LeaderboardNeonPaginated({
                 <thead>
                   <tr>
                     <th style={thStyle}>S.no</th>
-                    <th style={thStyle}>Team Code</th>
+                    <th style={thStyle}>Team Name</th>
                     <th style={thStyle}>Percentile</th>
                   </tr>
                 </thead>

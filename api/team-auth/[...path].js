@@ -1,6 +1,6 @@
-import { VercelRequest, VercelResponse } from '@vercel/node';
+// CommonJS format for Vercel functions
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req, res) {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
@@ -16,10 +16,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { path } = req.query;
     const apiPath = Array.isArray(path) ? path.join('/') : path;
     
-    // Build the backend URL for public endpoints
-    const backendUrl = `http://3.110.143.60:8000/api/public/${apiPath}`;
+    // Build the backend URL for team-auth endpoints
+    const backendUrl = `http://3.110.143.60:8000/api/team-auth/${apiPath}`;
     
-    console.log(`Proxying public API request to: ${backendUrl}`);
+    console.log(`Proxying team-auth request to: ${backendUrl}`);
     
     // Forward the request to your backend
     const response = await fetch(backendUrl, {
@@ -37,9 +37,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(response.status).json(data);
     
   } catch (error) {
-    console.error('Public API proxy error:', error);
+    console.error('Team auth proxy error:', error);
     return res.status(500).json({ 
-      error: 'Public API proxy error', 
+      error: 'Team auth proxy error', 
       message: error instanceof Error ? error.message : 'Unknown error' 
     });
   }

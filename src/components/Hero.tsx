@@ -100,18 +100,14 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           {/* Login Button -> opens modal */}
-          <button
+          <Button
+            size="lg"
             onClick={openLoginModal}
             aria-label="Open login options"
-            className="focus:outline-none"
+            className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
           >
-            <Button
-              size="lg"
-              className="bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron text-lg px-8 py-6 shadow-[var(--shadow-neon)] hover:shadow-[0_0_30px_hsl(var(--space-cyan))] transition-all"
-            >
-              Login
-            </Button>
-          </button>
+            Login
+          </Button>
 
           {/* WhatsApp Group Button */}
           <a

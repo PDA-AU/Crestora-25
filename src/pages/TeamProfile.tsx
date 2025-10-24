@@ -1,49 +1,124 @@
-import { useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import teams from '@/data/teams.json';
 import { Button } from '@/components/ui/button';
 
-type Team = {
-  teamName: string;
-  teamId: string;
-  leaderName: string;
-  leaderRegisterNumber: string;
-  leaderContactNumber: string;
-  leaderEmail: string;
-  member2Name?: string;
-  member2RegisterNumber?: string;
-  member3Name?: string;
-  member3RegisterNumber?: string;
-  member4Name?: string;
-  member4RegisterNumber?: string;
-  currRound?: number;
-  status?: string;
+type TeamMember = {
+  id: number;
+  team_id: string;
+  member_name: string;
+  register_number: string;
+  member_position: string;
+  created_at: string;
 };
+
+type Team = {
+  id: number;
+  team_id: string;
+  team_name: string;
+  leader_name: string;
+  leader_register_number: string;
+  leader_contact: string;
+  leader_email: string;
+  current_round: number;
+  status: string;
+  created_at: string;
+  updated_at: string;
+  members: TeamMember[];
+};
+
+type TeamScore = {
+  score: number;
+  rank: number;
+};
+
+// API Configuration
+const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 
 const TeamProfile = () => {
   const { teamId } = useParams();
   const navigate = useNavigate();
+  const [team, setTeam] = useState<Team | null>(null);
+  const [teamScore, setTeamScore] = useState<TeamScore | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  const team = useMemo(() => {
-    const id = String(teamId || '').trim();
-    return (teams as Team[]).find((t) => String(t.teamId).trim() === id);
+  // API function to get team score from leaderboard
+  const getTeamScoreFromLeaderboard = async (teamId: string): Promise<TeamScore | null> => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/leaderboard?limit=100`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      
+      const data = await response.json();
+      console.log('TeamProfile: API response:', data);
+      
+      const teamInLeaderboard = data.leaderboard?.find((team: any) => team.team_id === teamId);
+      console.log('TeamProfile: Found team in leaderboard:', teamInLeaderboard);
+      
+      if (teamInLeaderboard) {
+        return {
+          score: teamInLeaderboard.percentile || teamInLeaderboard.normalized_score || 0,
+          rank: teamInLeaderboard.rank || 0
+        };
+      }
+      
+      return null;
+    } catch (error) {
+      console.error('Error fetching team score:', error);
+      return null;
+    }
+  };
+
+  useEffect(() => {
+    const loadTeamData = async () => {
+      try {
+        // Get team data from localStorage
+        const teamData = localStorage.getItem('crestora.teamData');
+        if (teamData) {
+          const parsedTeam = JSON.parse(teamData);
+          setTeam(parsedTeam);
+          
+          // Fetch team score from leaderboard
+          const score = await getTeamScoreFromLeaderboard(parsedTeam.team_id);
+          setTeamScore(score);
+        }
+      } catch (error) {
+        console.error('Error loading team data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadTeamData();
   }, [teamId]);
+
+  const handleLogout = () => {
+    localStorage.removeItem('crestora.teamId');
+    localStorage.removeItem('crestora.teamData');
+    navigate('/');
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[hsl(var(--space-cyan))] mx-auto mb-4"></div>
+          <p>Loading team profile...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!team) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <p className="mb-4">Team not found.</p>
-          <a href="/" className="underline">Go Home</a>
+          <Button onClick={() => navigate('/login')}>Go to Login</Button>
         </div>
       </div>
     );
   }
-
-  const handleLogout = () => {
-    localStorage.removeItem('crestora.teamId');
-    navigate('/');
-  };
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -52,7 +127,7 @@ const TeamProfile = () => {
           <div className="relative bg-background/80 backdrop-blur-md border border-[hsl(var(--space-gold))]/40 rounded-2xl p-6 shadow-[0_0_30px_hsl(var(--space-gold))/0.2]">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
               <h1 className="font-orbitron text-2xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--space-cyan))] via-[hsl(var(--space-violet))] to-[hsl(var(--space-gold))]">
-                {team.teamName}
+                {team.team_name}
               </h1>
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 w-full md:w-auto">
                 <Button asChild variant="outline" className="w-full sm:w-auto">
@@ -62,43 +137,68 @@ const TeamProfile = () => {
               </div>
             </div>
 
+            {/* Team Performance Score Card */}
+            {teamScore && (
+              <div className="bg-gradient-to-r from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 rounded-lg p-6 mb-6">
+                <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))] mb-4 text-center">
+                  🏆 Team Performance
+                </h2>
+                <div className="grid grid-cols-2 gap-6 text-center">
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-2">Current Rank</p>
+                    <p className="text-3xl font-bold text-[hsl(var(--space-gold))]">
+                      {teamScore.rank ? `#${teamScore.rank}` : 'N/A'}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-2">Percentile Score</p>
+                    <p className="text-3xl font-bold text-[hsl(var(--space-cyan))]">
+                      {teamScore.rank && teamScore.rank <= 10 && teamScore.score ? teamScore.score.toFixed(1) : 'N/A'}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             <div className="grid gap-6 md:grid-cols-2">
               <div className="space-y-2 break-words">
                 <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Team Details</h2>
-                <p><span className="text-muted-foreground">Team ID:</span> <span className="break-all">{team.teamId}</span></p>
+                <p><span className="text-muted-foreground">Team ID:</span> <span className="break-all">{team.team_id}</span></p>
                 <p>
                   <span className="text-muted-foreground">Status:</span>{' '}
                   <span className={team.status?.toLowerCase() === 'active' ? 'text-green-500 font-medium' : ''}>
                     {team.status || '—'}
                   </span>
                 </p>
-                <p><span className="text-muted-foreground">Current Round:</span> {team.currRound ?? '—'}</p>
+                <p><span className="text-muted-foreground">Current Round:</span> {team.current_round ?? '—'}</p>
               </div>
               <div className="space-y-2 break-words">
                 <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Leader</h2>
-                <p className="text-base md:text-lg">{team.leaderName}</p>
-                <p>Reg No: <span className="break-all">{team.leaderRegisterNumber}</span></p>
-                <p>Email: <span className="break-all">{team.leaderEmail}</span></p>
+                <p className="text-base md:text-lg">{team.leader_name}</p>
+                <p>Reg No: <span className="break-all">{team.leader_register_number}</span></p>
+                <p>Email: <span className="break-all">{team.leader_email}</span></p>
+                <p>Contact: <span className="break-all">{team.leader_contact}</span></p>
               </div>
             </div>
 
-            <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-              <div>
-                <h3 className="font-orbitron text-base md:text-lg text-[hsl(var(--space-violet))] mb-2">Member 2</h3>
-                <p>{team.member2Name || '-'}</p>
-                <p className="text-sm text-muted-foreground">{team.member2RegisterNumber || ''}</p>
+            {/* Team Members */}
+            {team.members && team.members.length > 0 && (
+              <div className="mt-8">
+                <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-violet))] mb-4">Team Members</h2>
+                <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+                  {team.members.map((member, index) => (
+                    <div key={member.id} className="bg-background/20 rounded-lg p-4">
+                      <h3 className="font-orbitron text-base font-semibold text-[hsl(var(--space-violet))] mb-2">
+                        {member.member_position}
+                      </h3>
+                      <p className="text-base">{member.member_name}</p>
+                      <p className="text-sm text-muted-foreground">{member.register_number}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div>
-                <h3 className="font-orbitron text-base md:text-lg text-[hsl(var(--space-violet))] mb-2">Member 3</h3>
-                <p>{team.member3Name || '-'}</p>
-                <p className="text-sm text-muted-foreground">{team.member3RegisterNumber || ''}</p>
-              </div>
-              <div>
-                <h3 className="font-orbitron text-base md:text-lg text-[hsl(var(--space-violet))] mb-2">Member 4</h3>
-                <p>{team.member4Name || '-'}</p>
-                <p className="text-sm text-muted-foreground">{team.member4RegisterNumber || ''}</p>
-              </div>
-            </div>
+            )}
+
             <p className="mt-6 text-sm text-muted-foreground text-center">
               For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>.
             </p>

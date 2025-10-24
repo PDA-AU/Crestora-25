@@ -1,105 +1,66 @@
 import React, { useEffect, useState, useRef } from "react";
 
 /**
- * LeaderboardNeonPaginated.jsx
+ * LeaderboardTop5.jsx
  *
- * - Default: loads entire CSV (maxRows = Infinity)
- * - Pagination: pages of 10 rows (PAGE_SIZE constant) with Prev/Next controls
- * - Columns: S.no (auto), Team Name, Rank
- * - Prints the raw CSV to console for debugging
+ * - Fetches top K teams from API (configurable)
+ * - Shows: Rank (1-K), Team Name, Score (Normalized)
+ * - Real-time data from backend
  */
 
-/* ---------- Config: change if needed ---------- */
-const PAGE_SIZE = 10; // paginate by 10 rows
+// Configuration - Change this to show different number of top teams
+const TOP_K_TEAMS = 5; // Change this number to show top 3, 10, etc.
 
-/* ---------- CSV parser (robust) ---------- */
-function parseCsv(text) {
-  const rows = [];
-  let cur = "";
-  let row = [];
-  let i = 0;
-  const len = text.length;
-  let inQuotes = false;
+// API Configuration
+const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 
-  while (i < len) {
-    const ch = text[i];
-
-    if (inQuotes) {
-      if (ch === '"') {
-        const next = i + 1 < len ? text[i + 1] : "";
-        if (next === '"') {
-          cur += '"';
-          i += 2;
-          continue;
-        } else {
-          inQuotes = false;
-          i++;
-          continue;
-        }
-      } else {
-        cur += ch;
-        i++;
-        continue;
-      }
+// API function to fetch leaderboard data
+const fetchLeaderboard = async () => {
+  try {
+    console.log(`Fetching leaderboard from: ${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
+    const response = await fetch(`${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    
+    const data = await response.json();
+    console.log('Raw API response:', data);
+    console.log('Response structure:', {
+      hasLeaderboard: !!data.leaderboard,
+      leaderboardLength: data.leaderboard?.length || 0,
+      totalTeams: data.total_teams,
+      displayedTeams: data.displayed_teams
+    });
+    
+    if (!data.leaderboard) {
+      throw new Error('Invalid API response: missing leaderboard field');
+    }
+    
+    if (!Array.isArray(data.leaderboard)) {
+      throw new Error('Invalid API response: leaderboard is not an array');
+    }
+    
+    return data.leaderboard;
+  } catch (error) {
+    console.error('Error fetching leaderboard:', error);
+    
+    // Provide more specific error messages
+    if (error.name === 'TypeError' && error.message.includes('Load failed')) {
+      throw new Error('Network error: Unable to connect to the server. Please check your internet connection and try again.');
+    } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
+      throw new Error('Network error: Failed to fetch data from the server.');
     } else {
-      if (ch === '"') {
-        inQuotes = true;
-        i++;
-        continue;
-      }
-      if (ch === ",") {
-        row.push(cur);
-        cur = "";
-        i++;
-        continue;
-      }
-      if (ch === "\r") {
-        if (i + 1 < len && text[i + 1] === "\n") i++;
-        row.push(cur);
-        cur = "";
-        rows.push(row);
-        row = [];
-        i++;
-        continue;
-      }
-      if (ch === "\n") {
-        row.push(cur);
-        cur = "";
-        rows.push(row);
-        row = [];
-        i++;
-        continue;
-      }
-      cur += ch;
-      i++;
+      throw error;
     }
   }
+};
 
-  if (inQuotes) {
-    row.push(cur);
-    rows.push(row);
-  } else {
-    if (cur !== "" || row.length > 0) {
-      row.push(cur);
-      rows.push(row);
-    }
-  }
-
-  return rows;
-}
-
-function normalizeHeader(s) {
-  return String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
-}
-
-export default function LeaderboardNeonPaginated({
-  url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8UekVbEgbBPmpFa-eCRgkenuFLVkMUlKedTHpaRi3c_dFJ4I2_rLNkJET7161tyRTKWVqBRkjbMOD/pub?output=csv",
-  maxRows = Infinity, // load all by default
-}) {
-  const [allRows, setAllRows] = useState([]); // full parsed rows
+export default function LeaderboardTop5() {
+  const [teams, setTeams] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [page, setPage] = useState(1);
+  const [retryCount, setRetryCount] = useState(0);
   const mounted = useRef(true);
 
   useEffect(() => {
@@ -112,64 +73,18 @@ export default function LeaderboardNeonPaginated({
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchCsv() {
+    async function fetchLeaderboardData() {
       setLoading(true);
       setError(null);
 
       try {
-        const res = await fetch(url, { cache: "no-cache" });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const text = await res.text();
-
-        // print raw CSV to console
-        console.log("📄 CSV Raw Data:\n", text);
-
-        // If an HTML sign-in page was returned, error out
-        if (/<html[\s>]/i.test(text) && /sign in|you need permission|login/i.test(text)) {
-          throw new Error("CSV fetch returned HTML (Sheet not public). Publish to web.");
-        }
-
-        const parsed = parseCsv(text);
-        if (!parsed || parsed.length === 0) throw new Error("CSV contained no rows.");
-
-        // detect header
-        const header = parsed[0].map((h) => normalizeHeader(h));
-        const idxTeamName = 1; // Team Name is at index 1
-        const idxPercentile = 8; // Percentile is at index 8
-
-        const fallback = idxTeamName === -1 || idxPercentile === -1;
-
-        // map data rows (skip header)
-        const dataRows = parsed.slice(1).map((cells) => {
-          const cellsNorm = Array.from(cells, (c) => (c == null ? "" : String(c).trim()));
-          const teamName = !fallback && idxTeamName >= 0 ? (cellsNorm[idxTeamName] || "") : (cellsNorm[0] || "");
-          const percentileRaw = !fallback && idxPercentile >= 0 ? (cellsNorm[idxPercentile] || "") : (cellsNorm[8] || "");
-          const percentileNum = Number(String(percentileRaw).replace(/[^0-9.-]/g, ""));
-          return {
-            teamName: teamName || "",
-            percentileRaw: percentileRaw || "",
-            percentile: Number.isFinite(percentileNum) ? percentileNum : 0,
-            rawCells: cellsNorm,
-          };
-        });
-
-        // filter empty rows
-        const withContent = dataRows.filter((r) => r.teamName || r.percentileRaw);
-
-        // sort by percentile desc, then team name
-        withContent.sort((a, b) => {
-          // Sort by percentile descending (highest first)
-          if (a.percentile !== b.percentile) return b.percentile - a.percentile;
-          return String(a.teamName || "").localeCompare(String(b.teamName || ""));
-        });
-
-        // apply maxRows cap (if finite)
-        const limited = Number.isFinite(maxRows) ? withContent.slice(0, maxRows) : withContent;
-
+        const leaderboardData = await fetchLeaderboard();
+        console.log('Leaderboard data received:', leaderboardData);
+        
         if (!cancelled && mounted.current) {
-          setAllRows(limited);
-          setPage(1); // reset to first page on new data
+          setTeams(leaderboardData);
           setLoading(false);
+          setRetryCount(0); // Reset retry count on success
         }
       } catch (err) {
         if (!cancelled && mounted.current) {
@@ -180,36 +95,23 @@ export default function LeaderboardNeonPaginated({
       }
     }
 
-    fetchCsv();
+    fetchLeaderboardData();
     return () => {
       cancelled = true;
     };
-  }, [url, maxRows]);
+  }, [retryCount]); // Re-run when retryCount changes
 
-  // Pagination calculations
-  const totalItems = allRows.length;
-  const pageSize = PAGE_SIZE;
-  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
-  const currentPage = Math.min(Math.max(1, page), totalPages);
-
-  const startIndex = (currentPage - 1) * pageSize; // zero-based
-  const pageRows = allRows.slice(startIndex, startIndex + pageSize);
-
-  function goPrev() {
-    setPage((p) => Math.max(1, p - 1));
-  }
-  function goNext() {
-    setPage((p) => Math.min(totalPages, p + 1));
-  }
-  function goPage(n) {
-    setPage(() => Math.min(Math.max(1, n), totalPages));
-  }
+  // Format score for display
+  const formatScore = (score) => {
+    if (score === null || score === undefined) return '-';
+    return Number(score).toFixed(1);
+  };
 
   return (
     <div style={{ display: "flex", justifyContent: "center", padding: 20 }}>
       <div style={{ width: "min(920px, 95%)", display: "flex", flexDirection: "column", alignItems: "center" }}>
         <h3 style={{ textAlign: "center", marginBottom: 12, fontFamily: "Orbitron, sans-serif", color: "#7fffd4" }}>
-          🏆 Leaderboard
+          🏆 Top {TOP_K_TEAMS} Teams
         </h3>
 
         <div
@@ -224,123 +126,82 @@ export default function LeaderboardNeonPaginated({
             background: "linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00))",
           }}
         >
-          {loading && <div style={{ textAlign: "center", padding: 24, color: "#9aa0a6" }}>Loading leaderboard…</div>}
+          {loading && <div style={{ textAlign: "center", padding: 24, color: "#9aa0a6" }}>Loading top teams…</div>}
 
           {error && (
             <div style={{ textAlign: "center", padding: 18, color: "#ff6b6b" }}>
-              Failed to load leaderboard: {error}
+              <div style={{ marginBottom: 12 }}>
+                Failed to load leaderboard: {error}
+              </div>
+              <button
+                onClick={() => setRetryCount(prev => prev + 1)}
+                style={{
+                  background: "rgba(127,255,212,0.2)",
+                  border: "1px solid rgba(127,255,212,0.5)",
+                  color: "#7fffd4",
+                  padding: "8px 16px",
+                  borderRadius: "6px",
+                  cursor: "pointer",
+                  fontSize: "14px"
+                }}
+                onMouseOver={(e) => {
+                  e.target.style.background = "rgba(127,255,212,0.3)";
+                }}
+                onMouseOut={(e) => {
+                  e.target.style.background = "rgba(127,255,212,0.2)";
+                }}
+              >
+                🔄 Retry
+              </button>
             </div>
           )}
 
           {!loading && !error && (
-            <>
-              <table
-                role="table"
-                style={{
-                  width: "100%",
-                  borderCollapse: "collapse",
-                  textAlign: "center",
-                  color: "#e6f7ff",
-                  fontFamily: "Inter, system-ui",
-                }}
-              >
-                <thead>
+            <table
+              role="table"
+              style={{
+                width: "100%",
+                borderCollapse: "collapse",
+                textAlign: "center",
+                color: "#e6f7ff",
+                fontFamily: "Inter, system-ui",
+              }}
+            >
+              <thead>
+                <tr>
+                  <th style={thStyle}>Rank</th>
+                  <th style={thStyle}>Team Name</th>
+                  <th style={thStyle}>Percentile</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {teams.length === 0 ? (
                   <tr>
-                    <th style={thStyle}>S.no</th>
-                    <th style={thStyle}>Team Name</th>
-                    <th style={thStyle}>Percentile</th>
+                    <td colSpan={3} style={{ padding: 20, color: "#9aa0a6" }}>
+                      {loading ? "Loading teams..." : "No teams found."}
+                    </td>
                   </tr>
-                </thead>
-
-                <tbody>
-                  {pageRows.length === 0 ? (
-                    <tr>
-                      <td colSpan={3} style={{ padding: 20, color: "#9aa0a6" }}>
-                        No results yet.
+                ) : (
+                  teams.map((team, index) => (
+                    <tr key={team.team_id} style={index % 2 === 0 ? rowEvenStyle : rowOddStyle}>
+                      <td style={tdCenter}>
+                        <span style={{ 
+                          fontWeight: 'bold', 
+                          color: index === 0 ? '#FFD700' : index === 1 ? '#C0C0C0' : index === 2 ? '#CD7F32' : '#7fffd4' 
+                        }}>
+                          {team.rank || index + 1}
+                        </span>
                       </td>
+                      <td style={tdLeft}>{team.team_name || "-"}</td>
+                      <td style={tdCenter}>{formatScore(team.percentile || team.normalized_score || team.final_score)}</td>
                     </tr>
-                  ) : (
-                    pageRows.map((r, i) => {
-                      const globalIndex = startIndex + i + 1; // 1-based S.no across pages
-                      return (
-                        <tr key={globalIndex} style={globalIndex % 2 === 0 ? rowEvenStyle : rowOddStyle}>
-                          <td style={tdCenter}>{globalIndex}</td>
-                          <td style={tdLeft}>{r.teamName || "-"}</td>
-                          <td style={tdCenter}>{r.percentile === 0 ? "-" : r.percentileRaw || r.percentile}</td>
-                        </tr>
-                      );
-                    })
-                  )}
-                </tbody>
-              </table>
-
-              {/* Pagination Controls */}
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  marginTop: 12,
-                  gap: 12,
-                }}
-              >
-                <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-                  <button
-                    onClick={goPrev}
-                    disabled={currentPage === 1}
-                    style={btnStyle(currentPage === 1)}
-                  >
-                    ◀ Prev
-                  </button>
-
-                  <div style={{ color: "#cfeff3", fontSize: 14 }}>
-                    Page{" "}
-                    <strong style={{ color: "#fff" }}>
-                      {currentPage}
-                    </strong>{" "}
-                    of {totalPages}
-                  </div>
-
-                  <button
-                    onClick={goNext}
-                    disabled={currentPage === totalPages}
-                    style={btnStyle(currentPage === totalPages)}
-                  >
-                    Next ▶
-                  </button>
-                </div>
-
-                <div style={{ color: "#a7b0b6", fontSize: 13 }}>
-                  Showing {Math.min(totalItems, startIndex + 1)}–{Math.min(totalItems, startIndex + pageRows.length)} of{" "}
-                  {totalItems}
-                </div>
-              </div>
-
-              {/* Optional: quick jump (page numbers) */}
-              <div style={{ marginTop: 8, display: "flex", gap: 6, flexWrap: "wrap", justifyContent: "center" }}>
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                  <button
-                    key={p}
-                    onClick={() => goPage(p)}
-                    style={{
-                      minWidth: 34,
-                      height: 34,
-                      borderRadius: 8,
-                      border: p === currentPage ? "1px solid rgba(255,255,255,0.9)" : "1px solid rgba(255,255,255,0.06)",
-                      background: p === currentPage ? "rgba(127,255,212,0.08)" : "transparent",
-                      color: "#e6f7ff",
-                      cursor: "pointer",
-                    }}
-                  >
-                    {p}
-                  </button>
-                ))}
-              </div>
-            </>
+                  ))
+                )}
+              </tbody>
+            </table>
           )}
         </div>
-
-     
       </div>
     </div>
   );
@@ -352,14 +213,3 @@ const tdCenter = { padding: "10px", textAlign: "center", fontSize: 15 };
 const tdLeft = { padding: "10px", textAlign: "left", fontSize: 15 };
 const rowEvenStyle = { background: "rgba(255,255,255,0.02)" };
 const rowOddStyle = { background: "rgba(255,255,255,0.04)" };
-
-function btnStyle(disabled) {
-  return {
-    padding: "8px 12px",
-    borderRadius: 8,
-    border: "1px solid rgba(255,255,255,0.06)",
-    background: disabled ? "rgba(255,255,255,0.02)" : "linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01))",
-    color: disabled ? "#6f8088" : "#e6f7ff",
-    cursor: disabled ? "not-allowed" : "pointer",
-  };
-}

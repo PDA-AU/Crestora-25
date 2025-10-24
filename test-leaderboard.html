@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Test</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #e6f7ff;
+            font-family: 'Inter', system-ui, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .neon-border {
+            border: 2px solid rgba(127,255,212,0.7);
+            box-shadow: 0 0 10px rgba(127,255,212,0.6), 0 0 20px rgba(127,255,212,0.4), inset 0 0 10px rgba(127,255,212,0.2);
+            background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th {
+            padding: 12px;
+            color: #7fffd4;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        td {
+            padding: 10px;
+            font-size: 15px;
+        }
+        .td-left { text-align: left; }
+        .td-center { text-align: center; }
+        .row-even { background: rgba(255,255,255,0.02); }
+        .row-odd { background: rgba(255,255,255,0.04); }
+        .retry-btn {
+            background: rgba(127,255,212,0.2);
+            border: 1px solid rgba(127,255,212,0.5);
+            color: #7fffd4;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .retry-btn:hover {
+            background: rgba(127,255,212,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; padding: 20px;">
+        <div style="width: min(920px, 95%); display: flex; flex-direction: column; align-items: center;">
+            <h3 style="text-align: center; margin-bottom: 12px; font-family: 'Orbitron', sans-serif; color: #7fffd4;">
+                🏆 Top 5 Teams
+            </h3>
+
+            <div class="neon-border" style="padding: 14px; border-radius: 12px; width: 100%;">
+                <div id="loading" style="text-align: center; padding: 24px; color: #9aa0a6;">
+                    Loading top teams…
+                </div>
+
+                <div id="error" style="display: none; text-align: center; padding: 18px; color: #ff6b6b;">
+                    <div style="margin-bottom: 12px;" id="error-message"></div>
+                    <button class="retry-btn" onclick="fetchLeaderboard()">🔄 Retry</button>
+                </div>
+
+                <div id="table-container" style="display: none;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Team Name</th>
+                                <th>Percentile</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
+        const TOP_K_TEAMS = 5;
+
+        async function fetchLeaderboard() {
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('error');
+            const tableContainer = document.getElementById('table-container');
+            const tableBody = document.getElementById('table-body');
+            const errorMessage = document.getElementById('error-message');
+
+            // Show loading, hide others
+            loadingEl.style.display = 'block';
+            errorEl.style.display = 'none';
+            tableContainer.style.display = 'none';
+
+            try {
+                console.log(`Fetching leaderboard from: ${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
+                const response = await fetch(`${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('Raw API response:', data);
+                console.log('Response structure:', {
+                    hasLeaderboard: !!data.leaderboard,
+                    leaderboardLength: data.leaderboard?.length || 0,
+                    totalTeams: data.total_teams,
+                    displayedTeams: data.displayed_teams
+                });
+                
+                if (!data.leaderboard) {
+                    throw new Error('Invalid API response: missing leaderboard field');
+                }
+                
+                if (!Array.isArray(data.leaderboard)) {
+                    throw new Error('Invalid API response: leaderboard is not an array');
+                }
+
+                // Hide loading, show table
+                loadingEl.style.display = 'none';
+                tableContainer.style.display = 'block';
+
+                // Populate table
+                tableBody.innerHTML = '';
+                if (data.leaderboard.length === 0) {
+                    tableBody.innerHTML = '<tr><td colspan="3" style="padding: 20px; color: #9aa0a6;">No teams found.</td></tr>';
+                } else {
+                    data.leaderboard.forEach((team, index) => {
+                        const row = document.createElement('tr');
+                        row.className = index % 2 === 0 ? 'row-even' : 'row-odd';
+                        
+                        const rankColor = index === 0 ? '#FFD700' : index === 1 ? '#C0C0C0' : index === 2 ? '#CD7F32' : '#7fffd4';
+                        
+                        row.innerHTML = `
+                            <td class="td-center">
+                                <span style="font-weight: bold; color: ${rankColor};">${team.rank || index + 1}</span>
+                            </td>
+                            <td class="td-left">${team.team_name || "-"}</td>
+                            <td class="td-center">${formatScore(team.percentile || team.normalized_score || team.final_score)}</td>
+                        `;
+                        
+                        tableBody.appendChild(row);
+                    });
+                }
+                
+            } catch (error) {
+                console.error('Error fetching leaderboard:', error);
+                
+                // Hide loading, show error
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                
+                // Provide more specific error messages
+                let errorMsg = error.message;
+                if (error.name === 'TypeError' && error.message.includes('Load failed')) {
+                    errorMsg = 'Network error: Unable to connect to the server. Please check your internet connection and try again.';
+                } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    errorMsg = 'Network error: Failed to fetch data from the server.';
+                }
+                
+                errorMessage.textContent = `Failed to load leaderboard: ${errorMsg}`;
+            }
+        }
+
+        function formatScore(score) {
+            if (score === null || score === undefined) return '-';
+            return Number(score).toFixed(1);
+        }
+
+        // Load on page load
+        fetchLeaderboard();
+    </script>
+</body>
+</html>

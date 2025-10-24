@@ -1,63 +1,143 @@
-import { useState, useMemo } from 'react';
+
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import teams from '@/data/teams.json';
 import { Button } from '@/components/ui/button';
 
 type Team = {
-  teamName: string;
-  leaderRegisterNumber: string;
+  id: number;
+  team_id: string;
+  team_name: string;
+  leader_name: string;
+  leader_register_number: string;
+  leader_contact: string;
+  leader_email: string;
   password: string;
-  teamId: string;
-  leaderName: string;
-  leaderContactNumber: string;
-  leaderEmail: string;
-  member2Name?: string;
-  member2RegisterNumber?: string;
-  member3Name?: string;
-  member3RegisterNumber?: string;
-  member4Name?: string;
-  member4RegisterNumber?: string;
-  currRound?: number;
-  status?: string;
+  current_round: number;
+  status: string;
+  overall_score?: number;
+  created_at: string;
+  updated_at: string;
+  members: TeamMember[];
 };
+
+type TeamMember = {
+  id: number;
+  team_id: string;
+  member_name: string;
+  register_number: string;
+  member_position: string;
+  created_at: string;
+};
+
+// API Configuration
+const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 
 const Login = () => {
   const navigate = useNavigate();
-  const [regNo, setRegNo] = useState('');
+  const [teamId, setTeamId] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const [userType, setUserType] = useState<'participant' | 'organizer'>('participant');
 
-  const teamsByLeader = useMemo(() => {
-    const byReg = new Map<string, Team>();
-    (teams as Team[]).forEach((t) => {
-      if (t.leaderRegisterNumber) byReg.set(String(t.leaderRegisterNumber).trim(), t);
-    });
-    return byReg;
-  }, []);
+  // API function to authenticate team
+  const authenticateTeam = async (teamId: string, password: string): Promise<Team | null> => {
+    try {
+      const response = await fetch(`${API_BASE_URL.replace('/public', '/team-auth')}/login`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          team_id: teamId,
+          password: password
+        })
+      });
+      
+      if (response.ok) {
+        const contentType = response.headers.get('content-type');
+        
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          return data.team; // Return the team data from the response
+        } else {
+          const text = await response.text();
+          throw new Error(`Server returned non-JSON response. Status: ${response.status}. Response: ${text.substring(0, 200)}...`);
+        }
+      } else {
+        // Handle error responses
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const errorData = await response.json();
+          throw new Error(errorData.detail || `HTTP ${response.status}: ${response.statusText}`);
+        } else {
+          const errorText = await response.text();
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+      }
+    } catch (error) {
+      throw error; // Re-throw to be handled by the calling function
+    }
+  };
 
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+    setLoading(true);
     
     if (userType === 'organizer') {
-      window.location.href = 'http://3.110.143.60:8080/login';
+      window.location.href = 'http://3.110.143.60:8000/login';
       return;
     }
     
-    const key = String(regNo).trim();
-    const team = teamsByLeader.get(key);
-    if (!team) {
-      setError('No team found for this leader register number');
-      return;
+    try {
+      const trimmedTeamId = String(teamId).trim();
+      
+      if (!trimmedTeamId) {
+        setError('Please enter a team ID');
+        setLoading(false);
+        return;
+      }
+      
+      // Authenticate team with API
+      const team = await authenticateTeam(trimmedTeamId, String(password).trim());
+      
+      if (!team) {
+        setError('Authentication failed');
+        setLoading(false);
+        return;
+      }
+      
+      // Store team data in localStorage
+      localStorage.setItem('crestora.teamId', team.team_id);
+      localStorage.setItem('crestora.teamData', JSON.stringify(team));
+      
+      // Navigate to team profile
+      navigate(`/team/${encodeURIComponent(team.team_id)}`);
+      
+    } catch (error) {
+      // Handle specific error types
+      if (error instanceof Error) {
+        if (error.message.includes('404') || error.message.includes('not found')) {
+          setError('No team found with this team ID');
+        } else if (error.message.includes('401') || error.message.includes('Invalid password')) {
+          setError('Invalid password');
+        } else if (error.message.includes('403') || error.message.includes('not active')) {
+          setError('Team is not active. Please contact organizers.');
+        } else if (error.message.includes('500')) {
+          setError('Server error. Please try again later.');
+        } else if (error.message.includes('network') || error.message.includes('fetch')) {
+          setError('Network error. Please check your connection and try again.');
+        } else {
+          setError('Login failed. Please check your credentials and try again.');
+        }
+      } else {
+        setError('An unexpected error occurred. Please try again.');
+      }
+    } finally {
+      setLoading(false);
     }
-    // Simple password check against teams.json
-    if (String(password).trim() !== String(team.password).trim()) {
-      setError('Invalid password');
-      return;
-    }
-    localStorage.setItem('crestora.teamId', team.teamId);
-    navigate(`/team/${encodeURIComponent(team.teamId)}`);
   };
 
   return (
@@ -98,14 +178,18 @@ const Login = () => {
               {userType === 'participant' && (
                 <>
                   <div>
-                    <label className="block text-sm mb-1">Leader Register Number</label>
+                    <label className="block text-sm mb-1">Team ID</label>
                     <input
                       className="w-full rounded-md border bg-background px-3 py-2 outline-none focus:ring-2 focus:ring-[hsl(var(--space-cyan))]"
-                      value={regNo}
-                      onChange={(e) => setRegNo(e.target.value)}
-                      placeholder="e.g., 2027503053"
+                      value={teamId}
+                      onChange={(e) => setTeamId(e.target.value)}
+                      placeholder="e.g., CRES-11AABB"
                       required
+                      disabled={loading}
                     />
+                    <p className="text-xs text-muted-foreground mt-1">
+                      Enter your team ID (e.g., CRES-11AABB)
+                    </p>
                   </div>
                   <div>
                     <label className="block text-sm mb-1">Password</label>
@@ -114,9 +198,13 @@ const Login = () => {
                       type="password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      placeholder="e.g., 2027503053"
+                      placeholder="e.g., 2027505017"
                       required
+                      disabled={loading}
                     />
+                    <p className="text-xs text-muted-foreground mt-1">
+                      Team Leader's Register Number (e.g., 2027505017)
+                    </p>
                   </div>
                 </>
               )}
@@ -128,8 +216,19 @@ const Login = () => {
               {error && (
                 <p className="text-red-500 text-sm">{error}</p>
               )}
-              <Button type="submit" className="w-full bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron">
-                {userType === 'participant' ? 'Login' : 'Go to Organizer Portal'}
+              <Button 
+                type="submit" 
+                className="w-full bg-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/80 text-background font-orbitron"
+                disabled={loading}
+              >
+                {loading ? (
+                  <div className="flex items-center justify-center">
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-background mr-2"></div>
+                    Logging in...
+                  </div>
+                ) : (
+                  userType === 'participant' ? 'Login' : 'Go to Organizer Portal'
+                )}
               </Button>
             </form>
           </div>

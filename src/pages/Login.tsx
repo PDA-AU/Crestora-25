@@ -29,10 +29,8 @@ type TeamMember = {
   created_at: string;
 };
 
-// API Configuration
-const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://3.110.143.60:8000/api/public'
-  : 'http://3.110.143.60:8000/api/public';
+// API Configuration - Using Vercel proxy for HTTPS
+const API_BASE_URL = '/api/public';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -89,10 +87,8 @@ const Login = () => {
     setLoading(true);
     
     if (userType === 'organizer') {
-      const organizerUrl = import.meta.env.PROD 
-        ? 'https://3.110.143.60:8000/login'
-        : 'http://3.110.143.60:8000/login';
-      window.location.href = organizerUrl;
+      // For now, redirect to the backend directly - you might want to create a proxy for this too
+      window.location.href = 'http://3.110.143.60:8000/login';
       return;
     }
     
@@ -132,7 +128,7 @@ const Login = () => {
           setError('Team is not active. Please contact organizers.');
         } else if (error.message.includes('500')) {
           setError('Server error. Please try again later.');
-        } else if (error.message.includes('network') || error.message.includes('fetch')) {
+        } else if (error.message.includes('network') || error.message.includes('fetch') || error.message.includes('SSL') || error.message.includes('Mixed Content')) {
           setError('Network error. Please check your connection and try again.');
         } else {
           setError('Login failed. Please check your credentials and try again.');

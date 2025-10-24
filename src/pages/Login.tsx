@@ -30,7 +30,9 @@ type TeamMember = {
 };
 
 // API Configuration
-const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
+const API_BASE_URL = import.meta.env.PROD 
+  ? 'https://3.110.143.60:8000/api/public'
+  : 'http://3.110.143.60:8000/api/public';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -87,7 +89,10 @@ const Login = () => {
     setLoading(true);
     
     if (userType === 'organizer') {
-      window.location.href = 'http://3.110.143.60:8000/login';
+      const organizerUrl = import.meta.env.PROD 
+        ? 'https://3.110.143.60:8000/login'
+        : 'http://3.110.143.60:8000/login';
+      window.location.href = organizerUrl;
       return;
     }
     

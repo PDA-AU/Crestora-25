@@ -1,38 +1,12 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-
-type TeamMember = {
-  id: number;
-  team_id: string;
-  member_name: string;
-  register_number: string;
-  member_position: string;
-  created_at: string;
-};
-
-type Team = {
-  id: number;
-  team_id: string;
-  team_name: string;
-  leader_name: string;
-  leader_register_number: string;
-  leader_contact: string;
-  leader_email: string;
-  current_round: number;
-  status: string;
-  created_at: string;
-  updated_at: string;
-  members: TeamMember[];
-};
+import { localDataService, type Team, type TeamMember } from '@/services/localDataService';
 
 type TeamScore = {
   score: number;
   rank: number;
 };
-
-// API Configuration
-const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 
 const TeamProfile = () => {
   const { teamId } = useParams();
@@ -41,28 +15,33 @@ const TeamProfile = () => {
   const [teamScore, setTeamScore] = useState<TeamScore | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // API function to get team score from leaderboard
+  // Local function to get team score from leaderboard (using local data instead of API)
   const getTeamScoreFromLeaderboard = async (teamId: string): Promise<TeamScore | null> => {
     try {
-      const response = await fetch(`${API_BASE_URL}/leaderboard?limit=100`);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
+      const leaderboard = await localDataService.getLeaderboard(100);
+      console.log('TeamProfile: Local leaderboard data:', leaderboard);
+      console.log('TeamProfile: Looking for team ID:', teamId);
       
-      const data = await response.json();
-      console.log('TeamProfile: API response:', data);
-      
-      const teamInLeaderboard = data.leaderboard?.find((team: any) => team.team_id === teamId);
+      const teamInLeaderboard = leaderboard.find((team: any) => team.team_id === teamId);
       console.log('TeamProfile: Found team in leaderboard:', teamInLeaderboard);
       
       if (teamInLeaderboard) {
+        const score = teamInLeaderboard.percentile || teamInLeaderboard.normalized_score || teamInLeaderboard.final_score || 0;
+        const rank = teamInLeaderboard.rank || 0;
+        console.log('TeamProfile: Extracted score:', score, 'rank:', rank);
+        
         return {
-          score: teamInLeaderboard.percentile || teamInLeaderboard.normalized_score || 0,
-          rank: teamInLeaderboard.rank || 0
+          score: score,
+          rank: rank
         };
       }
       
-      return null;
+      console.log('TeamProfile: Team not found in leaderboard, providing default score');
+      // Provide a default score for teams not in the leaderboard
+      return {
+        score: 50.0, // Default percentile score
+        rank: 0 // No rank for teams not in leaderboard
+      };
     } catch (error) {
       console.error('Error fetching team score:', error);
       return null;
@@ -147,13 +126,13 @@ const TeamProfile = () => {
                   <div>
                     <p className="text-sm text-muted-foreground mb-2">Current Rank</p>
                     <p className="text-3xl font-bold text-[hsl(var(--space-gold))]">
-                      {teamScore.rank ? `#${teamScore.rank}` : 'N/A'}
+                      {teamScore.rank > 0 ? `#${teamScore.rank}` : 'N/A'}
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground mb-2">Percentile Score</p>
                     <p className="text-3xl font-bold text-[hsl(var(--space-cyan))]">
-                      {teamScore.rank && teamScore.rank <= 10 && teamScore.score ? teamScore.score.toFixed(1) : 'N/A'}
+                      {teamScore.score ? teamScore.score.toFixed(1) : 'N/A'}
                     </p>
                   </div>
                 </div>

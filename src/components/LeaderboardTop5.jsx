@@ -1,47 +1,33 @@
 import React, { useEffect, useState, useRef } from "react";
+import { localDataService } from "@/services/localDataService";
 
 /**
  * LeaderboardTop5.jsx
  *
- * - Fetches top K teams from API (configurable)
+ * - Fetches top K teams from local data (configurable)
  * - Shows: Rank (1-K), Team Name, Score (Normalized)
- * - Real-time data from backend
+ * - Uses local JSON data for better performance
  */
 
 // Configuration - Change this to show different number of top teams
 const TOP_K_TEAMS = 5; // Change this number to show top 3, 10, etc.
 
-// API Configuration
-const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
-
-// API function to fetch leaderboard data
+// Local data function to fetch leaderboard data
 const fetchLeaderboard = async () => {
   try {
-    console.log(`Fetching leaderboard from: ${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
-    const response = await fetch(`${API_BASE_URL}/leaderboard?limit=${TOP_K_TEAMS}`);
+    console.log(`Fetching leaderboard from local data with limit: ${TOP_K_TEAMS}`);
+    const leaderboard = await localDataService.getLeaderboard(TOP_K_TEAMS);
     
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-    
-    const data = await response.json();
-    console.log('Raw API response:', data);
+    console.log('Local leaderboard data:', leaderboard);
     console.log('Response structure:', {
-      hasLeaderboard: !!data.leaderboard,
-      leaderboardLength: data.leaderboard?.length || 0,
-      totalTeams: data.total_teams,
-      displayedTeams: data.displayed_teams
+      leaderboardLength: leaderboard?.length || 0
     });
     
-    if (!data.leaderboard) {
-      throw new Error('Invalid API response: missing leaderboard field');
+    if (!Array.isArray(leaderboard)) {
+      throw new Error('Invalid data: leaderboard is not an array');
     }
     
-    if (!Array.isArray(data.leaderboard)) {
-      throw new Error('Invalid API response: leaderboard is not an array');
-    }
-    
-    return data.leaderboard;
+    return leaderboard;
   } catch (error) {
     console.error('Error fetching leaderboard:', error);
     

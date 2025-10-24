@@ -1,0 +1,3082 @@
+{
+  "team_scores": {
+    "CRES-96DA2": [
+      {
+        "id": 967,
+        "team_id": "CRES-96DA2",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 83.5,
+        "criteria_scores": {
+          "Content": 24.5,
+          "Creativity": 18,
+          "Presentation": 23,
+          "Individuality": 18
+        },
+        "raw_total_score": 83.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:53:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1299,
+        "team_id": "CRES-96DA2",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:13:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-6AA19": [
+      {
+        "id": 1030,
+        "team_id": "CRES-6AA19",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:17",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1227,
+        "team_id": "CRES-6AA19",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:27",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-36A89": [
+      {
+        "id": 1018,
+        "team_id": "CRES-36A89",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:42",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1219,
+        "team_id": "CRES-36A89",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:48",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F0C47": [
+      {
+        "id": 1012,
+        "team_id": "CRES-F0C47",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 90.5,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 16.5,
+          "Presentation": 27.5,
+          "Individuality": 19.5
+        },
+        "raw_total_score": 90.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:14:00",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1183,
+        "team_id": "CRES-F0C47",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-17B89": [
+      {
+        "id": 1003,
+        "team_id": "CRES-17B89",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 79,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 17
+        },
+        "raw_total_score": 79,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:07:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1179,
+        "team_id": "CRES-17B89",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F796C": [
+      {
+        "id": 1015,
+        "team_id": "CRES-F796C",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 84,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 17,
+          "Presentation": 25,
+          "Individuality": 17
+        },
+        "raw_total_score": 84,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1186,
+        "team_id": "CRES-F796C",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D8F3D": [
+      {
+        "id": 993,
+        "team_id": "CRES-D8F3D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1175,
+        "team_id": "CRES-D8F3D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:43",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-0ED4B": [
+      {
+        "id": 1004,
+        "team_id": "CRES-0ED4B",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 94.5,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 19.5,
+          "Presentation": 28.5,
+          "Individuality": 18.5
+        },
+        "raw_total_score": 94.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:08:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1180,
+        "team_id": "CRES-0ED4B",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-865AB": [
+      {
+        "id": 1014,
+        "team_id": "CRES-865AB",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 14,
+          "Presentation": 24,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:14:58",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1185,
+        "team_id": "CRES-865AB",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 100,
+        "criteria_scores": {
+          "MCQ ": 20
+        },
+        "raw_total_score": 20,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-A824D": [
+      {
+        "id": 969,
+        "team_id": "CRES-A824D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 81,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 16
+        },
+        "raw_total_score": 81,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:55:49",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1298,
+        "team_id": "CRES-A824D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:05:37",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-CCB76": [
+      {
+        "id": 999,
+        "team_id": "CRES-CCB76",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 92,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 20,
+          "Presentation": 28,
+          "Individuality": 17
+        },
+        "raw_total_score": 92,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:06:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1178,
+        "team_id": "CRES-CCB76",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:19",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-DE64E": [
+      {
+        "id": 1011,
+        "team_id": "CRES-DE64E",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 83,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 15
+        },
+        "raw_total_score": 83,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:13:24",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1182,
+        "team_id": "CRES-DE64E",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-FC821": [
+      {
+        "id": 1006,
+        "team_id": "CRES-FC821",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 79,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 17
+        },
+        "raw_total_score": 79,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:08:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1181,
+        "team_id": "CRES-FC821",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 55,
+        "criteria_scores": {
+          "MCQ ": 11
+        },
+        "raw_total_score": 11,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:56",
+        "updated_at": "2025-10-23T19:17:14",
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-0B48A": [
+      {
+        "id": 1025,
+        "team_id": "CRES-0B48A",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 17,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 80,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:28:42",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1191,
+        "team_id": "CRES-0B48A",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:51",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-6E9FE": [
+      {
+        "id": 995,
+        "team_id": "CRES-6E9FE",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 82,
+        "criteria_scores": {
+          "Content": 26,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 16
+        },
+        "raw_total_score": 82,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:50",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1176,
+        "team_id": "CRES-6E9FE",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-29888": [
+      {
+        "id": 974,
+        "team_id": "CRES-29888",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 22,
+          "Individuality": 14
+        },
+        "raw_total_score": 75,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:00:28",
+        "updated_at": "2025-10-23T16:52:48",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1171,
+        "team_id": "CRES-29888",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:55",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D9834": [
+      {
+        "id": 989,
+        "team_id": "CRES-D9834",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:55",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1205,
+        "team_id": "CRES-D9834",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-26AC7": [
+      {
+        "id": 984,
+        "team_id": "CRES-26AC7",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1209,
+        "team_id": "CRES-26AC7",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:48",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-02B97": [
+      {
+        "id": 990,
+        "team_id": "CRES-02B97",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:57",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1204,
+        "team_id": "CRES-02B97",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:29",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F812B": [
+      {
+        "id": 1028,
+        "team_id": "CRES-F812B",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:30:19",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1220,
+        "team_id": "CRES-F812B",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D76FC": [
+      {
+        "id": 976,
+        "team_id": "CRES-D76FC",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:05",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1195,
+        "team_id": "CRES-D76FC",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:20",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-68B4C": [
+      {
+        "id": 1017,
+        "team_id": "CRES-68B4C",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:40",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1218,
+        "team_id": "CRES-68B4C",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:44",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-BBA19": [
+      {
+        "id": 980,
+        "team_id": "CRES-BBA19",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:44",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1213,
+        "team_id": "CRES-BBA19",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:10:03",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-68273": [
+      {
+        "id": 1001,
+        "team_id": "CRES-68273",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:07:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1199,
+        "team_id": "CRES-68273",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:03",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-590A1": [
+      {
+        "id": 994,
+        "team_id": "CRES-590A1",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1202,
+        "team_id": "CRES-590A1",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:18",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-B28C4": [
+      {
+        "id": 996,
+        "team_id": "CRES-B28C4",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:04:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1201,
+        "team_id": "CRES-B28C4",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:13",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-75534": [
+      {
+        "id": 1032,
+        "team_id": "CRES-75534",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:19",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1224,
+        "team_id": "CRES-75534",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:21",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-69108": [
+      {
+        "id": 1005,
+        "team_id": "CRES-69108",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:08:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1215,
+        "team_id": "CRES-69108",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:10:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-2F008": [
+      {
+        "id": 1007,
+        "team_id": "CRES-2F008",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:09:05",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1228,
+        "team_id": "CRES-2F008",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:37",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-14AF5": [
+      {
+        "id": 1027,
+        "team_id": "CRES-14AF5",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 83,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 16,
+          "Presentation": 25,
+          "Individuality": 17
+        },
+        "raw_total_score": 83,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:29:27",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1193,
+        "team_id": "CRES-14AF5",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:07:10",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-7D89F": [
+      {
+        "id": 1031,
+        "team_id": "CRES-7D89F",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:18",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1223,
+        "team_id": "CRES-7D89F",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:20",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-1658B": [
+      {
+        "id": 972,
+        "team_id": "CRES-1658B",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 87,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 18,
+          "Presentation": 27,
+          "Individuality": 18
+        },
+        "raw_total_score": 87,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:57:25",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1170,
+        "team_id": "CRES-1658B",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:51",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-66BDB": [
+      {
+        "id": 998,
+        "team_id": "CRES-66BDB",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 76,
+        "criteria_scores": {
+          "Content": 22,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 76,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:05:30",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1300,
+        "team_id": "CRES-66BDB",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:33:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-A2BF5": [
+      {
+        "id": 985,
+        "team_id": "CRES-A2BF5",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1208,
+        "team_id": "CRES-A2BF5",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:43",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-24DF1": [
+      {
+        "id": 1023,
+        "team_id": "CRES-24DF1",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 82,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 17
+        },
+        "raw_total_score": 82,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:27:53",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1189,
+        "team_id": "CRES-24DF1",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-BCDA0": [
+      {
+        "id": 1009,
+        "team_id": "CRES-BCDA0",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 84,
+        "criteria_scores": {
+          "Content": 25.5,
+          "Creativity": 17,
+          "Presentation": 26,
+          "Individuality": 15.5
+        },
+        "raw_total_score": 84,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:09:59",
+        "updated_at": "2025-10-22T11:11:21",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1297,
+        "team_id": "CRES-BCDA0",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 55,
+        "criteria_scores": {
+          "MCQ ": 11
+        },
+        "raw_total_score": 11,
+        "is_normalized": true,
+        "created_at": "2025-10-24T06:01:50",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-CEC96": [
+      {
+        "id": 975,
+        "team_id": "CRES-CEC96",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Content": 23,
+          "Creativity": 15,
+          "Presentation": 25,
+          "Individuality": 17
+        },
+        "raw_total_score": 80,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:00:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1172,
+        "team_id": "CRES-CEC96",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D6283": [
+      {
+        "id": 1019,
+        "team_id": "CRES-D6283",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:45",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1226,
+        "team_id": "CRES-D6283",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D97D8": [
+      {
+        "id": 1002,
+        "team_id": "CRES-D97D8",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:07:11",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1200,
+        "team_id": "CRES-D97D8",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-6D401": [
+      {
+        "id": 1021,
+        "team_id": "CRES-6D401",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 17,
+          "Presentation": 26,
+          "Individuality": 15
+        },
+        "raw_total_score": 85,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:27:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1188,
+        "team_id": "CRES-6D401",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:18",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-E7868": [
+      {
+        "id": 1020,
+        "team_id": "CRES-E7868",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:50",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1187,
+        "team_id": "CRES-E7868",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "MCQ ": 15
+        },
+        "raw_total_score": 15,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-C2033": [
+      {
+        "id": 1029,
+        "team_id": "CRES-C2033",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:14",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1222,
+        "team_id": "CRES-C2033",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:04",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-34AE5": [
+      {
+        "id": 988,
+        "team_id": "CRES-34AE5",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1206,
+        "team_id": "CRES-34AE5",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-021A1": [
+      {
+        "id": 979,
+        "team_id": "CRES-021A1",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1197,
+        "team_id": "CRES-021A1",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:34",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-5C704": [
+      {
+        "id": 978,
+        "team_id": "CRES-5C704",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1196,
+        "team_id": "CRES-5C704",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:27",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-96298": [
+      {
+        "id": 983,
+        "team_id": "CRES-96298",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:51",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1210,
+        "team_id": "CRES-96298",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:51",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-957CD": [
+      {
+        "id": 981,
+        "team_id": "CRES-957CD",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1212,
+        "team_id": "CRES-957CD",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:58",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F1B19": [
+      {
+        "id": 1010,
+        "team_id": "CRES-F1B19",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:12:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1216,
+        "team_id": "CRES-F1B19",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-9C07A": [
+      {
+        "id": 992,
+        "team_id": "CRES-9C07A",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1214,
+        "team_id": "CRES-9C07A",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:10:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-DF1FD": [
+      {
+        "id": 1000,
+        "team_id": "CRES-DF1FD",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:07:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1198,
+        "team_id": "CRES-DF1FD",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:58",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-E7955": [
+      {
+        "id": 1013,
+        "team_id": "CRES-E7955",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 83,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 17,
+          "Presentation": 24,
+          "Individuality": 17
+        },
+        "raw_total_score": 83,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:14:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1184,
+        "team_id": "CRES-E7955",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-EAB94": [
+      {
+        "id": 991,
+        "team_id": "CRES-EAB94",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:59",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1203,
+        "team_id": "CRES-EAB94",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-974DA": [
+      {
+        "id": 970,
+        "team_id": "CRES-974DA",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 15,
+          "Presentation": 22,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:56:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1169,
+        "team_id": "CRES-974DA",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-8501D": [
+      {
+        "id": 1022,
+        "team_id": "CRES-8501D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:27:30",
+        "updated_at": "2025-10-22T11:30:05",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1225,
+        "team_id": "CRES-8501D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D3603": [
+      {
+        "id": 987,
+        "team_id": "CRES-D3603",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1207,
+        "team_id": "CRES-D3603",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-EC4EE": [
+      {
+        "id": 986,
+        "team_id": "CRES-EC4EE",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 16.5,
+          "Presentation": 25,
+          "Individuality": 16
+        },
+        "raw_total_score": 82.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:02:15",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1174,
+        "team_id": "CRES-EC4EE",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:29",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-B49F4": [
+      {
+        "id": 1033,
+        "team_id": "CRES-B49F4",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1221,
+        "team_id": "CRES-B49F4",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F9914": [
+      {
+        "id": 997,
+        "team_id": "CRES-F9914",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 86.5,
+        "criteria_scores": {
+          "Content": 25.5,
+          "Creativity": 17.5,
+          "Presentation": 26.5,
+          "Individuality": 17
+        },
+        "raw_total_score": 86.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:04:35",
+        "updated_at": "2025-10-22T11:05:00",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1177,
+        "team_id": "CRES-F9914",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "MCQ ": 16
+        },
+        "raw_total_score": 16,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-82750": [
+      {
+        "id": 968,
+        "team_id": "CRES-82750",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 97,
+        "criteria_scores": {
+          "Content": 29.5,
+          "Creativity": 20,
+          "Presentation": 29.5,
+          "Individuality": 18
+        },
+        "raw_total_score": 97,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:54:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1168,
+        "team_id": "CRES-82750",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-533F1": [
+      {
+        "id": 971,
+        "team_id": "CRES-533F1",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:57:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1194,
+        "team_id": "CRES-533F1",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:15",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-51027": [
+      {
+        "id": 1024,
+        "team_id": "CRES-51027",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 18,
+          "Presentation": 29,
+          "Individuality": 20
+        },
+        "raw_total_score": 95,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:28:20",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1190,
+        "team_id": "CRES-51027",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:42",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F53E6": [
+      {
+        "id": 1016,
+        "team_id": "CRES-F53E6",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:38",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1217,
+        "team_id": "CRES-F53E6",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:38",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-93A6F": [
+      {
+        "id": 977,
+        "team_id": "CRES-93A6F",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 91.5,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 18,
+          "Presentation": 27.5,
+          "Individuality": 19
+        },
+        "raw_total_score": 91.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1173,
+        "team_id": "CRES-93A6F",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:15",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-9C5EC": [
+      {
+        "id": 982,
+        "team_id": "CRES-9C5EC",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:48",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1211,
+        "team_id": "CRES-9C5EC",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:55",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-7FE08": [
+      {
+        "id": 1008,
+        "team_id": "CRES-7FE08",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 79,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 79,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:09:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1301,
+        "team_id": "CRES-7FE08",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "MCQ ": 15
+        },
+        "raw_total_score": 15,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:33:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-6D012": [
+      {
+        "id": 1026,
+        "team_id": "CRES-6D012",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 92.5,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 17.5,
+          "Presentation": 28,
+          "Individuality": 19
+        },
+        "raw_total_score": 92.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1192,
+        "team_id": "CRES-6D012",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:07:05",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-E9E31": [
+      {
+        "id": 973,
+        "team_id": "CRES-E9E31",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 95.5,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 19,
+          "Presentation": 28.5,
+          "Individuality": 20
+        },
+        "raw_total_score": 95.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:58:03",
+        "updated_at": "2025-10-23T16:52:13",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1296,
+        "team_id": "CRES-E9E31",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T19:12:41",
+        "updated_at": "2025-10-24T07:05:25",
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ]
+  },
+  "last_updated": "2025-10-24T13:58:31.342Z"
+}

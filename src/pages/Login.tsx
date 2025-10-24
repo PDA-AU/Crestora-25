@@ -2,35 +2,10 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import { localDataService, type Team, type TeamMember } from '@/services/localDataService';
 
-type Team = {
-  id: number;
-  team_id: string;
-  team_name: string;
-  leader_name: string;
-  leader_register_number: string;
-  leader_contact: string;
-  leader_email: string;
-  password: string;
-  current_round: number;
-  status: string;
-  overall_score?: number;
-  created_at: string;
-  updated_at: string;
-  members: TeamMember[];
-};
-
-type TeamMember = {
-  id: number;
-  team_id: string;
-  member_name: string;
-  register_number: string;
-  member_position: string;
-  created_at: string;
-};
-
-// API Configuration - Using Vercel proxy for HTTPS
-const API_BASE_URL = '/api/public';
+// API Configuration
+const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -40,43 +15,13 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const [userType, setUserType] = useState<'participant' | 'organizer'>('participant');
 
-  // API function to authenticate team
+  // Local authentication function
   const authenticateTeam = async (teamId: string, password: string): Promise<Team | null> => {
     try {
-      const response = await fetch(`${API_BASE_URL.replace('/public', '/team-auth')}/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          team_id: teamId,
-          password: password
-        })
-      });
-      
-      if (response.ok) {
-        const contentType = response.headers.get('content-type');
-        
-        if (contentType && contentType.includes('application/json')) {
-          const data = await response.json();
-          return data.team; // Return the team data from the response
-        } else {
-          const text = await response.text();
-          throw new Error(`Server returned non-JSON response. Status: ${response.status}. Response: ${text.substring(0, 200)}...`);
-        }
-      } else {
-        // Handle error responses
-        const contentType = response.headers.get('content-type');
-        if (contentType && contentType.includes('application/json')) {
-          const errorData = await response.json();
-          throw new Error(errorData.detail || `HTTP ${response.status}: ${response.statusText}`);
-        } else {
-          const errorText = await response.text();
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-      }
+      const result = await localDataService.authenticateTeam(teamId, password);
+      return result.team;
     } catch (error) {
-      throw error; // Re-throw to be handled by the calling function
+      throw error;
     }
   };
 
@@ -87,7 +32,6 @@ const Login = () => {
     setLoading(true);
     
     if (userType === 'organizer') {
-      // For now, redirect to the backend directly - you might want to create a proxy for this too
       window.location.href = 'http://3.110.143.60:8000/login';
       return;
     }
@@ -129,7 +73,7 @@ const Login = () => {
         } else if (error.message.includes('500')) {
           setError('Server error. Please try again later.');
         } else if (error.message.includes('network') || error.message.includes('fetch') || error.message.includes('SSL') || error.message.includes('Mixed Content')) {
-          setError('Network error. Please check your connection and try again.');
+          setError('Network error. Please try accessing the site via HTTP: http://crestora-25.vercel.app/login');
         } else {
           setError('Login failed. Please check your credentials and try again.');
         }

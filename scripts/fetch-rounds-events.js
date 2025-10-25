@@ -14,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
-const API_BASE_URL = 'http://localhost:8000/api/public';
+const API_BASE_URL = 'http://3.110.143.60:8000/api/public';
 const OUTPUT_DIR = path.join(__dirname, '..', 'src', 'data');
 
 // Ensure output directory exists
@@ -97,6 +97,7 @@ function transformRoundsData(apiData) {
             status: round.status,
             is_frozen: round.is_frozen,
             is_evaluated: round.is_evaluated,
+            is_wildcard: round.is_wildcard,
             criteria: round.criteria,
             max_score: round.max_score,
             min_score: round.min_score,

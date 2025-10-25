@@ -90,6 +90,7 @@ export interface Round {
   type: string;
   date: string;
   description: string;
+  is_wildcard?: boolean;
 }
 
 export interface RollingEvent {
@@ -168,7 +169,7 @@ class LocalDataService {
 
   // Get rounds
   async getRounds(): Promise<Round[]> {
-    return eventData.rounds;
+    return eventData.rounds.filter(round => !round.is_wildcard); // Hide wildcard rounds
   }
 
   // Get rolling events

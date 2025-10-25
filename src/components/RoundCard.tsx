@@ -5,25 +5,35 @@ import { Calendar, Lock } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { RoundModal } from '@/components/RoundModal';
 
-// Import logos
-import round1Logo from '@/assets/logos/round1.png';
-import round2Logo from '@/assets/logos/round2.png';
-import round3Logo from '@/assets/logos/round3.png';
-import round4Logo from '@/assets/logos/round4.png';
-import round5Logo from '@/assets/logos/round5.png';
-import round6Logo from '@/assets/logos/round6.png';
-import round7Logo from '@/assets/logos/round7.png';
-import round8Logo from '@/assets/logos/round8.png';
+// Import club logos
+import pdaLogo from '@/assets/logos/pda.png';
+import mitQuillLogo from '@/assets/logos/mit-quill.png';
+import mitMeteorologyLogo from '@/assets/logos/mit-meteorology.png';
+import vibesLogo from '@/assets/logos/vibes.png';
+import varietyTeamLogo from '@/assets/logos/variety-team.png';
+import tamilMandramLogo from '@/assets/logos/tamil-mandram.png';
+import quizClubLogo from '@/assets/logos/quiz-club-of-mit.png';
+import tedClubLogo from '@/assets/logos/ted-club-of-mit.png';
+import boxOfficeLogo from '@/assets/logos/the-box-office-of-mit.png';
+import ausecLogo from '@/assets/logos/ausec-mit.png';
+import csmitLogo from '@/assets/logos/csmit.png';
+import bookReadersLogo from '@/assets/logos/book-readers-club-of-mit.png';
+import defaultClubLogo from '@/assets/logos/default-club.png';
 
-const roundLogos: Record<number, string> = {
-  1: round1Logo,
-  2: round2Logo,
-  3: round3Logo,
-  4: round4Logo,
-  5: round5Logo,
-  6: round6Logo,
-  7: round7Logo,
-  8: round8Logo,
+const clubLogos: Record<string, string> = {
+  'PDA': pdaLogo,
+  'MIT Quill': mitQuillLogo,
+  'MIT Meteorology Club': mitMeteorologyLogo,
+  'Vibes': vibesLogo,
+  'Variety Team': varietyTeamLogo,
+  'Tamil Mandram': tamilMandramLogo,
+  'Quiz Club of MIT': quizClubLogo,
+  'TED Club of MIT': tedClubLogo,
+  'The Box Office of MIT': boxOfficeLogo,
+  'AUSEC MIT': ausecLogo,
+  'CSMIT': csmitLogo,
+  'Book Readers Club of MIT': bookReadersLogo,
+  'default': defaultClubLogo,
 };
 
 interface Round {
@@ -42,6 +52,7 @@ interface Round {
   status?: string;
   is_frozen?: boolean;
   is_evaluated?: boolean;
+  is_wildcard?: boolean;
   criteria?: any;
   max_score?: number;
   min_score?: number;
@@ -123,8 +134,8 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
                 <div className="flex-shrink-0">
                   <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl bg-gradient-to-br from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 p-3 flex items-center justify-center">
                     <img
-                      src={roundLogos[round.round_number]}
-                      alt={`${round.name} logo`}
+                      src={clubLogos[round.club] || clubLogos['default']}
+                      alt={`${round.club} logo`}
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -178,7 +189,7 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
             isOpen={isModalOpen}
             onClose={closeModal}
             round={round}
-            logo={roundLogos[round.round_number]}
+            logo={clubLogos[round.club] || clubLogos['default']}
           />
         </div>
       </motion.div>

@@ -12,7 +12,7 @@ interface RollingEvent {
   // Extended data for modal
   extended_description?: string;
   form_link?: string;
-  contact?: string;
+  contact?: string | string[];
   venue?: string;
   status?: string;
   start_date?: string;
@@ -189,21 +189,17 @@ export const RollingEventModal = ({
             <div>
               <h3 className="font-semibold text-[hsl(var(--space-gold))] mb-2">Contact Information</h3>
               <div className="text-sm text-muted-foreground">
-                {typeof event.contact === 'string' ? (
-                  <p>{event.contact}</p>
-                ) : (
+                {Array.isArray(event.contact) ? (
                   <div className="space-y-1">
-                    {Array.isArray(event.contact) ? (
-                      event.contact.map((contact, index) => (
-                        <div key={index} className="flex items-center gap-2">
-                          <Users className="w-4 h-4" />
-                          <span>{contact}</span>
-                        </div>
-                      ))
-                    ) : (
-                      <p>{String(event.contact)}</p>
-                    )}
+                    {event.contact.map((contact, index) => (
+                      <div key={index} className="flex items-center gap-2">
+                        <Users className="w-4 h-4" />
+                        <span>{contact}</span>
+                      </div>
+                    ))}
                   </div>
+                ) : (
+                  <p>{event.contact}</p>
                 )}
               </div>
             </div>

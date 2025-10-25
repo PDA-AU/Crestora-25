@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
-import { Calendar, MapPin, Users, Trophy, Clock, ExternalLink, Copy } from 'lucide-react';
+import { Calendar, MapPin, Users, Clock, ExternalLink, Copy } from 'lucide-react';
 
 interface Round {
   id: string;
@@ -18,6 +18,7 @@ interface Round {
   status?: string;
   is_frozen?: boolean;
   is_evaluated?: boolean;
+  is_wildcard?: boolean;
   criteria?: any;
   max_score?: number;
   min_score?: number;
@@ -225,49 +226,6 @@ export const RoundModal = ({
             })()
           )}
 
-          {/* Score Information */}
-          {(() => {
-            // Check if there's meaningful score data
-            const hasValidScores = () => {
-              const scores = [round.max_score, round.min_score, round.avg_score];
-              return scores.some(score => 
-                score !== null && 
-                score !== undefined && 
-                String(score).trim() !== '' && 
-                !isNaN(Number(score)) && 
-                Number(score) > 0
-              );
-            };
-
-            return hasValidScores() ? (
-              <div>
-                <h3 className="font-semibold text-[hsl(var(--space-cyan))] mb-2">Score Information</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-                  {round.max_score && Number(round.max_score) > 0 && (
-                    <div className="flex items-center gap-2">
-                      <Trophy className="w-4 h-4 text-[hsl(var(--space-gold))]" />
-                      <span className="font-medium">Max Score:</span>
-                      <span>{round.max_score}</span>
-                    </div>
-                  )}
-                  {round.min_score && Number(round.min_score) > 0 && (
-                    <div className="flex items-center gap-2">
-                      <Trophy className="w-4 h-4 text-[hsl(var(--space-gold))]" />
-                      <span className="font-medium">Min Score:</span>
-                      <span>{round.min_score}</span>
-                    </div>
-                  )}
-                  {round.avg_score && Number(round.avg_score) > 0 && (
-                    <div className="flex items-center gap-2">
-                      <Trophy className="w-4 h-4 text-[hsl(var(--space-gold))]" />
-                      <span className="font-medium">Avg Score:</span>
-                      <span>{round.avg_score}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-            ) : null;
-          })()}
 
           {/* Contact Information */}
           {(() => {

@@ -6,17 +6,35 @@ import { Calendar, Sparkles } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 // import { RollingEventModal } from '@/components/RollingEventModal';
 
-// Import logos
-import rolling1Logo from '@/assets/logos/rolling1.png';
-import rolling2Logo from '@/assets/logos/rolling2.png';
-import rolling3Logo from '@/assets/logos/rolling3.png';
-import rolling4Logo from '@/assets/logos/rolling4.png';
+// Import club logos
+import pdaLogo from '@/assets/logos/pda.png';
+import mitQuillLogo from '@/assets/logos/mit-quill.png';
+import mitMeteorologyLogo from '@/assets/logos/mit-meteorology.png';
+import vibesLogo from '@/assets/logos/vibes.png';
+import varietyTeamLogo from '@/assets/logos/variety-team.png';
+import tamilMandramLogo from '@/assets/logos/tamil-mandram.png';
+import quizClubLogo from '@/assets/logos/quiz-club-of-mit.png';
+import tedClubLogo from '@/assets/logos/ted-club-of-mit.png';
+import boxOfficeLogo from '@/assets/logos/the-box-office-of-mit.png';
+import ausecLogo from '@/assets/logos/ausec-mit.png';
+import csmitLogo from '@/assets/logos/csmit.png';
+import bookReadersLogo from '@/assets/logos/book-readers-club-of-mit.png';
+import defaultClubLogo from '@/assets/logos/default-club.png';
 
-const rollingLogos: Record<number, string> = {
-  1: rolling1Logo,
-  2: rolling2Logo,
-  3: rolling3Logo,
-  4: rolling4Logo,
+const clubLogos: Record<string, string> = {
+  'PDA': pdaLogo,
+  'MIT Quill': mitQuillLogo,
+  'MIT Meteorology Club': mitMeteorologyLogo,
+  'Vibes': vibesLogo,
+  'Variety Team': varietyTeamLogo,
+  'Tamil Mandram': tamilMandramLogo,
+  'Quiz Club of MIT': quizClubLogo,
+  'TED Club of MIT': tedClubLogo,
+  'The Box Office of MIT': boxOfficeLogo,
+  'AUSEC MIT': ausecLogo,
+  'CSMIT': csmitLogo,
+  'Book Readers Club of MIT': bookReadersLogo,
+  'default': defaultClubLogo,
 };
 
 interface RollingEvent {
@@ -100,8 +118,8 @@ export const RollingEvents = () => {
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[hsl(var(--space-gold))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-gold))]/30 p-2 flex items-center justify-center">
                     <img 
-                      src={rollingLogos[eventNumber]} 
-                      alt={`${event.name} logo`}
+                      src={clubLogos[event.club] || clubLogos['default']} 
+                      alt={`${event.club} logo`}
                       className="w-full h-full object-contain"
                     />
                   </div>

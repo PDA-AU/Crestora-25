@@ -34,14 +34,16 @@ export const Timeline = () => {
 
           {/* Rounds */}
           <div className="space-y-32">
-            {eventData.rounds.map((round, index) => (
-              <RoundCard
-                key={round.id}
-                round={round}
-                index={index}
-                blur={index >= NO_OF_ROUNDS_TO_SHOW_CLEAR}
-              />
-            ))}
+            {eventData.rounds
+              .filter(round => !round.is_wildcard) // Hide wildcard rounds
+              .map((round, index) => (
+                <RoundCard
+                  key={round.id}
+                  round={round}
+                  index={index}
+                  blur={index >= NO_OF_ROUNDS_TO_SHOW_CLEAR}
+                />
+              ))}
           </div>
         </div>
 

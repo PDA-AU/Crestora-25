@@ -96,15 +96,7 @@ async function updateTeamScoresData() {
 }
 
 // Update event data (this is usually static, but we can fetch if needed)
-async function updateEventData() {
-  console.log('🔄 Updating event data...');
-  try {
-    // Event data is usually static, but we can add API calls here if needed
-    console.log('✅ Event data is up to date (static data)');
-  } catch (error) {
-    console.error('❌ Failed to update event data:', error.message);
-  }
-}
+
 
 // Main update function
 async function updateAllData() {
@@ -117,7 +109,7 @@ async function updateAllData() {
     await updateTeamsData();
     await updateLeaderboardData();
     await updateTeamScoresData();
-    await updateEventData();
+   
     
     console.log('');
     console.log('🎉 All data updated successfully!');
@@ -138,5 +130,5 @@ export {
   updateTeamsData,
   updateLeaderboardData,
   updateTeamScoresData,
-  updateEventData
+ 
 };

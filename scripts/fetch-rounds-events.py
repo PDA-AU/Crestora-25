@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-API_BASE_URL = 'http://localhost:8000/api/public'
+API_BASE_URL = 'http://3.110.143.60:8000/api/public'
 OUTPUT_DIR = Path(__file__).parent.parent / 'src' / 'data'
 
 def ensure_output_dir():
@@ -87,6 +87,7 @@ def transform_rounds_data(api_data):
                 "status": round_data.get('status'),
                 "is_frozen": round_data.get('is_frozen'),
                 "is_evaluated": round_data.get('is_evaluated'),
+                "is_wildcard": round_data.get('is_wildcard'),
                 "criteria": round_data.get('criteria'),
                 "max_score": round_data.get('max_score'),
                 "min_score": round_data.get('min_score'),

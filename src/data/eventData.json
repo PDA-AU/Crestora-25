@@ -29,7 +29,7 @@
       "form_link": "https://forms.google.com/example-registration",
       "contact": "round-coordinator@example.com",
       "venue": null,
-      "status": "upcoming",
+      "status": "completed",
       "is_frozen": true,
       "is_evaluated": true,
       "criteria": [
@@ -66,7 +66,7 @@
       "form_link": null,
       "contact": null,
       "venue": null,
-      "status": "upcoming",
+      "status": "completed",
       "is_frozen": true,
       "is_evaluated": true,
       "criteria": [
@@ -91,7 +91,7 @@
       "form_link": null,
       "contact": null,
       "venue": null,
-      "status": "upcoming",
+      "status": "completed",
       "is_frozen": true,
       "is_evaluated": true,
       "criteria": [
@@ -107,7 +107,7 @@
     {
       "id": "round4",
       "round_number": 4,
-      "name": "Quiz",
+      "name": "Quizz",
       "club": "MIT Meteorology Club",
       "type": "online",
       "date": "",
@@ -122,8 +122,6 @@
       "criteria": [
         {
           "name": "Overall Performance",
-          "weight": 100,
-          "max_score": 100,
           "max_points": 100
         }
       ],
@@ -331,7 +329,7 @@
     },
     {
       "id": "rolling3",
-      "name": "கருத்தரங்கம் (Karutharangam)",
+      "name": "கருத்தரங்கம் (Karutharangam).",
       "club": "Tamil Mandram",
       "type": "Offline",
       "date": "",

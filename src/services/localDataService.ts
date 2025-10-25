@@ -178,7 +178,10 @@ class LocalDataService {
 
   // Get team statistics
   async getTeamStats(): Promise<any> {
-    const teams = teamsData.teams;
+    const teams = teamsData.teams.map(team => ({
+      ...team,
+      password: team.leader_register_number // Add password field
+    }));
     const totalTeams = teams.length;
     const activeTeams = teams.filter(t => t.status === 'ACTIVE').length;
     const eliminatedTeams = teams.filter(t => t.status === 'ELIMINATED').length;

@@ -122,19 +122,11 @@ const TeamProfile = () => {
                 <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))] mb-4 text-center">
                   🏆 Team Performance
                 </h2>
-                <div className="grid grid-cols-2 gap-6 text-center">
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-2">Current Rank</p>
-                    <p className="text-3xl font-bold text-[hsl(var(--space-gold))]">
-                      {teamScore.rank > 0 ? `#${teamScore.rank}` : 'N/A'}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-2">Percentile Score</p>
-                    <p className="text-3xl font-bold text-[hsl(var(--space-cyan))]">
-                      {teamScore.score ? teamScore.score.toFixed(1) : 'N/A'}
-                    </p>
-                  </div>
+                <div className="text-center">
+                  <p className="text-sm text-muted-foreground mb-2">Current Rank</p>
+                  <p className="text-4xl font-bold text-[hsl(var(--space-gold))]">
+                    {teamScore.rank > 0 ? `#${teamScore.rank}` : 'N/A'}
+                  </p>
                 </div>
               </div>
             )}

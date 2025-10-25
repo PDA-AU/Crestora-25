@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { Calendar } from 'lucide-react';
+import { Calendar, Lock } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { RoundModal } from '@/components/RoundModal';
-import { getRoundContent } from '@/data/roundContent';
 
 // Import logos
 import round1Logo from '@/assets/logos/round1.png';
@@ -35,6 +34,18 @@ interface Round {
   type: string;
   date: string;
   description: string;
+  // Extended data for modal
+  extended_description?: string;
+  form_link?: string;
+  contact?: string | string[];
+  venue?: string;
+  status?: string;
+  is_frozen?: boolean;
+  is_evaluated?: boolean;
+  criteria?: any;
+  max_score?: number;
+  min_score?: number;
+  avg_score?: number;
 }
 
 interface RoundCardProps {
@@ -58,6 +69,8 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
   };
 
   const openModal = () => {
+    // Don't open modal for blurred events
+    if (blur) return;
     setIsModalOpen(true);
   };
 
@@ -96,15 +109,15 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
       >
         <div className="relative group">
           {/* Glow Effect */}
-          <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(var(--space-cyan))] to-[hsl(var(--space-violet))] rounded-2xl opacity-20 group-hover:opacity-40 blur transition-opacity" />
+          <div className={`absolute -inset-1 bg-gradient-to-r from-[hsl(var(--space-cyan))] to-[hsl(var(--space-violet))] rounded-2xl opacity-20 transition-opacity ${blur ? 'opacity-10' : 'group-hover:opacity-40'}`} />
 
           <div
             onClick={openModal}
             role="button"
             tabIndex={0}
-            className="cursor-pointer"
+            className={blur ? "cursor-not-allowed" : "cursor-pointer"}
           >
-            <div className="relative bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 transition-transform group-hover:scale-[1.02]">
+            <div className={`relative bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 transition-transform ${blur ? '' : 'group-hover:scale-[1.02]'}`}>
               {/* Logo Section */}
               <div className="flex items-start gap-6 mb-4">
                 <div className="flex-shrink-0">
@@ -148,7 +161,14 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
                   <Calendar className="w-4 h-4 text-[hsl(var(--space-cyan))]" />
                   <span>{formatDate(round.date)}</span>
                 </div>
-                <div className="ml-auto text-xs text-muted-foreground italic">Click to view full details & form link</div>
+                {blur ? (
+                  <div className="ml-auto flex items-center gap-1 text-xs text-muted-foreground italic">
+                    <Lock className="w-3 h-3" />
+                    <span>Details locked</span>
+                  </div>
+                ) : (
+                  <div className="ml-auto text-xs text-muted-foreground italic">Click to view full details & form link</div>
+                )}
               </div>
             </div>
           </div>
@@ -157,9 +177,7 @@ export const RoundCard = ({ round, index, blur = false }: RoundCardProps) => {
           <RoundModal
             isOpen={isModalOpen}
             onClose={closeModal}
-            roundNumber={round.round_number}
-            roundName={round.name}
-            content={getRoundContent(round.round_number)}
+            round={round}
             logo={roundLogos[round.round_number]}
           />
         </div>

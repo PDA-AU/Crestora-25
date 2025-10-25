@@ -45,6 +45,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1363,
+        "team_id": "CRES-96DA2",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 87.5,
+        "criteria_scores": {
+          "Overall Performance": 35
+        },
+        "raw_total_score": 35,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-6AA19": [
@@ -90,6 +111,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1393,
+        "team_id": "CRES-6AA19",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-36A89": [
@@ -131,6 +171,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1394,
+        "team_id": "CRES-36A89",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -182,6 +241,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1314,
+        "team_id": "CRES-F0C47",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Overall Performance": 30
+        },
+        "raw_total_score": 30,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:28:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-17B89": [
@@ -228,6 +308,27 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      },
+      {
+        "id": 1311,
+        "team_id": "CRES-17B89",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Overall Performance": 30
+        },
+        "raw_total_score": 30,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:27:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
         }
       }
     ],
@@ -276,6 +377,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1305,
+        "team_id": "CRES-F796C",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-D8F3D": [
@@ -322,6 +444,27 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      },
+      {
+        "id": 1304,
+        "team_id": "CRES-D8F3D",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Overall Performance": 33
+        },
+        "raw_total_score": 33,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
         }
       }
     ],
@@ -370,6 +513,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1315,
+        "team_id": "CRES-0ED4B",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 87.5,
+        "criteria_scores": {
+          "Overall Performance": 35
+        },
+        "raw_total_score": 35,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:28:46",
+        "updated_at": "2025-10-24T16:17:27",
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-865AB": [
@@ -417,6 +581,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1325,
+        "team_id": "CRES-865AB",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:32:37",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-A824D": [
@@ -458,6 +643,27 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1395,
+        "team_id": "CRES-A824D",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Overall Performance": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": "2025-10-24T20:31:09",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -509,6 +715,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1306,
+        "team_id": "CRES-CCB76",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 62.5,
+        "criteria_scores": {
+          "Overall Performance": 25
+        },
+        "raw_total_score": 25,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:10:10",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-DE64E": [
@@ -556,6 +783,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1320,
+        "team_id": "CRES-DE64E",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Overall Performance": 33
+        },
+        "raw_total_score": 33,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:30:27",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-FC821": [
@@ -599,6 +847,46 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1308,
+        "team_id": "CRES-FC821",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 65,
+        "criteria_scores": {
+          "Overall Performance": 26
+        },
+        "raw_total_score": 26,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:11:10",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1396,
+        "team_id": "CRES-FC821",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -650,6 +938,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1362,
+        "team_id": "CRES-0B48A",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-6E9FE": [
@@ -696,6 +1005,27 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      },
+      {
+        "id": 1324,
+        "team_id": "CRES-6E9FE",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 55,
+        "criteria_scores": {
+          "Overall Performance": 22
+        },
+        "raw_total_score": 22,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:32:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
         }
       }
     ],
@@ -744,6 +1074,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1302,
+        "team_id": "CRES-29888",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 67.5,
+        "criteria_scores": {
+          "Overall Performance": 27
+        },
+        "raw_total_score": 27,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:21",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-D9834": [
@@ -785,6 +1136,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1397,
+        "team_id": "CRES-D9834",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -834,6 +1204,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1398,
+        "team_id": "CRES-26AC7",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-02B97": [
@@ -875,6 +1264,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1399,
+        "team_id": "CRES-02B97",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -924,6 +1332,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1400,
+        "team_id": "CRES-F812B",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Overall Performance": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": "2025-10-24T20:32:35",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-D76FC": [
@@ -965,6 +1394,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1401,
+        "team_id": "CRES-D76FC",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1014,6 +1462,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1402,
+        "team_id": "CRES-68B4C",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-BBA19": [
@@ -1055,6 +1522,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1403,
+        "team_id": "CRES-BBA19",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1104,6 +1590,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1404,
+        "team_id": "CRES-68273",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-590A1": [
@@ -1145,6 +1650,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1405,
+        "team_id": "CRES-590A1",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1194,6 +1718,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1406,
+        "team_id": "CRES-B28C4",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-75534": [
@@ -1235,6 +1778,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1407,
+        "team_id": "CRES-75534",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1284,6 +1846,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1408,
+        "team_id": "CRES-69108",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-2F008": [
@@ -1325,6 +1906,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1409,
+        "team_id": "CRES-2F008",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1376,6 +1976,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1316,
+        "team_id": "CRES-14AF5",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 72.5,
+        "criteria_scores": {
+          "Overall Performance": 29
+        },
+        "raw_total_score": 29,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:29:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-7D89F": [
@@ -1417,6 +2038,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1410,
+        "team_id": "CRES-7D89F",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1468,6 +2108,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1321,
+        "team_id": "CRES-1658B",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 72.5,
+        "criteria_scores": {
+          "Overall Performance": 29
+        },
+        "raw_total_score": 29,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:30:53",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-66BDB": [
@@ -1515,6 +2176,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1327,
+        "team_id": "CRES-66BDB",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 65,
+        "criteria_scores": {
+          "Overall Performance": 26
+        },
+        "raw_total_score": 26,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:41:01",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-A2BF5": [
@@ -1556,6 +2238,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1411,
+        "team_id": "CRES-A2BF5",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1607,6 +2308,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1328,
+        "team_id": "CRES-24DF1",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:41:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-BCDA0": [
@@ -1653,6 +2375,27 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      },
+      {
+        "id": 1318,
+        "team_id": "CRES-BCDA0",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Overall Performance": 34
+        },
+        "raw_total_score": 34,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:30:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
         }
       }
     ],
@@ -1701,6 +2444,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1360,
+        "team_id": "CRES-CEC96",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:17",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-D6283": [
@@ -1746,6 +2510,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1412,
+        "team_id": "CRES-D6283",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-D97D8": [
@@ -1787,6 +2570,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1413,
+        "team_id": "CRES-D97D8",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1838,6 +2640,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1313,
+        "team_id": "CRES-6D401",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:28:11",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-E7868": [
@@ -1881,6 +2704,46 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1317,
+        "team_id": "CRES-E7868",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 45,
+        "criteria_scores": {
+          "Overall Performance": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:29:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1414,
+        "team_id": "CRES-E7868",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -1930,6 +2793,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1415,
+        "team_id": "CRES-C2033",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Overall Performance": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": "2025-10-24T20:32:38",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-34AE5": [
@@ -1971,6 +2855,27 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1416,
+        "team_id": "CRES-34AE5",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Overall Performance": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": "2025-10-24T21:21:48",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2020,6 +2925,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1417,
+        "team_id": "CRES-021A1",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-5C704": [
@@ -2061,6 +2985,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1418,
+        "team_id": "CRES-5C704",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2110,6 +3053,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1419,
+        "team_id": "CRES-96298",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-957CD": [
@@ -2151,6 +3113,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1420,
+        "team_id": "CRES-957CD",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2200,6 +3181,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1421,
+        "team_id": "CRES-F1B19",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-9C07A": [
@@ -2245,6 +3245,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1422,
+        "team_id": "CRES-9C07A",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-DF1FD": [
@@ -2286,6 +3305,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1423,
+        "team_id": "CRES-DF1FD",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2337,6 +3375,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1312,
+        "team_id": "CRES-E7955",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:27:53",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-EAB94": [
@@ -2378,6 +3437,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1424,
+        "team_id": "CRES-EAB94",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2429,6 +3507,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1309,
+        "team_id": "CRES-974DA",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Overall Performance": 28
+        },
+        "raw_total_score": 28,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:26:17",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-8501D": [
@@ -2474,6 +3573,25 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1425,
+        "team_id": "CRES-8501D",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
       }
     ],
     "CRES-D3603": [
@@ -2515,6 +3633,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1426,
+        "team_id": "CRES-D3603",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2566,6 +3703,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1323,
+        "team_id": "CRES-EC4EE",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Overall Performance": 30
+        },
+        "raw_total_score": 30,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:31:34",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-B49F4": [
@@ -2607,6 +3765,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1427,
+        "team_id": "CRES-B49F4",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2658,6 +3835,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1319,
+        "team_id": "CRES-F9914",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:30:13",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-82750": [
@@ -2705,6 +3903,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1303,
+        "team_id": "CRES-82750",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Overall Performance": 34
+        },
+        "raw_total_score": 34,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:25",
+        "updated_at": "2025-10-24T16:16:30",
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-533F1": [
@@ -2746,6 +3965,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1428,
+        "team_id": "CRES-533F1",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2797,6 +4035,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1307,
+        "team_id": "CRES-51027",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "Overall Performance": 36
+        },
+        "raw_total_score": 36,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:10:57",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-F53E6": [
@@ -2838,6 +4097,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1429,
+        "team_id": "CRES-F53E6",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2889,6 +4167,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1326,
+        "team_id": "CRES-93A6F",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Overall Performance": 33
+        },
+        "raw_total_score": 33,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:40:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-9C5EC": [
@@ -2930,6 +4229,25 @@
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1430,
+        "team_id": "CRES-9C5EC",
+        "round_id": 14,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": false,
+        "created_at": "2025-10-24T20:29:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 7,
+          "round_name": "CAMPAIGN(WILDCARD)",
           "round_type": "title",
           "club": "PDA",
           "date": null
@@ -2981,6 +4299,27 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1361,
+        "team_id": "CRES-7FE08",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ],
     "CRES-6D012": [
@@ -3027,6 +4366,27 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      },
+      {
+        "id": 1322,
+        "team_id": "CRES-6D012",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 62.5,
+        "criteria_scores": {
+          "Overall Performance": 25
+        },
+        "raw_total_score": 25,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:31:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
         }
       }
     ],
@@ -3075,8 +4435,29 @@
           "club": "PDA",
           "date": null
         }
+      },
+      {
+        "id": 1310,
+        "team_id": "CRES-E9E31",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 72.5,
+        "criteria_scores": {
+          "Overall Performance": 29
+        },
+        "raw_total_score": 29,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:26:36",
+        "updated_at": "2025-10-24T16:18:36",
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
       }
     ]
   },
-  "last_updated": "2025-10-24T13:58:31.342Z"
+  "last_updated": "2025-10-25T11:51:08.680Z"
 }

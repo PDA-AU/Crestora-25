@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import eventData from '@/data/eventData.json';
 import { Calendar, Sparkles } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+// import { RollingEventModal } from '@/components/RollingEventModal';
 
 // Import logos
 import rolling1Logo from '@/assets/logos/rolling1.png';
@@ -18,13 +19,42 @@ const rollingLogos: Record<number, string> = {
   4: rolling4Logo,
 };
 
+interface RollingEvent {
+  id: string;
+  name: string;
+  club: string;
+  type: string;
+  date: string;
+  description: string;
+  // Extended data for modal
+  extended_description?: string;
+  form_link?: string;
+  contact?: string;
+  venue?: string;
+  status?: string;
+  start_date?: string;
+  end_date?: string;
+  event_id?: string;
+  event_code?: string;
+}
+
 export const RollingEvents = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [selectedEvent, setSelectedEvent] = useState<RollingEvent | null>(null);
 
   const formatDate = (dateString: string) => {
+    if (!dateString) return 'TBA';
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  };
+
+  const openModal = (event: RollingEvent) => {
+    setSelectedEvent(event);
+  };
+
+  const closeModal = () => {
+    setSelectedEvent(null);
   };
 
   return (
@@ -62,7 +92,10 @@ export const RollingEvents = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(var(--space-gold))] to-[hsl(var(--space-violet))] rounded-xl opacity-20 group-hover:opacity-40 blur transition-opacity" />
               
               {/* Card */}
-              <div className="relative bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 h-full transition-transform group-hover:scale-[1.02] flex flex-col">
+              <div 
+                onClick={() => openModal(event)}
+                className="relative bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 h-full transition-transform group-hover:scale-[1.02] flex flex-col cursor-pointer"
+              >
                 {/* Logo */}
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[hsl(var(--space-gold))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-gold))]/30 p-2 flex items-center justify-center">
@@ -94,12 +127,29 @@ export const RollingEvents = () => {
                   <span>{formatDate(event.date)}</span>
                   <span className="ml-auto">{event.type}</span>
                 </div>
+                
+                <div className="mt-2 text-xs text-muted-foreground italic text-center">
+                  Click to view full details
+                </div>
               </div>
             </div>
           </motion.div>
           );
         })}
       </div>
+
+      {/* Rolling Event Modal - TODO: Implement modal component */}
+      {selectedEvent && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+          <div className="bg-card p-6 rounded-lg max-w-md">
+            <h3 className="text-lg font-bold mb-2">{selectedEvent.name}</h3>
+            <p className="text-sm text-muted-foreground mb-4">{selectedEvent.description}</p>
+            <button onClick={closeModal} className="px-4 py-2 bg-primary text-primary-foreground rounded">
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

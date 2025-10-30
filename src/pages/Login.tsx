@@ -155,7 +155,7 @@ const Login = () => {
               )}
               {userType === 'organizer' && (
                 <div className="text-center py-4">
-                  <p className="text-muted-foreground mb-4">You will be redirected to the organizer portal</p>
+                  <p className="text-muted-foreground mb-4">You wil be redirected to the organizer portal</p>
                 </div>
               )}
               {error && (

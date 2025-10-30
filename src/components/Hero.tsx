@@ -29,7 +29,7 @@ export const Hero = () => {
 
   const goOrganiser = () => {
     // Redirect to organiser dashboard (external)
-    window.location.href = 'http://3.110.143.60:8080/login';
+    window.location.href = 'http://13.127.109.143:8080/login';
   };
 
   // Accessibility: focus first action when modal opens, close on Esc

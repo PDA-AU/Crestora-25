@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { localDataService, type Team, type TeamMember } from '@/services/localDataService';
 
 // API Configuration
-const API_BASE_URL = 'http://13.127.109.143:8000/api/public';
+const API_BASE_URL = 'http://3.110.179.41:8080/api/public';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -32,7 +32,7 @@ const Login = () => {
     setLoading(true);
     
     if (userType === 'organizer') {
-      window.location.href = 'http://13.127.109.143:8080/login';
+      window.location.href = 'http://3.110.179.41:8080/login';
       return;
     }
     

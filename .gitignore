@@ -1,0 +1,9 @@
+# Ignore runtime/built files
+node_modules/
+dist/
+.env*
+*.log
+.cache/
+.idea/
+.vscode/
+bun.lockb

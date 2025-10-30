@@ -1,0 +1,3152 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "team_id": "CRES-96DA2",
+      "team_name": "3ngineers",
+      "leader_name": "Vaishnavi M",
+      "leader_register_number": "2023505017",
+      "leader_contact": "8015314027",
+      "leader_email": "vaishnavimanju05@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 84,
+      "created_at": "2025-10-21T09:40:01",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 1,
+          "team_id": "CRES-96DA2",
+          "member_name": "Vaishnavi M",
+          "register_number": "2023505017",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:01"
+        },
+        {
+          "id": 2,
+          "team_id": "CRES-96DA2",
+          "member_name": "Vaishnavi M",
+          "register_number": "2023505017",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:02"
+        },
+        {
+          "id": 3,
+          "team_id": "CRES-96DA2",
+          "member_name": "Lavanya VD",
+          "register_number": "2023505019",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:02"
+        },
+        {
+          "id": 4,
+          "team_id": "CRES-96DA2",
+          "member_name": "Shreya A",
+          "register_number": "2023505050",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:02"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "team_id": "CRES-6AA19",
+      "team_name": "THE SAI OF ELECTRO",
+      "leader_name": "Azhagumurugan.R",
+      "leader_register_number": "2024504530",
+      "leader_contact": "6380283050",
+      "leader_email": "azhagur2006@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:01",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 5,
+          "team_id": "CRES-6AA19",
+          "member_name": "Azhagumurugan.R",
+          "register_number": "2024504530",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:02"
+        },
+        {
+          "id": 6,
+          "team_id": "CRES-6AA19",
+          "member_name": "Sanmugavel",
+          "register_number": "2024504547",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:02"
+        },
+        {
+          "id": 7,
+          "team_id": "CRES-6AA19",
+          "member_name": "Imayan",
+          "register_number": "2024504537",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:02"
+        },
+        {
+          "id": 8,
+          "team_id": "CRES-6AA19",
+          "member_name": "Vignesh",
+          "register_number": "2024504555",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:02"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "team_id": "CRES-36A89",
+      "team_name": "Team Stoners",
+      "leader_name": "HARIHARAN R I",
+      "leader_register_number": "2023503555",
+      "leader_contact": "9597353283",
+      "leader_email": "hariharan17kpm@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:02",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 9,
+          "team_id": "CRES-36A89",
+          "member_name": "HARIHARAN R I",
+          "register_number": "2023503555",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:03"
+        },
+        {
+          "id": 10,
+          "team_id": "CRES-36A89",
+          "member_name": "ARUN ULAGAPPAN S",
+          "register_number": "2023503016",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:03"
+        },
+        {
+          "id": 11,
+          "team_id": "CRES-36A89",
+          "member_name": "MOHAMED SALIH M",
+          "register_number": "2023503308",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:03"
+        },
+        {
+          "id": 12,
+          "team_id": "CRES-36A89",
+          "member_name": "EZHIL MAYIL VAGANAN S",
+          "register_number": "2023510034",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "team_id": "CRES-F0C47",
+      "team_name": "StratoFoil",
+      "leader_name": "ABINAYA SRI R",
+      "leader_register_number": "2023501028",
+      "leader_contact": "6374583381",
+      "leader_email": "abinayasriabinayasri5@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 88.125,
+      "created_at": "2025-10-21T09:40:03",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 13,
+          "team_id": "CRES-F0C47",
+          "member_name": "ABINAYA SRI R",
+          "register_number": "2023501028",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 14,
+          "team_id": "CRES-F0C47",
+          "member_name": "MUTHULAKSHMI M",
+          "register_number": "2023501024",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 15,
+          "team_id": "CRES-F0C47",
+          "member_name": "SHRINATH RR",
+          "register_number": "2023501306",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 16,
+          "team_id": "CRES-F0C47",
+          "member_name": "SHAFIULLAH I",
+          "register_number": "2023501008",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:04"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "team_id": "CRES-17B89",
+      "team_name": "Phantom force",
+      "leader_name": "Asmitha",
+      "leader_register_number": "2024502004",
+      "leader_contact": "6379933554",
+      "leader_email": "shreyasowmi1003@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 81.75,
+      "created_at": "2025-10-21T09:40:03",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 17,
+          "team_id": "CRES-17B89",
+          "member_name": "Asmitha",
+          "register_number": "2024502004",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 18,
+          "team_id": "CRES-17B89",
+          "member_name": "Praveena",
+          "register_number": "2024506067",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 19,
+          "team_id": "CRES-17B89",
+          "member_name": "Vidhya sri",
+          "register_number": "2024502017",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:04"
+        },
+        {
+          "id": 20,
+          "team_id": "CRES-17B89",
+          "member_name": "Shreya",
+          "register_number": "2024506093",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:04"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "team_id": "CRES-F796C",
+      "team_name": "Team catalyst",
+      "leader_name": "Faizaa fathima M",
+      "leader_register_number": "2023508020",
+      "leader_contact": "9344783040",
+      "leader_email": "faizaa2702@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 85.25,
+      "created_at": "2025-10-21T09:40:04",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 21,
+          "team_id": "CRES-F796C",
+          "member_name": "Faizaa fathima M",
+          "register_number": "2023508020",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 22,
+          "team_id": "CRES-F796C",
+          "member_name": "Lavanya T",
+          "register_number": "2023508044",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 23,
+          "team_id": "CRES-F796C",
+          "member_name": "Jeeva amuthan M",
+          "register_number": "2023508051",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 24,
+          "team_id": "CRES-F796C",
+          "member_name": "Naresh kumar S",
+          "register_number": "2023508302",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:05"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "team_id": "CRES-D8F3D",
+      "team_name": "Intellect Divas",
+      "leader_name": "Rathichandhrika S",
+      "leader_register_number": "2024503015",
+      "leader_contact": "9486218289",
+      "leader_email": "chandhrikarathi09@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 81.875,
+      "created_at": "2025-10-21T09:40:05",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 25,
+          "team_id": "CRES-D8F3D",
+          "member_name": "Rathichandhrika S",
+          "register_number": "2024503015",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 26,
+          "team_id": "CRES-D8F3D",
+          "member_name": "G Helan Blessy",
+          "register_number": "2024507034",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 27,
+          "team_id": "CRES-D8F3D",
+          "member_name": "Dhatchini M",
+          "register_number": "2024504005",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:05"
+        },
+        {
+          "id": 28,
+          "team_id": "CRES-D8F3D",
+          "member_name": "Harini S",
+          "register_number": "2024504031",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:06"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "team_id": "CRES-0ED4B",
+      "team_name": "Quad synergy",
+      "leader_name": "Shiv Dharshni S D",
+      "leader_register_number": "2024504058",
+      "leader_contact": "94892 84699",
+      "leader_email": "shivdharshni@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 92.25,
+      "created_at": "2025-10-21T09:40:05",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 29,
+          "team_id": "CRES-0ED4B",
+          "member_name": "Shiv Dharshni S D",
+          "register_number": "2024504058",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:06"
+        },
+        {
+          "id": 30,
+          "team_id": "CRES-0ED4B",
+          "member_name": "Manoj Kumar G",
+          "register_number": "2024504012",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:06"
+        },
+        {
+          "id": 31,
+          "team_id": "CRES-0ED4B",
+          "member_name": "Harikrishnan R",
+          "register_number": "2024504042",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:06"
+        },
+        {
+          "id": 32,
+          "team_id": "CRES-0ED4B",
+          "member_name": "Dharani S",
+          "register_number": "2024504028",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:06"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "team_id": "CRES-865AB",
+      "team_name": "TASK Titans",
+      "leader_name": "Tanishka K",
+      "leader_register_number": "2024503530",
+      "leader_contact": "6382686478",
+      "leader_email": "tanishkakathervel496@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 84.5,
+      "created_at": "2025-10-21T09:40:06",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 33,
+          "team_id": "CRES-865AB",
+          "member_name": "Tanishka K",
+          "register_number": "2024503530",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:07"
+        },
+        {
+          "id": 34,
+          "team_id": "CRES-865AB",
+          "member_name": "Srinithi R",
+          "register_number": "2024504035",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:07"
+        },
+        {
+          "id": 35,
+          "team_id": "CRES-865AB",
+          "member_name": "Kasthuri Priyadarshidas",
+          "register_number": "2024504535",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:08"
+        },
+        {
+          "id": 36,
+          "team_id": "CRES-865AB",
+          "member_name": "Amirthavarshini M",
+          "register_number": "2024504041",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:08"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "team_id": "CRES-A824D",
+      "team_name": "4th dimension",
+      "leader_name": "Yuvansriram M",
+      "leader_register_number": "2024504559",
+      "leader_contact": "9629593449",
+      "leader_email": "yuvansriram2007@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 20.25,
+      "created_at": "2025-10-21T09:40:07",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 37,
+          "team_id": "CRES-A824D",
+          "member_name": "Yuvansriram M",
+          "register_number": "2024504559",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:08"
+        },
+        {
+          "id": 38,
+          "team_id": "CRES-A824D",
+          "member_name": "Karthick B",
+          "register_number": "2024504508",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:08"
+        },
+        {
+          "id": 39,
+          "team_id": "CRES-A824D",
+          "member_name": "Vigneswaran M",
+          "register_number": "2024504555",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:08"
+        },
+        {
+          "id": 40,
+          "team_id": "CRES-A824D",
+          "member_name": "Sivadharshan V S",
+          "register_number": "2024504049",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:09"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "team_id": "CRES-CCB76",
+      "team_name": "Luminex",
+      "leader_name": "Kiruthiga.M",
+      "leader_register_number": "2024504043",
+      "leader_contact": "9791281050",
+      "leader_email": "mkiruthiga545@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 81.375,
+      "created_at": "2025-10-21T09:40:08",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 41,
+          "team_id": "CRES-CCB76",
+          "member_name": "Kiruthiga.M",
+          "register_number": "2024504043",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:09"
+        },
+        {
+          "id": 42,
+          "team_id": "CRES-CCB76",
+          "member_name": "A.Karunya",
+          "register_number": "2024504044",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:09"
+        },
+        {
+          "id": 43,
+          "team_id": "CRES-CCB76",
+          "member_name": "M.Najiya Parveen",
+          "register_number": "2024504023",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:09"
+        },
+        {
+          "id": 44,
+          "team_id": "CRES-CCB76",
+          "member_name": "I.Jeeva Muthulakshmi",
+          "register_number": "2024504033",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:09"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "team_id": "CRES-DE64E",
+      "team_name": "Stella Nova",
+      "leader_name": "Sahana S",
+      "leader_register_number": "2023501040",
+      "leader_contact": "9363666259",
+      "leader_email": "sahanasudhakar8@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 87.625,
+      "created_at": "2025-10-21T09:40:09",
+      "updated_at": "2025-10-27T06:25:04",
+      "members": [
+        {
+          "id": 45,
+          "team_id": "CRES-DE64E",
+          "member_name": "Sahana S",
+          "register_number": "2023501040",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:10"
+        },
+        {
+          "id": 46,
+          "team_id": "CRES-DE64E",
+          "member_name": "Yogini Priya V",
+          "register_number": "2023501046",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:10"
+        },
+        {
+          "id": 47,
+          "team_id": "CRES-DE64E",
+          "member_name": "Shankar B",
+          "register_number": "2023501038",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:10"
+        },
+        {
+          "id": 48,
+          "team_id": "CRES-DE64E",
+          "member_name": "Pradeesh Vel Nirmal V",
+          "register_number": "2023501026",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:10"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "team_id": "CRES-FC821",
+      "team_name": "RPT Payalunga",
+      "leader_name": "Bharath Ram PV",
+      "leader_register_number": "2023508030",
+      "leader_contact": "6380335827",
+      "leader_email": "pvbharathram@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 49.75,
+      "created_at": "2025-10-21T09:40:10",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 49,
+          "team_id": "CRES-FC821",
+          "member_name": "Bharath Ram PV",
+          "register_number": "2023508030",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:10"
+        },
+        {
+          "id": 50,
+          "team_id": "CRES-FC821",
+          "member_name": "Darsan S",
+          "register_number": "2023508017",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:11"
+        },
+        {
+          "id": 51,
+          "team_id": "CRES-FC821",
+          "member_name": "Tholsram K",
+          "register_number": "2023508055",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:11"
+        },
+        {
+          "id": 52,
+          "team_id": "CRES-FC821",
+          "member_name": "Sundara Raman V",
+          "register_number": "2023508052",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:11"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "team_id": "CRES-0B48A",
+      "team_name": "TIME PASS",
+      "leader_name": "Subhany G S",
+      "leader_register_number": "2023510006",
+      "leader_contact": "8903182750",
+      "leader_email": "subhany2005@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 83.375,
+      "created_at": "2025-10-21T09:40:10",
+      "updated_at": "2025-10-27T06:25:05",
+      "members": [
+        {
+          "id": 53,
+          "team_id": "CRES-0B48A",
+          "member_name": "Subhany G S",
+          "register_number": "2023510006",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:11"
+        },
+        {
+          "id": 54,
+          "team_id": "CRES-0B48A",
+          "member_name": "Afraa Sulaiha S",
+          "register_number": "2023510006",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:11"
+        },
+        {
+          "id": 55,
+          "team_id": "CRES-0B48A",
+          "member_name": "Srimathi S",
+          "register_number": "2023510055",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:11"
+        },
+        {
+          "id": 56,
+          "team_id": "CRES-0B48A",
+          "member_name": "Priyanka N",
+          "register_number": "2023510007",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:11"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "team_id": "CRES-6E9FE",
+      "team_name": "KENS  Team",
+      "leader_name": "Elavarasi S",
+      "leader_register_number": "2024506034",
+      "leader_contact": "7418861579",
+      "leader_email": "elavarasimuthu157@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 77.25,
+      "created_at": "2025-10-21T09:40:11",
+      "updated_at": "2025-10-27T06:25:05",
+      "members": [
+        {
+          "id": 57,
+          "team_id": "CRES-6E9FE",
+          "member_name": "Elavarasi S",
+          "register_number": "2024506034",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:12"
+        },
+        {
+          "id": 58,
+          "team_id": "CRES-6E9FE",
+          "member_name": "Krithika A",
+          "register_number": "2024506074",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:12"
+        },
+        {
+          "id": 59,
+          "team_id": "CRES-6E9FE",
+          "member_name": "Suruthika T",
+          "register_number": "2024506110",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:12"
+        },
+        {
+          "id": 60,
+          "team_id": "CRES-6E9FE",
+          "member_name": "Nivetha B",
+          "register_number": "2024506032",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:12"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "team_id": "CRES-29888",
+      "team_name": "Bright Bunch",
+      "leader_name": "Subhashini KS",
+      "leader_register_number": "2023507025",
+      "leader_contact": "8438665301",
+      "leader_email": "subhashinisubbulekshmi@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 76.875,
+      "created_at": "2025-10-21T09:40:12",
+      "updated_at": "2025-10-27T06:25:05",
+      "members": [
+        {
+          "id": 61,
+          "team_id": "CRES-29888",
+          "member_name": "Subhashini KS",
+          "register_number": "2023507025",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:13"
+        },
+        {
+          "id": 62,
+          "team_id": "CRES-29888",
+          "member_name": "Kaviya M",
+          "register_number": "2023507022",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:13"
+        },
+        {
+          "id": 63,
+          "team_id": "CRES-29888",
+          "member_name": "Hemadarshini S",
+          "register_number": "2023507006",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:13"
+        },
+        {
+          "id": 64,
+          "team_id": "CRES-29888",
+          "member_name": "Logajanani R",
+          "register_number": "2023507024",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:13"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "team_id": "CRES-D9834",
+      "team_name": "Fource",
+      "leader_name": "Pirithivi",
+      "leader_register_number": "2023508035",
+      "leader_contact": "9952868010",
+      "leader_email": "pirithivi1812@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:12",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 65,
+          "team_id": "CRES-D9834",
+          "member_name": "Pirithivi",
+          "register_number": "2023508035",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:13"
+        },
+        {
+          "id": 66,
+          "team_id": "CRES-D9834",
+          "member_name": "Naceen Kumar",
+          "register_number": "2023508035",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:13"
+        },
+        {
+          "id": 67,
+          "team_id": "CRES-D9834",
+          "member_name": "Danamitran",
+          "register_number": "2023508033",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:14"
+        },
+        {
+          "id": 68,
+          "team_id": "CRES-D9834",
+          "member_name": "Nikilesh",
+          "register_number": "2023508004",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:14"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "team_id": "CRES-26AC7",
+      "team_name": "Deluxe",
+      "leader_name": "Gokul",
+      "leader_register_number": "2024510025",
+      "leader_contact": "9659806478",
+      "leader_email": "gokulb2637@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:13",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 69,
+          "team_id": "CRES-26AC7",
+          "member_name": "Gokul",
+          "register_number": "2024510025",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:14"
+        },
+        {
+          "id": 70,
+          "team_id": "CRES-26AC7",
+          "member_name": "PRAGADEESHWAR R",
+          "register_number": "2024510037",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:14"
+        },
+        {
+          "id": 71,
+          "team_id": "CRES-26AC7",
+          "member_name": "Hanif Suhail M.S.",
+          "register_number": "2024510015",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:14"
+        },
+        {
+          "id": 72,
+          "team_id": "CRES-26AC7",
+          "member_name": "Pradeeprajan B",
+          "register_number": "2024510053",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:14"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "team_id": "CRES-02B97",
+      "team_name": "Girls",
+      "leader_name": "Valarmathi R",
+      "leader_register_number": "2023511011",
+      "leader_contact": "6385410701",
+      "leader_email": "valar230606@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:14",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 73,
+          "team_id": "CRES-02B97",
+          "member_name": "Valarmathi R",
+          "register_number": "2023511011",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:14"
+        },
+        {
+          "id": 74,
+          "team_id": "CRES-02B97",
+          "member_name": "Prashanth",
+          "register_number": "2023511019",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:15"
+        },
+        {
+          "id": 75,
+          "team_id": "CRES-02B97",
+          "member_name": "Sabarishh",
+          "register_number": "2023511018",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:15"
+        },
+        {
+          "id": 76,
+          "team_id": "CRES-02B97",
+          "member_name": "Evanglin shalina",
+          "register_number": "2023511020",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:15"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "team_id": "CRES-F812B",
+      "team_name": "Vibe Tribe",
+      "leader_name": "Karthika.T",
+      "leader_register_number": "2024503544",
+      "leader_contact": "8148783256",
+      "leader_email": "karithikatamilmani@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:14",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 77,
+          "team_id": "CRES-F812B",
+          "member_name": "Karthika.T",
+          "register_number": "2024503544",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:15"
+        },
+        {
+          "id": 78,
+          "team_id": "CRES-F812B",
+          "member_name": "Yamica.V",
+          "register_number": "2024503302",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:15"
+        },
+        {
+          "id": 79,
+          "team_id": "CRES-F812B",
+          "member_name": "Jayavardhini",
+          "register_number": "2024503308",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:15"
+        },
+        {
+          "id": 80,
+          "team_id": "CRES-F812B",
+          "member_name": "Amutha.T",
+          "register_number": "2024503044",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:16"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "team_id": "CRES-D76FC",
+      "team_name": "Clo(e)ver",
+      "leader_name": "Sahana M",
+      "leader_register_number": "2024503502",
+      "leader_contact": "8248044101",
+      "leader_email": "sahana240107@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:15",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 81,
+          "team_id": "CRES-D76FC",
+          "member_name": "Sahana M",
+          "register_number": "2024503502",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 82,
+          "team_id": "CRES-D76FC",
+          "member_name": "Darshinisree G R",
+          "register_number": "2024503006",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 83,
+          "team_id": "CRES-D76FC",
+          "member_name": "P.Krithika",
+          "register_number": "2024503568",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 84,
+          "team_id": "CRES-D76FC",
+          "member_name": "P.Ruvanthika",
+          "register_number": "2024502520",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:17"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "team_id": "CRES-68B4C",
+      "team_name": "Team Nova",
+      "leader_name": "Dev anand",
+      "leader_register_number": "2024506042",
+      "leader_contact": "7539902307",
+      "leader_email": "esdevanand23@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:17",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 85,
+          "team_id": "CRES-68B4C",
+          "member_name": "Dev anand",
+          "register_number": "2024506042",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 86,
+          "team_id": "CRES-68B4C",
+          "member_name": "Manikandan R",
+          "register_number": "2024506030",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 87,
+          "team_id": "CRES-68B4C",
+          "member_name": "Keerthivasan",
+          "register_number": "2024506098",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:17"
+        },
+        {
+          "id": 88,
+          "team_id": "CRES-68B4C",
+          "member_name": "Kamalesh waran",
+          "register_number": "2024506115",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:18"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "team_id": "CRES-BBA19",
+      "team_name": "Cresto",
+      "leader_name": "Gobika",
+      "leader_register_number": "2023510012",
+      "leader_contact": "9123576497",
+      "leader_email": "gobika495@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:17",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 89,
+          "team_id": "CRES-BBA19",
+          "member_name": "Gobika",
+          "register_number": "2023510012",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:18"
+        },
+        {
+          "id": 90,
+          "team_id": "CRES-BBA19",
+          "member_name": "Naveen",
+          "register_number": "20203510016",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:18"
+        },
+        {
+          "id": 91,
+          "team_id": "CRES-BBA19",
+          "member_name": "Madhu",
+          "register_number": "2023510011",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:18"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "team_id": "CRES-68273",
+      "team_name": "Padaiyappa boys",
+      "leader_name": "Karthick Raja P",
+      "leader_register_number": "2023510004",
+      "leader_contact": "9361149648",
+      "leader_email": "karthickraja0529@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:18",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 92,
+          "team_id": "CRES-68273",
+          "member_name": "Karthick Raja P",
+          "register_number": "2023510004",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:18"
+        },
+        {
+          "id": 93,
+          "team_id": "CRES-68273",
+          "member_name": "Sidhu madhavan SV",
+          "register_number": "2023506062",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:18"
+        },
+        {
+          "id": 94,
+          "team_id": "CRES-68273",
+          "member_name": "Allan sibi AS",
+          "register_number": "2023506025",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:19"
+        },
+        {
+          "id": 95,
+          "team_id": "CRES-68273",
+          "member_name": "Jai Surya V",
+          "register_number": "2023510018",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:19"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "team_id": "CRES-590A1",
+      "team_name": "Invictus",
+      "leader_name": "Karrthika s",
+      "leader_register_number": "2023505037",
+      "leader_contact": "9788707407",
+      "leader_email": "karrthika2013@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:18",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 96,
+          "team_id": "CRES-590A1",
+          "member_name": "Karrthika s",
+          "register_number": "2023505037",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:19"
+        },
+        {
+          "id": 97,
+          "team_id": "CRES-590A1",
+          "member_name": "Monishree V",
+          "register_number": "2023505020",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:19"
+        },
+        {
+          "id": 98,
+          "team_id": "CRES-590A1",
+          "member_name": "Joshitta",
+          "register_number": "2023505013",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:19"
+        },
+        {
+          "id": 99,
+          "team_id": "CRES-590A1",
+          "member_name": "Madhumitha",
+          "register_number": "2023505039",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:20"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "team_id": "CRES-B28C4",
+      "team_name": "KNS",
+      "leader_name": "Srinidhi N K",
+      "leader_register_number": "2023505029",
+      "leader_contact": "9042716875",
+      "leader_email": "srinidhink18@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:19",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 100,
+          "team_id": "CRES-B28C4",
+          "member_name": "Srinidhi N K",
+          "register_number": "2023505029",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:20"
+        },
+        {
+          "id": 101,
+          "team_id": "CRES-B28C4",
+          "member_name": "Niranjanaa Jeyashree A L",
+          "register_number": "2023505027",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:20"
+        },
+        {
+          "id": 102,
+          "team_id": "CRES-B28C4",
+          "member_name": "Kamala Saraswathi K",
+          "register_number": "2023505033",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:21"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "team_id": "CRES-75534",
+      "team_name": "The Good",
+      "leader_name": "Dwaraknath S",
+      "leader_register_number": "2023511028",
+      "leader_contact": "9841725730",
+      "leader_email": "dwaraknath16@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:20",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 103,
+          "team_id": "CRES-75534",
+          "member_name": "Dwaraknath S",
+          "register_number": "2023511028",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:21"
+        },
+        {
+          "id": 104,
+          "team_id": "CRES-75534",
+          "member_name": "Kamal Nath .M.V",
+          "register_number": "2023511024",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:22"
+        },
+        {
+          "id": 105,
+          "team_id": "CRES-75534",
+          "member_name": "Sarathi B",
+          "register_number": "2023511003",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:22"
+        },
+        {
+          "id": 106,
+          "team_id": "CRES-75534",
+          "member_name": "Dhasrad Raghav A.B.",
+          "register_number": "2023511022",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:22"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "team_id": "CRES-69108",
+      "team_name": "Quartet questers",
+      "leader_name": "Yashika V",
+      "leader_register_number": "2024503008",
+      "leader_contact": "8939326323",
+      "leader_email": "yashikav292005@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:21",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 107,
+          "team_id": "CRES-69108",
+          "member_name": "Yashika V",
+          "register_number": "2024503008",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:23"
+        },
+        {
+          "id": 108,
+          "team_id": "CRES-69108",
+          "member_name": "Mahia Rani N",
+          "register_number": "2024503048",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:23"
+        },
+        {
+          "id": 109,
+          "team_id": "CRES-69108",
+          "member_name": "Nanthini K",
+          "register_number": "2024503034",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:23"
+        },
+        {
+          "id": 110,
+          "team_id": "CRES-69108",
+          "member_name": "Sandhiya G",
+          "register_number": "2024503526",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:23"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "team_id": "CRES-2F008",
+      "team_name": "Seven-one-one-three",
+      "leader_name": "Akshayaa M",
+      "leader_register_number": "2024501016",
+      "leader_contact": "7598782803",
+      "leader_email": "akshayaaselvan@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:23",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 111,
+          "team_id": "CRES-2F008",
+          "member_name": "Akshayaa M",
+          "register_number": "2024501016",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:23"
+        },
+        {
+          "id": 112,
+          "team_id": "CRES-2F008",
+          "member_name": "Selvarathy A",
+          "register_number": "2024501036",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:24"
+        },
+        {
+          "id": 113,
+          "team_id": "CRES-2F008",
+          "member_name": "Santhiya K",
+          "register_number": "2024506037",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:24"
+        },
+        {
+          "id": 114,
+          "team_id": "CRES-2F008",
+          "member_name": "Ambika M",
+          "register_number": "2024504016",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:24"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "team_id": "CRES-14AF5",
+      "team_name": "VVR",
+      "leader_name": "Poorna Lakshmi",
+      "leader_register_number": "2024508052",
+      "leader_contact": "6382252779",
+      "leader_email": "poornalakshmi2212@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 80.375,
+      "created_at": "2025-10-21T09:40:23",
+      "updated_at": "2025-10-27T06:25:06",
+      "members": [
+        {
+          "id": 115,
+          "team_id": "CRES-14AF5",
+          "member_name": "Poorna Lakshmi",
+          "register_number": "2024508052",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:24"
+        },
+        {
+          "id": 116,
+          "team_id": "CRES-14AF5",
+          "member_name": "Saikarishma",
+          "register_number": "2024504557",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:24"
+        },
+        {
+          "id": 117,
+          "team_id": "CRES-14AF5",
+          "member_name": "Sushma",
+          "register_number": "2024504047",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:25"
+        },
+        {
+          "id": 118,
+          "team_id": "CRES-14AF5",
+          "member_name": "Pradeepa",
+          "register_number": "2024504009",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:25"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "team_id": "CRES-7D89F",
+      "team_name": "The polaroids",
+      "leader_name": "Thamarai Selvi R",
+      "leader_register_number": "2023510054",
+      "leader_contact": "7305248835",
+      "leader_email": "thamaraithamu18@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:24",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 119,
+          "team_id": "CRES-7D89F",
+          "member_name": "Thamarai Selvi R",
+          "register_number": "2023510054",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:25"
+        },
+        {
+          "id": 120,
+          "team_id": "CRES-7D89F",
+          "member_name": "Rithani S",
+          "register_number": "2023510044",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:25"
+        },
+        {
+          "id": 121,
+          "team_id": "CRES-7D89F",
+          "member_name": "Dhanalakshmi A",
+          "register_number": "2023510019",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:25"
+        },
+        {
+          "id": 122,
+          "team_id": "CRES-7D89F",
+          "member_name": "Jayashree",
+          "register_number": "2023510026",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:25"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "team_id": "CRES-1658B",
+      "team_name": "Ascenders",
+      "leader_name": "Yadhu Nandan K P",
+      "leader_register_number": "2023504007",
+      "leader_contact": "9444697330",
+      "leader_email": "yadhunandankp05@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 87.125,
+      "created_at": "2025-10-21T09:40:25",
+      "updated_at": "2025-10-27T06:25:06",
+      "members": [
+        {
+          "id": 123,
+          "team_id": "CRES-1658B",
+          "member_name": "Yadhu Nandan K P",
+          "register_number": "2023504007",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 124,
+          "team_id": "CRES-1658B",
+          "member_name": "Israel Stephen D",
+          "register_number": "2023504002",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 125,
+          "team_id": "CRES-1658B",
+          "member_name": "Bhuvanesh K",
+          "register_number": "2023504018",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 126,
+          "team_id": "CRES-1658B",
+          "member_name": "Agathiyan A",
+          "register_number": "2023504042",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:26"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "team_id": "CRES-66BDB",
+      "team_name": "Learnovators",
+      "leader_name": "Fahima Hisana P",
+      "leader_register_number": "2024508020",
+      "leader_contact": "7418427274",
+      "leader_email": "devaunogre@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 74.5,
+      "created_at": "2025-10-21T09:40:25",
+      "updated_at": "2025-10-27T06:28:25",
+      "members": [
+        {
+          "id": 127,
+          "team_id": "CRES-66BDB",
+          "member_name": "Fahima Hisana P",
+          "register_number": "2024508020",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 128,
+          "team_id": "CRES-66BDB",
+          "member_name": "Deva Dharshini K K",
+          "register_number": "2024508007",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 129,
+          "team_id": "CRES-66BDB",
+          "member_name": "Kanmani P",
+          "register_number": "2024508019",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:26"
+        },
+        {
+          "id": 130,
+          "team_id": "CRES-66BDB",
+          "member_name": "Monish SV",
+          "register_number": "2024508024",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:27"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "team_id": "CRES-A2BF5",
+      "team_name": "Elite",
+      "leader_name": "Sudhandhira S",
+      "leader_register_number": "2024506099",
+      "leader_contact": "9442488081",
+      "leader_email": "sudhandhirasha@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:26",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 131,
+          "team_id": "CRES-A2BF5",
+          "member_name": "Sudhandhira S",
+          "register_number": "2024506099",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:27"
+        },
+        {
+          "id": 132,
+          "team_id": "CRES-A2BF5",
+          "member_name": "Kaarunya Sri K V",
+          "register_number": "2024502050",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:27"
+        },
+        {
+          "id": 133,
+          "team_id": "CRES-A2BF5",
+          "member_name": "Abirami R",
+          "register_number": "2024501023",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:27"
+        },
+        {
+          "id": 134,
+          "team_id": "CRES-A2BF5",
+          "member_name": "Priyadharshini M",
+          "register_number": "2024503501",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:27"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "team_id": "CRES-24DF1",
+      "team_name": "The Four Innovators",
+      "leader_name": "Hariprasath S",
+      "leader_register_number": "2023504030",
+      "leader_contact": "8610753818",
+      "leader_email": "shari4030mit@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 61.125,
+      "created_at": "2025-10-21T09:40:27",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 135,
+          "team_id": "CRES-24DF1",
+          "member_name": "Hariprasath S",
+          "register_number": "2023504030",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:28"
+        },
+        {
+          "id": 136,
+          "team_id": "CRES-24DF1",
+          "member_name": "Vignesh T",
+          "register_number": "2023504550",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:28"
+        },
+        {
+          "id": 137,
+          "team_id": "CRES-24DF1",
+          "member_name": "Hariprasath A",
+          "register_number": "2023504521",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:28"
+        },
+        {
+          "id": 138,
+          "team_id": "CRES-24DF1",
+          "member_name": "Nishwanth B",
+          "register_number": "2023504009",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:28"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "team_id": "CRES-BCDA0",
+      "team_name": "Sparkle Squad",
+      "leader_name": "Ashmitha A",
+      "leader_register_number": "2024505039",
+      "leader_contact": "6381442120",
+      "leader_email": "Ashmitha0706@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 77.5,
+      "created_at": "2025-10-21T09:40:28",
+      "updated_at": "2025-10-27T06:25:06",
+      "members": [
+        {
+          "id": 139,
+          "team_id": "CRES-BCDA0",
+          "member_name": "Ashmitha A",
+          "register_number": "2024505039",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:28"
+        },
+        {
+          "id": 140,
+          "team_id": "CRES-BCDA0",
+          "member_name": "M Sandhiya",
+          "register_number": "2024505010",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:29"
+        },
+        {
+          "id": 141,
+          "team_id": "CRES-BCDA0",
+          "member_name": "Elamathi R",
+          "register_number": "2024510019",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:29"
+        },
+        {
+          "id": 142,
+          "team_id": "CRES-BCDA0",
+          "member_name": "Tamilarasi",
+          "register_number": "2024511022",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:29"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "team_id": "CRES-CEC96",
+      "team_name": "Chillaholics 😎",
+      "leader_name": "Manikandan Prabhu.B",
+      "leader_register_number": "2024504040",
+      "leader_contact": "7358834577",
+      "leader_email": "manikandanprabhu2006@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 78.625,
+      "created_at": "2025-10-21T09:40:28",
+      "updated_at": "2025-10-27T06:25:06",
+      "members": [
+        {
+          "id": 143,
+          "team_id": "CRES-CEC96",
+          "member_name": "Manikandan Prabhu.B",
+          "register_number": "2024504040",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:29"
+        },
+        {
+          "id": 144,
+          "team_id": "CRES-CEC96",
+          "member_name": "TharunKumar.C",
+          "register_number": "20240504032",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:29"
+        },
+        {
+          "id": 145,
+          "team_id": "CRES-CEC96",
+          "member_name": "Naveen R",
+          "register_number": "2024504522",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:29"
+        },
+        {
+          "id": 146,
+          "team_id": "CRES-CEC96",
+          "member_name": "Santhosh S",
+          "register_number": "2024504507",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:30"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "team_id": "CRES-D6283",
+      "team_name": "Team_name",
+      "leader_name": "Sanjana V",
+      "leader_register_number": "2024506114",
+      "leader_contact": "8681912003",
+      "leader_email": "sanjanavenkat2006@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:29",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 147,
+          "team_id": "CRES-D6283",
+          "member_name": "Sanjana V",
+          "register_number": "2024506114",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:30"
+        },
+        {
+          "id": 148,
+          "team_id": "CRES-D6283",
+          "member_name": "Aishwarya N",
+          "register_number": "2024506064",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:30"
+        },
+        {
+          "id": 149,
+          "team_id": "CRES-D6283",
+          "member_name": "Kishore B",
+          "register_number": "2024506081",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:30"
+        },
+        {
+          "id": 150,
+          "team_id": "CRES-D6283",
+          "member_name": "Pragadeesh Pandian",
+          "register_number": "2024506012",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:30"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "team_id": "CRES-D97D8",
+      "team_name": "Persona",
+      "leader_name": "Sowmiya Arunachalam",
+      "leader_register_number": "2024506096",
+      "leader_contact": "7604960027",
+      "leader_email": "sowmiya9b@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:30",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 151,
+          "team_id": "CRES-D97D8",
+          "member_name": "Sowmiya Arunachalam",
+          "register_number": "2024506096",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:31"
+        },
+        {
+          "id": 152,
+          "team_id": "CRES-D97D8",
+          "member_name": "Pazhani Vel B",
+          "register_number": "2024506066",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:31"
+        },
+        {
+          "id": 153,
+          "team_id": "CRES-D97D8",
+          "member_name": "Guru Prakash",
+          "register_number": "2024506313",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:31"
+        },
+        {
+          "id": 154,
+          "team_id": "CRES-D97D8",
+          "member_name": "Bhavana Kumari D",
+          "register_number": "2024506070",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:31"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "team_id": "CRES-6D401",
+      "team_name": "The Brainy Bunch",
+      "leader_name": "Hasiba Aisha I",
+      "leader_register_number": "2024506129",
+      "leader_contact": "9444484051",
+      "leader_email": "hasibaaisha@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 85.375,
+      "created_at": "2025-10-21T09:40:31",
+      "updated_at": "2025-10-27T06:25:06",
+      "members": [
+        {
+          "id": 155,
+          "team_id": "CRES-6D401",
+          "member_name": "Hasiba Aisha I",
+          "register_number": "2024506129",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:31"
+        },
+        {
+          "id": 156,
+          "team_id": "CRES-6D401",
+          "member_name": "Harini R",
+          "register_number": "2024506065",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:32"
+        },
+        {
+          "id": 157,
+          "team_id": "CRES-6D401",
+          "member_name": "Harish R",
+          "register_number": "2024506092",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:32"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "team_id": "CRES-E7868",
+      "team_name": "TECHIE QUAD",
+      "leader_name": "PREETHI K",
+      "leader_register_number": "2023506011",
+      "leader_contact": "8925789762",
+      "leader_email": "preethipandian06@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 30,
+      "created_at": "2025-10-21T09:40:31",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 158,
+          "team_id": "CRES-E7868",
+          "member_name": "PREETHI K",
+          "register_number": "2023506011",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:33"
+        },
+        {
+          "id": 159,
+          "team_id": "CRES-E7868",
+          "member_name": "SUBIKSHA T",
+          "register_number": "2023507032",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:33"
+        },
+        {
+          "id": 160,
+          "team_id": "CRES-E7868",
+          "member_name": "VISHALI V",
+          "register_number": "2023506100",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:33"
+        },
+        {
+          "id": 161,
+          "team_id": "CRES-E7868",
+          "member_name": "JAYASURYA R",
+          "register_number": "2023505043",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:33"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "team_id": "CRES-C2033",
+      "team_name": "Umbrella Academy",
+      "leader_name": "Bavisiya CR",
+      "leader_register_number": "2024504533",
+      "leader_contact": "9488094985",
+      "leader_email": "bavisiya25@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:32",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 162,
+          "team_id": "CRES-C2033",
+          "member_name": "Bavisiya CR",
+          "register_number": "2024504533",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:34"
+        },
+        {
+          "id": 163,
+          "team_id": "CRES-C2033",
+          "member_name": "SaiKeerthana MA",
+          "register_number": "2024504523",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:34"
+        },
+        {
+          "id": 164,
+          "team_id": "CRES-C2033",
+          "member_name": "Dharaneesh M",
+          "register_number": "2024504038",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:34"
+        },
+        {
+          "id": 165,
+          "team_id": "CRES-C2033",
+          "member_name": "Hari S",
+          "register_number": "2024504529",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:34"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "team_id": "CRES-34AE5",
+      "team_name": "FNT",
+      "leader_name": "Thanuja M",
+      "leader_register_number": "2023504302",
+      "leader_contact": "9578112025",
+      "leader_email": "thanujamohan20@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:33",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 166,
+          "team_id": "CRES-34AE5",
+          "member_name": "Thanuja M",
+          "register_number": "2023504302",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:34"
+        },
+        {
+          "id": 167,
+          "team_id": "CRES-34AE5",
+          "member_name": "B.Faziya",
+          "register_number": "2023504050",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:35"
+        },
+        {
+          "id": 168,
+          "team_id": "CRES-34AE5",
+          "member_name": "Sripoorni Nivetha D",
+          "register_number": "2023504517",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:35"
+        },
+        {
+          "id": 169,
+          "team_id": "CRES-34AE5",
+          "member_name": "Nandini A",
+          "register_number": "2023504057",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:35"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "team_id": "CRES-021A1",
+      "team_name": "Crest Warrior",
+      "leader_name": "P.Hariharan",
+      "leader_register_number": "2024506055",
+      "leader_contact": "7708523151",
+      "leader_email": "irah8122006@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:34",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 170,
+          "team_id": "CRES-021A1",
+          "member_name": "P.Hariharan",
+          "register_number": "2024506055",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:35"
+        },
+        {
+          "id": 171,
+          "team_id": "CRES-021A1",
+          "member_name": "Pravin.D",
+          "register_number": "2024506031",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:35"
+        },
+        {
+          "id": 172,
+          "team_id": "CRES-021A1",
+          "member_name": "Ann Evo Criffin",
+          "register_number": "2024506077",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:36"
+        },
+        {
+          "id": 173,
+          "team_id": "CRES-021A1",
+          "member_name": "Gowsick.S",
+          "register_number": "2024506009",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:36"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "team_id": "CRES-5C704",
+      "team_name": "Crest guardians",
+      "leader_name": "Vinnarasi C",
+      "leader_register_number": "2024506063",
+      "leader_contact": "8248098120",
+      "leader_email": "vinnarasigeetha@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:35",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 174,
+          "team_id": "CRES-5C704",
+          "member_name": "Vinnarasi C",
+          "register_number": "2024506063",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:36"
+        },
+        {
+          "id": 175,
+          "team_id": "CRES-5C704",
+          "member_name": "Sri dharshini",
+          "register_number": "2024506045",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:37"
+        },
+        {
+          "id": 176,
+          "team_id": "CRES-5C704",
+          "member_name": "Charubala",
+          "register_number": "2024506083",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:37"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "team_id": "CRES-96298",
+      "team_name": "Darkest Knights",
+      "leader_name": "Someswar",
+      "leader_register_number": "2024501020",
+      "leader_contact": "9841861100",
+      "leader_email": "someswar3002@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:36",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 177,
+          "team_id": "CRES-96298",
+          "member_name": "Someswar",
+          "register_number": "2024501020",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:37"
+        },
+        {
+          "id": 178,
+          "team_id": "CRES-96298",
+          "member_name": "Harish. D",
+          "register_number": "2024501303",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:37"
+        },
+        {
+          "id": 179,
+          "team_id": "CRES-96298",
+          "member_name": "Saranraj",
+          "register_number": "2024501310",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:37"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "team_id": "CRES-957CD",
+      "team_name": "Crust fusion",
+      "leader_name": "Sidhu madhavan SV",
+      "leader_register_number": "2023506062",
+      "leader_contact": "7867966618",
+      "leader_email": "sidhumadhavanmlmxa@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:37",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 180,
+          "team_id": "CRES-957CD",
+          "member_name": "Sidhu madhavan SV",
+          "register_number": "2023506062",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:38"
+        },
+        {
+          "id": 181,
+          "team_id": "CRES-957CD",
+          "member_name": "Rishibala B",
+          "register_number": "2023506050",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:38"
+        },
+        {
+          "id": 182,
+          "team_id": "CRES-957CD",
+          "member_name": "Jegan barranish",
+          "register_number": "2023506301",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:38"
+        },
+        {
+          "id": 183,
+          "team_id": "CRES-957CD",
+          "member_name": "Agathiyan T",
+          "register_number": "2023506061",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:38"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "team_id": "CRES-F1B19",
+      "team_name": "Spartans",
+      "leader_name": "Rohith raja",
+      "leader_register_number": "2023506115",
+      "leader_contact": "9003503588",
+      "leader_email": "rohithradan002@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:38",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 184,
+          "team_id": "CRES-F1B19",
+          "member_name": "Rohith raja",
+          "register_number": "2023506115",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:39"
+        },
+        {
+          "id": 185,
+          "team_id": "CRES-F1B19",
+          "member_name": "Afsal",
+          "register_number": "2023506313",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:39"
+        },
+        {
+          "id": 186,
+          "team_id": "CRES-F1B19",
+          "member_name": "Livin kumar",
+          "register_number": "2023506088",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:39"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "team_id": "CRES-9C07A",
+      "team_name": "Infinity crew",
+      "leader_name": "Pon kavia thilaka P",
+      "leader_register_number": "2024506036",
+      "leader_contact": "7358614370",
+      "leader_email": "Ponkaviyathilaka@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:39",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 187,
+          "team_id": "CRES-9C07A",
+          "member_name": "Pon kavia thilaka P",
+          "register_number": "2024506036",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:40"
+        },
+        {
+          "id": 188,
+          "team_id": "CRES-9C07A",
+          "member_name": "Rashmika R R",
+          "register_number": "2024506100",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:40"
+        },
+        {
+          "id": 189,
+          "team_id": "CRES-9C07A",
+          "member_name": "Pooja shri K",
+          "register_number": "2024506048",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:40"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "team_id": "CRES-DF1FD",
+      "team_name": "NSK slays",
+      "leader_name": "Kaviya P",
+      "leader_register_number": "2024505037",
+      "leader_contact": "8190049639",
+      "leader_email": "kaviyapalanivel6@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:40",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 190,
+          "team_id": "CRES-DF1FD",
+          "member_name": "Kaviya P",
+          "register_number": "2024505037",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:41"
+        },
+        {
+          "id": 191,
+          "team_id": "CRES-DF1FD",
+          "member_name": "Sharmila L",
+          "register_number": "2024505041",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:41"
+        },
+        {
+          "id": 192,
+          "team_id": "CRES-DF1FD",
+          "member_name": "Niranjana B",
+          "register_number": "2024505029",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:41"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "team_id": "CRES-E7955",
+      "team_name": "Summit slayer",
+      "leader_name": "Sriharini R",
+      "leader_register_number": "2023508018",
+      "leader_contact": "9345691016",
+      "leader_email": "kirushanthharini@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 62,
+      "created_at": "2025-10-21T09:40:40",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 193,
+          "team_id": "CRES-E7955",
+          "member_name": "Sriharini R",
+          "register_number": "2023508018",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:41"
+        },
+        {
+          "id": 194,
+          "team_id": "CRES-E7955",
+          "member_name": "Harshini MB",
+          "register_number": "20235080142",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:41"
+        },
+        {
+          "id": 195,
+          "team_id": "CRES-E7955",
+          "member_name": "Kalaiyarasi j",
+          "register_number": "20233508005",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:42"
+        },
+        {
+          "id": 196,
+          "team_id": "CRES-E7955",
+          "member_name": "Karthika J",
+          "register_number": "2023508019",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:42"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "team_id": "CRES-EAB94",
+      "team_name": "House Targaryen",
+      "leader_name": "Bharath Raj G",
+      "leader_register_number": "2024505056",
+      "leader_contact": "9345297833",
+      "leader_email": "bharathsadhana41@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:41",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 197,
+          "team_id": "CRES-EAB94",
+          "member_name": "Bharath Raj G",
+          "register_number": "2024505056",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:42"
+        },
+        {
+          "id": 198,
+          "team_id": "CRES-EAB94",
+          "member_name": "Tishanth K",
+          "register_number": "2024505019",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:42"
+        },
+        {
+          "id": 199,
+          "team_id": "CRES-EAB94",
+          "member_name": "Amudhan K",
+          "register_number": "2024505001",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:42"
+        },
+        {
+          "id": 200,
+          "team_id": "CRES-EAB94",
+          "member_name": "Jershan",
+          "register_number": "2024505013",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:42"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "team_id": "CRES-974DA",
+      "team_name": "Anonymous snapes",
+      "leader_name": "Sripathy V",
+      "leader_register_number": "2023506113",
+      "leader_contact": "9443592052",
+      "leader_email": "sripathy575@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 59.5,
+      "created_at": "2025-10-21T09:40:42",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 201,
+          "team_id": "CRES-974DA",
+          "member_name": "Sripathy V",
+          "register_number": "2023506113",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:43"
+        },
+        {
+          "id": 202,
+          "team_id": "CRES-974DA",
+          "member_name": "Jayasurya J",
+          "register_number": "2023504512",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:44"
+        },
+        {
+          "id": 203,
+          "team_id": "CRES-974DA",
+          "member_name": "Nagaganapathy M",
+          "register_number": "2023504544",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:44"
+        },
+        {
+          "id": 204,
+          "team_id": "CRES-974DA",
+          "member_name": "Thirunavukarasu M",
+          "register_number": "2023504542",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:44"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "team_id": "CRES-8501D",
+      "team_name": "The Elite Group 2",
+      "leader_name": "Rohan Kishore K",
+      "leader_register_number": "2023501025",
+      "leader_contact": "6383855634",
+      "leader_email": "rohankishore417@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:43",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 205,
+          "team_id": "CRES-8501D",
+          "member_name": "Rohan Kishore K",
+          "register_number": "2023501025",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:44"
+        },
+        {
+          "id": 206,
+          "team_id": "CRES-8501D",
+          "member_name": "Madhu pragadeeswaran A",
+          "register_number": "2023501042",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:44"
+        },
+        {
+          "id": 207,
+          "team_id": "CRES-8501D",
+          "member_name": "Jegan KR",
+          "register_number": "2023501023",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:44"
+        },
+        {
+          "id": 208,
+          "team_id": "CRES-8501D",
+          "member_name": "Divya prakash NS",
+          "register_number": "2023501019",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:44"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "team_id": "CRES-D3603",
+      "team_name": "Fanta four⚡",
+      "leader_name": "P Sanjay",
+      "leader_register_number": "2024508012",
+      "leader_contact": "9940849724",
+      "leader_email": "sanjayinfant84@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:44",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 209,
+          "team_id": "CRES-D3603",
+          "member_name": "P Sanjay",
+          "register_number": "2024508012",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:45"
+        },
+        {
+          "id": 210,
+          "team_id": "CRES-D3603",
+          "member_name": "K Mohamed Thalha",
+          "register_number": "2024508009",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:45"
+        },
+        {
+          "id": 211,
+          "team_id": "CRES-D3603",
+          "member_name": "V Tharum kumar",
+          "register_number": "2024505025",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:45"
+        },
+        {
+          "id": 212,
+          "team_id": "CRES-D3603",
+          "member_name": "SA Sathya",
+          "register_number": "2024511008",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:45"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "team_id": "CRES-EC4EE",
+      "team_name": "Fab Four",
+      "leader_name": "Ramkumar S",
+      "leader_register_number": "2023504039",
+      "leader_contact": "8838248784",
+      "leader_email": "ramkumarmit2023@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 81.625,
+      "created_at": "2025-10-21T09:40:45",
+      "updated_at": "2025-10-27T06:25:07",
+      "members": [
+        {
+          "id": 213,
+          "team_id": "CRES-EC4EE",
+          "member_name": "Ramkumar S",
+          "register_number": "2023504039",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:45"
+        },
+        {
+          "id": 214,
+          "team_id": "CRES-EC4EE",
+          "member_name": "Thamizh kumaran B",
+          "register_number": "2023504518",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:46"
+        },
+        {
+          "id": 215,
+          "team_id": "CRES-EC4EE",
+          "member_name": "Girisuryaa L S",
+          "register_number": "2023504022",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:46"
+        },
+        {
+          "id": 216,
+          "team_id": "CRES-EC4EE",
+          "member_name": "Rohith A S",
+          "register_number": "2023504504",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:46"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "team_id": "CRES-B49F4",
+      "team_name": "Tyre puncture",
+      "leader_name": "U Devadarshan",
+      "leader_register_number": "2023502019",
+      "leader_contact": "9360700988",
+      "leader_email": "udevadarshan@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:45",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 217,
+          "team_id": "CRES-B49F4",
+          "member_name": "U Devadarshan",
+          "register_number": "2023502019",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:46"
+        },
+        {
+          "id": 218,
+          "team_id": "CRES-B49F4",
+          "member_name": "Vigneshwaran K",
+          "register_number": "2023502021",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:46"
+        },
+        {
+          "id": 219,
+          "team_id": "CRES-B49F4",
+          "member_name": "Chellapandi S",
+          "register_number": "2023502049",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:46"
+        },
+        {
+          "id": 220,
+          "team_id": "CRES-B49F4",
+          "member_name": "Prasanth K",
+          "register_number": "2023502042",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:47"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "team_id": "CRES-F9914",
+      "team_name": "Lady's Ranuvapadai",
+      "leader_name": "Sindhu J",
+      "leader_register_number": "2023506031",
+      "leader_contact": "7708789811",
+      "leader_email": "sindhu30sindhu30official@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 83.5,
+      "created_at": "2025-10-21T09:40:46",
+      "updated_at": "2025-10-27T06:25:07",
+      "members": [
+        {
+          "id": 221,
+          "team_id": "CRES-F9914",
+          "member_name": "Sindhu J",
+          "register_number": "2023506031",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:47"
+        },
+        {
+          "id": 222,
+          "team_id": "CRES-F9914",
+          "member_name": "Sathiyapriya M",
+          "register_number": "2023506026",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:47"
+        },
+        {
+          "id": 223,
+          "team_id": "CRES-F9914",
+          "member_name": "Dhanushya R",
+          "register_number": "2023506107",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:47"
+        },
+        {
+          "id": 224,
+          "team_id": "CRES-F9914",
+          "member_name": "Padmapriya R",
+          "register_number": "2023506030",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:47"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "team_id": "CRES-82750",
+      "team_name": "404 Not Found",
+      "leader_name": "Hema Chandran R",
+      "leader_register_number": "2023504555",
+      "leader_contact": "9629729207",
+      "leader_email": "hemachandran2809@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 91.5,
+      "created_at": "2025-10-21T09:40:47",
+      "updated_at": "2025-10-27T06:25:07",
+      "members": [
+        {
+          "id": 225,
+          "team_id": "CRES-82750",
+          "member_name": "Hema Chandran R",
+          "register_number": "2023504555",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:48"
+        },
+        {
+          "id": 226,
+          "team_id": "CRES-82750",
+          "member_name": "Kirthi Vasan M",
+          "register_number": "2023504501",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:48"
+        },
+        {
+          "id": 227,
+          "team_id": "CRES-82750",
+          "member_name": "Ahamed Aathil S",
+          "register_number": "2023504033",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:48"
+        },
+        {
+          "id": 228,
+          "team_id": "CRES-82750",
+          "member_name": "Aisswarya N",
+          "register_number": "2023504532",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:48"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "team_id": "CRES-533F1",
+      "team_name": "ARKEYS",
+      "leader_name": "SHRINE DE CHRISTIANA JCR",
+      "leader_register_number": "2023503581",
+      "leader_contact": "8072626121",
+      "leader_email": "Shrineanajcr@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:48",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 229,
+          "team_id": "CRES-533F1",
+          "member_name": "SHRINE DE CHRISTIANA JCR",
+          "register_number": "2023503581",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:48"
+        },
+        {
+          "id": 230,
+          "team_id": "CRES-533F1",
+          "member_name": "RAVEENA K",
+          "register_number": "2023503553",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:49"
+        },
+        {
+          "id": 231,
+          "team_id": "CRES-533F1",
+          "member_name": "KRISHIKA V",
+          "register_number": "2023503510",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:49"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "team_id": "CRES-51027",
+      "team_name": "The Star Striders",
+      "leader_name": "POOVARASAN J",
+      "leader_register_number": "2024504027",
+      "leader_contact": "6382065917",
+      "leader_email": "poovarasanj735@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 92.5,
+      "created_at": "2025-10-21T09:40:48",
+      "updated_at": "2025-10-27T06:25:08",
+      "members": [
+        {
+          "id": 232,
+          "team_id": "CRES-51027",
+          "member_name": "POOVARASAN J",
+          "register_number": "2024504027",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:49"
+        },
+        {
+          "id": 233,
+          "team_id": "CRES-51027",
+          "member_name": "Laxman Prakash",
+          "register_number": "2024501011",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:49"
+        },
+        {
+          "id": 234,
+          "team_id": "CRES-51027",
+          "member_name": "Nilanjana",
+          "register_number": "2024501010",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:49"
+        },
+        {
+          "id": 235,
+          "team_id": "CRES-51027",
+          "member_name": "Taranvel",
+          "register_number": "2024501024",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:49"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "team_id": "CRES-F53E6",
+      "team_name": "Team Elite",
+      "leader_name": "Sibichakaravarthi S",
+      "leader_register_number": "2023503027",
+      "leader_contact": "9361653673",
+      "leader_email": "sibichakaravarthi588@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:49",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 236,
+          "team_id": "CRES-F53E6",
+          "member_name": "Sibichakaravarthi S",
+          "register_number": "2023503027",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 237,
+          "team_id": "CRES-F53E6",
+          "member_name": "Kirubakaran V",
+          "register_number": "2023503546",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 238,
+          "team_id": "CRES-F53E6",
+          "member_name": "Soorya Prakash R",
+          "register_number": "2023503502",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 239,
+          "team_id": "CRES-F53E6",
+          "member_name": "Perumall rishi P",
+          "register_number": "2023503551",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:50"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "team_id": "CRES-93A6F",
+      "team_name": "CODE RED!",
+      "leader_name": "KAVYA BASKAR",
+      "leader_register_number": "2024501049",
+      "leader_contact": "9345300792",
+      "leader_email": "kavyabaskar2006@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 86.25,
+      "created_at": "2025-10-21T09:40:49",
+      "updated_at": "2025-10-27T06:25:08",
+      "members": [
+        {
+          "id": 240,
+          "team_id": "CRES-93A6F",
+          "member_name": "KAVYA BASKAR",
+          "register_number": "2024501049",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 241,
+          "team_id": "CRES-93A6F",
+          "member_name": "NILA R",
+          "register_number": "2024501046",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 242,
+          "team_id": "CRES-93A6F",
+          "member_name": "OVIYA K L",
+          "register_number": "2024501048",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:50"
+        },
+        {
+          "id": 243,
+          "team_id": "CRES-93A6F",
+          "member_name": "BHARATHI",
+          "register_number": "2024501305",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:50"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "team_id": "CRES-9C5EC",
+      "team_name": "Dandelions",
+      "leader_name": "Amirdhavarshini B",
+      "leader_register_number": "2024504014",
+      "leader_contact": "8072555971",
+      "leader_email": "amirdha681@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 0,
+      "created_at": "2025-10-21T09:40:50",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 244,
+          "team_id": "CRES-9C5EC",
+          "member_name": "Amirdhavarshini B",
+          "register_number": "2024504014",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:51"
+        },
+        {
+          "id": 245,
+          "team_id": "CRES-9C5EC",
+          "member_name": "L Nitya Priya",
+          "register_number": "2024504518",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:51"
+        },
+        {
+          "id": 246,
+          "team_id": "CRES-9C5EC",
+          "member_name": "Hariharasudhan",
+          "register_number": "2024508002",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:51"
+        },
+        {
+          "id": 247,
+          "team_id": "CRES-9C5EC",
+          "member_name": "Monish",
+          "register_number": "2024508024",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:51"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "team_id": "CRES-7FE08",
+      "team_name": "Sparkers",
+      "leader_name": "Vinotha",
+      "leader_register_number": "2023507004",
+      "leader_contact": "8015656321",
+      "leader_email": "nivedhithavetrivel@gmail.com",
+      "current_round": 5,
+      "status": "ELIMINATED",
+      "overall_score": 58.5,
+      "created_at": "2025-10-21T09:40:51",
+      "updated_at": "2025-10-27T06:26:28",
+      "members": [
+        {
+          "id": 248,
+          "team_id": "CRES-7FE08",
+          "member_name": "Vinotha",
+          "register_number": "2023507004",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:51"
+        },
+        {
+          "id": 249,
+          "team_id": "CRES-7FE08",
+          "member_name": "Nivedhitha V",
+          "register_number": "2023507015",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:51"
+        },
+        {
+          "id": 250,
+          "team_id": "CRES-7FE08",
+          "member_name": "Sandhiya E",
+          "register_number": "2023507008",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:52"
+        },
+        {
+          "id": 251,
+          "team_id": "CRES-7FE08",
+          "member_name": "R Haripriya",
+          "register_number": "2023507036",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:52"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "team_id": "CRES-6D012",
+      "team_name": "Vortex X",
+      "leader_name": "Sriinidhi M",
+      "leader_register_number": "2023504005",
+      "leader_contact": "7358935718",
+      "leader_email": "sriinidhim10@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 82.25,
+      "created_at": "2025-10-21T09:40:51",
+      "updated_at": "2025-10-27T06:25:08",
+      "members": [
+        {
+          "id": 252,
+          "team_id": "CRES-6D012",
+          "member_name": "Sriinidhi M",
+          "register_number": "2023504005",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:52"
+        },
+        {
+          "id": 253,
+          "team_id": "CRES-6D012",
+          "member_name": "Balakumar B",
+          "register_number": "2023506075",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:52"
+        },
+        {
+          "id": 254,
+          "team_id": "CRES-6D012",
+          "member_name": "Agathiyan T",
+          "register_number": "2023506061",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:52"
+        },
+        {
+          "id": 255,
+          "team_id": "CRES-6D012",
+          "member_name": "Joanisha",
+          "register_number": "2023504004",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:53"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "team_id": "CRES-E9E31",
+      "team_name": "Auto Warriors",
+      "leader_name": "Harshan S",
+      "leader_register_number": "2023502038",
+      "leader_contact": "9080690086",
+      "leader_email": "harshan16042005@gmail.com",
+      "current_round": 5,
+      "status": "ACTIVE",
+      "overall_score": 88.625,
+      "created_at": "2025-10-21T09:40:52",
+      "updated_at": "2025-10-27T06:25:08",
+      "members": [
+        {
+          "id": 256,
+          "team_id": "CRES-E9E31",
+          "member_name": "Harshan S",
+          "register_number": "2023502038",
+          "member_position": "leader",
+          "created_at": "2025-10-21T09:40:53"
+        },
+        {
+          "id": 257,
+          "team_id": "CRES-E9E31",
+          "member_name": "Dinadev",
+          "register_number": "2023502034",
+          "member_position": "member2",
+          "created_at": "2025-10-21T09:40:53"
+        },
+        {
+          "id": 258,
+          "team_id": "CRES-E9E31",
+          "member_name": "Govindaswamy A",
+          "register_number": "2023502037",
+          "member_position": "member3",
+          "created_at": "2025-10-21T09:40:53"
+        },
+        {
+          "id": 259,
+          "team_id": "CRES-E9E31",
+          "member_name": "Krishna M",
+          "register_number": "2023502025",
+          "member_position": "member4",
+          "created_at": "2025-10-21T09:40:53"
+        }
+      ]
+    }
+  ],
+  "total_count": 67,
+  "skip": 0,
+  "limit": 100,
+  "status_filter": null
+}

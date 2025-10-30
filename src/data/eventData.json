@@ -1,0 +1,375 @@
+{
+  "event": {
+    "title": "Crestora'25",
+    "theme": "Beyond Limits – A Space Odyssey of Personality Development",
+    "organized_by": "Personality Development Association, MIT Campus, Anna University",
+    "team_structure": "4 members (UG 2nd and 3rd years)",
+    "total_rounds": 10,
+    "total_rolling_events": 4,
+    "prizes": {
+      "winner": "1 Team",
+      "runner": "1 Team"
+    },
+    "registration": {
+      "opened": "2025-10-06T18:00:00",
+      "closed": "2025-10-13T18:00:00",
+      "teams_registered": "60 (approx)"
+    }
+  },
+  "rounds": [
+    {
+      "id": "round1",
+      "round_number": 1,
+      "name": "Team Introduction",
+      "club": "PDA",
+      "type": "Offline",
+      "date": "2025-10-18",
+      "description": "A 24-hour online competition (Oct 18-19) is being held for teams to creatively introduce themselves in any format, such as a video, website, or meme. Original works must be submitted via the provided Google Form link.",
+      "extended_description": "This is a comprehensive round description that contains detailed information about the round requirements, evaluation criteria, and important guidelines for participants. The round will test various skills including creativity, problem-solving, and teamwork. Participants should prepare thoroughly and bring all necessary materials. The evaluation will be based on multiple criteria including presentation quality, innovation, and adherence to guidelines.",
+      "form_link": "https://forms.google.com/example-registration",
+      "contact": "round-coordinator@example.com",
+      "venue": null,
+      "status": "completed",
+      "is_frozen": true,
+      "is_evaluated": true,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Content",
+          "max_points": 30
+        },
+        {
+          "name": "Presentation",
+          "max_points": 30
+        },
+        {
+          "name": "Creativity",
+          "max_points": 20
+        },
+        {
+          "name": "Individuality",
+          "max_points": 20
+        }
+      ],
+      "max_score": 97.0,
+      "min_score": 75.0,
+      "avg_score": 84.4194
+    },
+    {
+      "id": "round2",
+      "round_number": 2,
+      "name": "Visionary Voyage",
+      "club": "PDA",
+      "type": "Offline",
+      "date": "",
+      "description": "MCQ's on APJ inspirational passage",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "completed",
+      "is_frozen": true,
+      "is_evaluated": true,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "MCQ ",
+          "max_points": 20
+        }
+      ],
+      "max_score": 100.0,
+      "min_score": 55.0,
+      "avg_score": 87.4194
+    },
+    {
+      "id": "round3",
+      "round_number": 3,
+      "name": "Once Upon a Time...",
+      "club": "MIT Quill",
+      "type": "Offline",
+      "date": "2025-10-20",
+      "description": "A creative writing challenge celebrating imagination and originality through spontaneous storytelling prompts.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "completed",
+      "is_frozen": true,
+      "is_evaluated": true,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "max_points": 40
+        }
+      ],
+      "max_score": 90.0,
+      "min_score": 45.0,
+      "avg_score": 75.0
+    },
+    {
+      "id": "round4",
+      "round_number": 4,
+      "name": "Quizz",
+      "club": "MIT Meteorology Club",
+      "type": "Offline",
+      "date": "",
+      "description": "A competitive multi-domain quiz testing general knowledge, teamwork, and speed under pressure.",
+      "extended_description": "",
+      "form_link": "https://crestora-25.vercel.app/",
+      "contact": "",
+      "venue": null,
+      "status": "in_progress",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round5",
+      "round_number": 5,
+      "name": "Quiz Whizz",
+      "club": "Quiz Club of MIT",
+      "type": "Offline",
+      "date": "",
+      "description": "A multi-round quiz featuring direct, rapid-fire, and buzzer rounds across various domains like sports, science, and business.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round6",
+      "round_number": 6,
+      "name": "Mimik Talk",
+      "club": "TED Club of MIT",
+      "type": "Offline",
+      "date": "",
+      "description": "Participants mimic a TED Talk speaker's tone, gestures, and expression while speaking on a totally different topic.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round7",
+      "round_number": 7,
+      "name": "CAMPAIGN(WILDCARD)",
+      "club": "PDA",
+      "type": "Offline",
+      "date": "",
+      "description": "Wildcard campaign round",
+      "extended_description": "",
+      "form_link": "",
+      "contact": "",
+      "venue": "MIT CAMPUS",
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": true,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round8",
+      "round_number": 8,
+      "name": "Channel Surfing",
+      "club": "The Box Office of MIT",
+      "type": "Offline",
+      "date": "",
+      "description": "An improvisational performance event where participants act out spontaneous TV channel scenes using humor and wit.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round9",
+      "round_number": 9,
+      "name": "Market Mavericks.",
+      "club": "AUSEC MIT",
+      "type": "Offline",
+      "date": "",
+      "description": "A virtual investing challenge simulating real-world trading decisions and reacting to market news in real time.",
+      "extended_description": "",
+      "form_link": "",
+      "contact": "",
+      "venue": null,
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    },
+    {
+      "id": "round10",
+      "round_number": 10,
+      "name": "Pixel Pitch",
+      "club": "CSMIT",
+      "type": "Offline",
+      "date": "",
+      "description": "Teams pitch a creative app or gadget that solves real-life problems, judged on creativity, feasibility, and presentation.",
+      "extended_description": "🌟✨ PDA MIT Presents — CRESTORA’25 (ODD SEM SIGNATURE EVENT) ✨🌟\n🎯 Round 1: “Team Identity — The Creative Prelude”\n\n📅 Event Duration:\n🕚 Starts: 18th Oct, 11:00 AM\n🕚 Ends: 19th Oct, 11:00 AM\n⏰ Total Duration: 24 hours\n\n💻 Mode: ONLINE ROUND 🌐\n\n🎬 ROUND DETAILS:\nThis round is all about introducing your team — let the world know who you are in the most creative, spontaneous, and original way possible!\n\nYour team introduction can be in any form —\n🌐 A website\n🎥 A video\n📝 An article\n😂 A meme\n💡 Or anything unique that speaks for your team’s name, spirit, and originality!\n\n📩 Submission:\n      You will be given a g- form to submit your works!Submit your work  in the form of link!!\n\n⚠️ GUIDELINES (STRICTLY TO BE FOLLOWED):\n🚫 No Plagiarism — originality is key.\n🤖 Excessive dependency on AI tools = score reduction.\n❌ Vulgarity or personal offense = direct disqualification.\n🧠 No lame excuses! This round tests your critical thinking, spontaneity & creativity.\n\n🏆 EVALUATION CRITERIA:\n✨ Professionalism\n✨ Clarity\n✨ Team Spirit\n✨ Individuality\n✨ Content Creation\n\n💥 BONUS: Add a creative record of your team’s strengths to earn extra points!\n\nContact:\nMs. Akshaya Gothandabani - +91 88387 42309\nMs. Dhivya -9080682474\n\n🔥 Showcase your identity. Unleash your creativity. Leave your mark.\n💫 Let CRESTORA’25 witness your team’s spark!\n\n📣 All the best, warriors of PDA! 💪\n\n\nSubmit ur works here✅\n",
+      "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSdF2RndaINy13_wv_b0ulYwg2iCCJ-k7nj3zwjtU55v7DgfrA/viewform?usp=header",
+      "contact": "1234567890",
+      "venue": null,
+      "status": "upcoming",
+      "is_frozen": false,
+      "is_evaluated": false,
+      "is_wildcard": false,
+      "criteria": [
+        {
+          "name": "Overall Performance",
+          "weight": 100,
+          "max_score": 100,
+          "max_points": 100
+        }
+      ],
+      "max_score": null,
+      "min_score": null,
+      "avg_score": null
+    }
+  ],
+  "rolling_events": [
+    {
+      "id": "rolling1",
+      "name": "Vibretto",
+      "club": "Vibes",
+      "type": "rolling",
+      "date": "",
+      "description": "A four-round, music-themed event featuring song guessing, lyric recall, and Pictionary challenges promoting teamwork.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "start_date": null,
+      "end_date": null,
+      "event_id": "ROLLING1",
+      "event_code": "R1"
+    },
+    {
+      "id": "rolling2",
+      "name": "Meme & Reel Contest",
+      "club": "Variety Team",
+      "type": "rolling",
+      "date": "",
+      "description": "Online Instagram contest celebrating humor and creativity through original memes and short reels.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "start_date": null,
+      "end_date": null,
+      "event_id": "ROLLING2",
+      "event_code": "R2"
+    },
+    {
+      "id": "rolling3",
+      "name": "கருத்தரங்கம் (Karutharangam).",
+      "club": "Tamil Mandram",
+      "type": "rolling",
+      "date": "",
+      "description": "Tamil discussion-based event promoting respectful debates, expressive language, and clarity of thought. Tamil\n",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "start_date": null,
+      "end_date": null,
+      "event_id": "ROLLING3",
+      "event_code": "R3"
+    },
+    {
+      "id": "rolling4",
+      "name": "Plot Twist Paradox",
+      "club": "Book Readers Club of MIT",
+      "type": "rolling",
+      "date": "",
+      "description": "A literary crossover challenge where participants merge plots or characters from different worlds with creativity and humor.",
+      "extended_description": null,
+      "form_link": null,
+      "contact": null,
+      "venue": null,
+      "status": "upcoming",
+      "start_date": null,
+      "end_date": null,
+      "event_id": "ROLLING4",
+      "event_code": "R4"
+    }
+  ]
+}

@@ -1,10 +1,16 @@
 /* 3D Tilt Effect on Hover */
 .podium-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
 }
 
 .podium-card:hover {
   transform: rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg)) translateZ(10px);
+}
+
+/* Ensure children maintain 3D positioning */
+.podium-card > * {
+  transform-style: preserve-3d;
 }
 
 /* Add subtle glow on hover */

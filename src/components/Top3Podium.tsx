@@ -173,16 +173,9 @@ export const Top3Podium = () => {
     <section ref={podiumRef} className="relative py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-4 text-[hsl(var(--space-gold))]">
+          <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-[hsl(var(--space-gold))]">
             🏆 Top 3 Winners
           </h2>
-          <Button
-            onClick={replayCeremony}
-            variant="outline"
-            className="border-[hsl(var(--space-cyan))] text-[hsl(var(--space-cyan))] hover:bg-[hsl(var(--space-cyan))]/10"
-          >
-            🎬 Replay Ceremony
-          </Button>
         </div>
 
         {/* Podium */}
@@ -232,20 +225,20 @@ export const Top3Podium = () => {
                   }}
                 >
                   {/* Team Logo */}
-                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-background/60 border-2 border-[hsl(var(--space-cyan))]/30 flex items-center justify-center overflow-hidden mb-4 transition-transform duration-300 hover:rotate-12">
+                  <div 
+                    className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-background/80 border-2 border-[hsl(var(--space-cyan))]/50 flex items-center justify-center overflow-hidden mb-4 transition-transform duration-300 hover:rotate-12"
+                    style={{ transformStyle: 'preserve-3d', transform: 'translateZ(20px)' }}
+                  >
                     <img 
                       src={getTeamLogo(team.team_id)} 
                       alt={team.team_name}
-                      className="w-20 h-20 md:w-28 md:h-28 object-contain p-2"
-                      onError={(e) => {
-                        console.log('Logo failed to load for:', team.team_id);
-                        e.currentTarget.src = '/src/assets/logos/default-club.png';
-                      }}
+                      className="w-full h-full object-contain p-3"
+                      style={{ imageRendering: 'crisp-edges' }}
                     />
                   </div>
 
                   {/* Rank Badge */}
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2" style={{ transformStyle: 'preserve-3d', transform: 'translateZ(15px)' }}>
                     {getRankIcon(team.rank)}
                     <div className={`
                       px-3 py-1.5 md:px-4 md:py-2 rounded-full font-orbitron font-bold text-sm md:text-lg transition-all duration-300
@@ -258,7 +251,7 @@ export const Top3Podium = () => {
                   </div>
 
                   {/* Team Info */}
-                  <div className="text-center flex-1 flex flex-col justify-center mt-2">
+                  <div className="text-center flex-1 flex flex-col justify-center mt-2" style={{ transformStyle: 'preserve-3d', transform: 'translateZ(10px)' }}>
                     <h3 className="font-orbitron font-bold text-base md:text-xl lg:text-2xl mb-1 md:mb-2 text-foreground leading-tight">
                       {team.team_name}
                     </h3>
@@ -268,7 +261,10 @@ export const Top3Podium = () => {
                   </div>
 
                   {/* Podium Base Number */}
-                  <div className="text-4xl md:text-6xl font-bold opacity-10 font-orbitron absolute bottom-2 right-2 md:bottom-4 md:right-4">
+                  <div 
+                    className="text-4xl md:text-6xl font-bold opacity-10 font-orbitron absolute bottom-2 right-2 md:bottom-4 md:right-4"
+                    style={{ transformStyle: 'preserve-3d', transform: 'translateZ(5px)' }}
+                  >
                     {team.rank}
                   </div>
                 </div>

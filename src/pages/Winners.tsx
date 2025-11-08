@@ -16,49 +16,47 @@ const Winners = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Page entry animation
-      gsap.from(containerRef.current, {
+    // Page entry animation
+    gsap.from(containerRef.current, {
+      opacity: 0,
+      duration: 1,
+      ease: 'power3.out',
+    });
+
+    // Parallax effect for background
+    if (parallaxRef.current) {
+      gsap.to(parallaxRef.current, {
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top top',
+          end: 'bottom top',
+          scrub: 1,
+        },
+        y: -200,
+        ease: 'none',
+      });
+    }
+
+    // Animate sections on scroll
+    const sections = containerRef.current?.querySelectorAll('section');
+    sections?.forEach((section, index) => {
+      gsap.from(section, {
+        scrollTrigger: {
+          trigger: section,
+          start: 'top 80%',
+          end: 'top 20%',
+          toggleActions: 'play none none reverse',
+        },
         opacity: 0,
+        y: 100,
         duration: 1,
         ease: 'power3.out',
+        delay: index * 0.1,
       });
-
-      // Parallax effect for background
-      if (parallaxRef.current) {
-        gsap.to(parallaxRef.current, {
-          scrollTrigger: {
-            trigger: containerRef.current,
-            start: 'top top',
-            end: 'bottom top',
-            scrub: 1,
-          },
-          y: -200,
-          ease: 'none',
-        });
-      }
-
-      // Animate sections on scroll
-      const sections = containerRef.current?.querySelectorAll('section');
-      sections?.forEach((section, index) => {
-        gsap.from(section, {
-          scrollTrigger: {
-            trigger: section,
-            start: 'top 80%',
-            end: 'top 20%',
-            toggleActions: 'play none none reverse',
-          },
-          opacity: 0,
-          y: 100,
-          duration: 1,
-          ease: 'power3.out',
-          delay: index * 0.1,
-        });
-      });
-    }, containerRef);
+    });
 
     return () => {
-      ctx.revert();
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
   }, []);
 

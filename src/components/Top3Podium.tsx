@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Trophy, Medal, Award } from 'lucide-react';
 import leaderboardData from '@/data/leaderboard.json';
 import defaultClubLogo from '@/assets/logos/default-club.png';
+import './Top3Podium.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,6 +25,34 @@ export const Top3Podium = () => {
 
   const top3 = leaderboardData.leaderboard.slice(0, 3);
 
+  const triggerParticleBurst = () => {
+    const count = 200;
+    const defaults = {
+      origin: { x: 0.5, y: 0.5 },
+      zIndex: 0,
+    };
+
+    confetti({
+      ...defaults,
+      particleCount: count,
+      spread: 360,
+      startVelocity: 25,
+      decay: 0.91,
+      scalar: 0.8,
+      colors: ['#FDCD00', '#00FFFF', '#FF1493', '#8B5CF6'],
+    });
+
+    confetti({
+      ...defaults,
+      particleCount: count / 2,
+      spread: 120,
+      startVelocity: 45,
+      decay: 0.9,
+      scalar: 1.2,
+      colors: ['#FDCD00', '#00FFFF'],
+    });
+  };
+
   const triggerConfetti = () => {
     const duration = 3 * 1000;
     const animationEnd = Date.now() + duration;
@@ -32,6 +61,9 @@ export const Top3Podium = () => {
     const randomInRange = (min: number, max: number) => {
       return Math.random() * (max - min) + min;
     };
+
+    // Trigger particle burst for winner
+    triggerParticleBurst();
 
     const interval: ReturnType<typeof setInterval> = setInterval(() => {
       const timeLeft = animationEnd - Date.now();
@@ -161,13 +193,34 @@ export const Top3Podium = () => {
                   if (el) cardsRef.current[index] = el;
                 }}
                 className={`relative ${podiumHeights[team.rank as keyof typeof podiumHeights]} transition-all duration-300`}
+                style={{ perspective: '1000px' }}
               >
                 {/* Card */}
-                <div className="absolute inset-0 bg-gradient-to-br from-background/40 to-background/10 backdrop-blur-lg border-2 border-border rounded-2xl p-4 md:p-6 flex flex-col items-center justify-between transition-all duration-300 hover:scale-105"
+                <div 
+                  className="podium-card absolute inset-0 bg-gradient-to-br from-background/40 to-background/10 backdrop-blur-lg border-2 border-border rounded-2xl p-4 md:p-6 flex flex-col items-center justify-between transition-all duration-300"
                   style={{
                     boxShadow: team.rank === 1 
                       ? '0 0 60px rgba(253, 205, 0, 0.4)' 
                       : '0 10px 40px rgba(0,0,0,0.3)',
+                    transformStyle: 'preserve-3d',
+                  }}
+                  onMouseMove={(e) => {
+                    const card = e.currentTarget;
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    const rotateX = (y - centerY) / 10;
+                    const rotateY = (centerX - x) / 10;
+                    
+                    card.style.setProperty('--rotate-x', `${rotateX}deg`);
+                    card.style.setProperty('--rotate-y', `${rotateY}deg`);
+                  }}
+                  onMouseLeave={(e) => {
+                    const card = e.currentTarget;
+                    card.style.setProperty('--rotate-x', '0deg');
+                    card.style.setProperty('--rotate-y', '0deg');
                   }}
                 >
                   {/* Team Logo */}

@@ -232,11 +232,15 @@ export const Top3Podium = () => {
                   }}
                 >
                   {/* Team Logo */}
-                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-background/60 border-2 border-[hsl(var(--space-cyan))]/30 flex items-center justify-center overflow-hidden mb-3 transition-transform duration-300 hover:rotate-12">
+                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-background/60 border-2 border-[hsl(var(--space-cyan))]/30 flex items-center justify-center overflow-hidden mb-4 transition-transform duration-300 hover:rotate-12">
                     <img 
                       src={getTeamLogo(team.team_id)} 
                       alt={team.team_name}
-                      className="w-12 h-12 md:w-16 md:h-16 object-contain"
+                      className="w-20 h-20 md:w-28 md:h-28 object-contain p-2"
+                      onError={(e) => {
+                        console.log('Logo failed to load for:', team.team_id);
+                        e.currentTarget.src = '/src/assets/logos/default-club.png';
+                      }}
                     />
                   </div>
 
@@ -258,15 +262,9 @@ export const Top3Podium = () => {
                     <h3 className="font-orbitron font-bold text-base md:text-xl lg:text-2xl mb-1 md:mb-2 text-foreground leading-tight">
                       {team.team_name}
                     </h3>
-                    <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">
+                    <p className="text-xs md:text-sm text-muted-foreground">
                       Led by {team.leader_name}
                     </p>
-                    <div className="mt-2 md:mt-3 px-2 py-1.5 md:px-4 md:py-2 bg-[hsl(var(--space-cyan))]/10 rounded-lg border border-[hsl(var(--space-cyan))]/30 transition-all duration-300 hover:bg-[hsl(var(--space-cyan))]/20">
-                      <p className="text-lg md:text-xl lg:text-2xl font-bold text-[hsl(var(--space-cyan))]">
-                        {team.final_score}
-                      </p>
-                      <p className="text-[10px] md:text-xs text-muted-foreground">Final Score</p>
-                    </div>
                   </div>
 
                   {/* Podium Base Number */}

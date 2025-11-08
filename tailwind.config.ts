@@ -44,6 +44,15 @@ const config: Config = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      keyframes: {
+        "gradient-shift": {
+          "0%, 100%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" }
+        },
+      },
+      animation: {
+        "gradient-shift": "gradient-shift 3s ease infinite"
+      },
     },
   },
   plugins: [],

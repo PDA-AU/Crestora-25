@@ -252,7 +252,7 @@ export const Top3Podium = () => {
                     </div>
 
                     {/* Team Info */}
-                    <div className="text-center flex-1 flex flex-col justify-center mt-2" style={{ transformStyle: 'preserve-3d', transform: 'translateZ(10px)' }}>
+                    <div className="text-center flex-1 flex flex-col justify-center mt-2 w-full px-2" style={{ transformStyle: 'preserve-3d', transform: 'translateZ(10px)' }}>
                       <h3 className="font-orbitron font-bold text-base md:text-xl lg:text-2xl mb-1 md:mb-2 text-foreground leading-tight">
                         {team.team_name}
                       </h3>
@@ -262,7 +262,7 @@ export const Top3Podium = () => {
                       
                       {/* Score Display */}
                       <div 
-                        className="mt-2 md:mt-3 px-3 py-2 md:px-4 md:py-2 rounded-lg border transition-all duration-300"
+                        className="mt-2 md:mt-3 mx-auto w-full max-w-[90%] px-3 py-2 md:px-4 md:py-2 rounded-lg border transition-all duration-300"
                         style={{
                           backgroundColor: 'rgba(0, 255, 255, 0.1)',
                           borderColor: 'rgba(0, 255, 255, 0.3)',

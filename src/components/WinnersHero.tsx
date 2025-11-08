@@ -24,15 +24,6 @@ export const WinnersHero = () => {
         duration: 0.8,
         ease: 'power3.out',
       }, '-=0.6');
-
-      // Glow animation
-      gsap.to(titleRef.current, {
-        textShadow: '0 0 30px hsl(var(--space-gold)), 0 0 60px hsl(var(--space-gold) / 0.5)',
-        duration: 2,
-        repeat: -1,
-        yoyo: true,
-        ease: 'sine.inOut',
-      });
     }, heroRef);
 
     return () => ctx.revert();
@@ -48,10 +39,10 @@ export const WinnersHero = () => {
         >
           <h1
             ref={titleRef}
-            className="font-orbitron font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-r from-[hsl(var(--space-gold))] via-[hsl(var(--space-cyan))] to-[hsl(var(--space-gold))] bg-clip-text text-transparent"
+            className="font-orbitron font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-r from-[hsl(var(--space-gold))] via-[hsl(var(--space-cyan))] to-[hsl(var(--space-gold))] bg-clip-text text-transparent animate-gradient-shift"
             style={{
               backgroundSize: '200% auto',
-              animation: 'gradient-shift 3s ease infinite',
+              filter: 'drop-shadow(0 0 30px rgba(253, 205, 0, 0.5))',
             }}
           >
             Crestora '25

@@ -159,9 +159,6 @@ export const RollingEventsGrid = () => {
                 <p className="text-xs sm:text-sm text-muted-foreground break-words">
                   {event.winner_name} • {event.winner_regno}
                 </p>
-                <p className="text-xs text-[hsl(var(--space-gold))] mt-2 font-semibold">
-                  Prize: ₹400
-                </p>
               </div>
 
               {/* Runner-up */}
@@ -175,9 +172,6 @@ export const RollingEventsGrid = () => {
                 <p className="font-semibold text-base sm:text-lg text-foreground break-words">{event.runnerup_team}</p>
                 <p className="text-xs sm:text-sm text-muted-foreground break-words">
                   {event.runner_name} • {event.runner_regno}
-                </p>
-                <p className="text-xs text-muted-foreground mt-2 font-semibold">
-                  Prize: ₹250
                 </p>
               </div>
             </div>

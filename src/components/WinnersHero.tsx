@@ -52,9 +52,13 @@ export const WinnersHero = () => {
         >
           <h1
             ref={titleRef}
-            className="font-orbitron font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-r from-[hsl(var(--space-gold))] via-[hsl(var(--space-cyan))] to-[hsl(var(--space-gold))] bg-clip-text text-transparent animate-gradient-shift"
+            className="font-orbitron font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6"
             style={{
+              background: 'linear-gradient(to right, #FDCD00, #00FFFF, #FDCD00)',
               backgroundSize: '200% auto',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
               filter: 'drop-shadow(0 0 30px rgba(253, 205, 0, 0.5))',
             }}
           >

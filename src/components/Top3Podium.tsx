@@ -162,7 +162,7 @@ export const Top3Podium = () => {
   const getRankIcon = (rank: number) => {
     switch (rank) {
       case 1:
-        return <Trophy className="w-12 h-12 text-[hsl(var(--space-gold))]" />;
+        return <Trophy className="w-12 h-12" style={{ color: '#FDCD00' }} />;
       case 2:
         return <Medal className="w-10 h-10 text-gray-300" />;
       case 3:
@@ -176,7 +176,7 @@ export const Top3Podium = () => {
     <section ref={podiumRef} className="relative py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-[hsl(var(--space-gold))]">
+          <h2 className="font-orbitron text-4xl md:text-5xl font-bold" style={{ color: '#FDCD00' }}>
             🏆 Top 3 Winners
           </h2>
         </div>
@@ -239,12 +239,14 @@ export const Top3Podium = () => {
                     {/* Rank Badge */}
                     <div className="flex flex-col items-center gap-2" style={{ transformStyle: 'preserve-3d', transform: 'translateZ(15px)' }}>
                       {getRankIcon(team.rank)}
-                      <div className={`
-                        px-3 py-1.5 md:px-4 md:py-2 rounded-full font-orbitron font-bold text-sm md:text-lg transition-all duration-300
-                        ${team.rank === 1 ? 'bg-[hsl(var(--space-gold))] text-background shadow-[0_0_20px_rgba(253,205,0,0.5)]' : ''}
-                        ${team.rank === 2 ? 'bg-gray-300 text-background shadow-[0_0_15px_rgba(211,211,211,0.5)]' : ''}
-                        ${team.rank === 3 ? 'bg-amber-600 text-background shadow-[0_0_15px_rgba(217,119,6,0.5)]' : ''}
-                      `}>
+                      <div 
+                        className="px-3 py-1.5 md:px-4 md:py-2 rounded-full font-orbitron font-bold text-sm md:text-lg transition-all duration-300"
+                        style={{
+                          backgroundColor: team.rank === 1 ? '#FDCD00' : team.rank === 2 ? '#D3D3D3' : '#D97706',
+                          color: '#0A0D1F',
+                          boxShadow: team.rank === 1 ? '0 0 20px rgba(253,205,0,0.5)' : team.rank === 2 ? '0 0 15px rgba(211,211,211,0.5)' : '0 0 15px rgba(217,119,6,0.5)'
+                        }}
+                      >
                         Rank {team.rank}
                       </div>
                     </div>
@@ -259,8 +261,14 @@ export const Top3Podium = () => {
                       </p>
                       
                       {/* Score Display */}
-                      <div className="mt-2 md:mt-3 px-3 py-2 md:px-4 md:py-2 bg-[hsl(var(--space-cyan))]/10 rounded-lg border border-[hsl(var(--space-cyan))]/30 transition-all duration-300 hover:bg-[hsl(var(--space-cyan))]/20">
-                        <p className="text-xl md:text-2xl lg:text-3xl font-bold text-[hsl(var(--space-cyan))]">
+                      <div 
+                        className="mt-2 md:mt-3 px-3 py-2 md:px-4 md:py-2 rounded-lg border transition-all duration-300"
+                        style={{
+                          backgroundColor: 'rgba(0, 255, 255, 0.1)',
+                          borderColor: 'rgba(0, 255, 255, 0.3)',
+                        }}
+                      >
+                        <p className="text-xl md:text-2xl lg:text-3xl font-bold" style={{ color: '#00FFFF' }}>
                           {team.final_score}
                         </p>
                         <p className="text-[10px] md:text-xs text-muted-foreground">Final Score</p>
@@ -278,22 +286,30 @@ export const Top3Podium = () => {
 
                   {/* Back of Card - Team Logo */}
                   <div 
-                    className="podium-card absolute inset-0 bg-gradient-to-br from-background/60 to-background/20 backdrop-blur-lg border-2 border-[hsl(var(--space-cyan))]/50 rounded-2xl p-4 md:p-6 flex flex-col items-center justify-center"
+                    className="podium-card absolute inset-0 bg-gradient-to-br from-background/60 to-background/20 backdrop-blur-lg border-2 rounded-2xl p-4 md:p-6 flex flex-col items-center justify-center"
                     style={{
+                      borderColor: 'rgba(0, 255, 255, 0.5)',
                       boxShadow: '0 0 60px rgba(0, 255, 255, 0.4)',
                       transformStyle: 'preserve-3d',
                       backfaceVisibility: 'hidden',
                       transform: 'rotateY(180deg)',
                     }}
                   >
-                    <div className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full bg-background/80 border-4 border-[hsl(var(--space-cyan))] flex items-center justify-center overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.5)]">
+                    <div 
+                      className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full flex items-center justify-center overflow-hidden"
+                      style={{
+                        backgroundColor: 'rgba(10, 13, 31, 0.8)',
+                        border: '4px solid #00FFFF',
+                        boxShadow: '0 0 40px rgba(0, 255, 255, 0.5)',
+                      }}
+                    >
                       <img 
                         src={getTeamLogo(team.team_id)} 
                         alt={team.team_name}
                         className="w-full h-full object-contain p-6"
                       />
                     </div>
-                    <h3 className="font-orbitron font-bold text-xl md:text-2xl text-[hsl(var(--space-cyan))] mt-4">
+                    <h3 className="font-orbitron font-bold text-xl md:text-2xl mt-4" style={{ color: '#00FFFF' }}>
                       {team.team_name}
                     </h3>
                   </div>

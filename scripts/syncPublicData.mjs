@@ -104,12 +104,12 @@ async function mapAndWriteTeamScores(teams) {
 function mapRound(round) {
   // Keep API fields; eventData.json expects these keys already
   return {
-    id: round.id,
+    id: String(round.id),
     round_number: round.round_number,
     name: round.name,
     mode: round.mode ?? undefined,
     club: round.club,
-    type: round.type,
+    type: (round.type ?? round.mode ?? 'Offline'),
     date: round.date,
     description: round.description,
     extended_description: round.extended_description ?? null,

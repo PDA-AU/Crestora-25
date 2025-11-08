@@ -6,7 +6,7 @@ import { RoundCard } from './RoundCard';
 import { RollingEvents } from './RollingEvents';
 
 // <-- EXPLICIT: number of rounds after which descriptions should be blurred
-const NO_OF_ROUNDS_TO_SHOW_CLEAR = 5; // <- change this number to control which rounds get blurred
+const NO_OF_ROUNDS_TO_SHOW_CLEAR = 10; // <- change this number to control which rounds get blurred
 
 export const Timeline = () => {
   return (

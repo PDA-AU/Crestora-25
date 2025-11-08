@@ -257,9 +257,6 @@ export const Top3Podium = () => {
                       <p className="text-xs md:text-sm text-muted-foreground">
                         Led by {team.leader_name}
                       </p>
-                      <p className="text-xs text-[hsl(var(--space-cyan))] mt-2 opacity-70">
-                        Click to reveal logo
-                      </p>
                     </div>
 
                     {/* Podium Base Number */}
@@ -281,19 +278,16 @@ export const Top3Podium = () => {
                       transform: 'rotateY(180deg)',
                     }}
                   >
-                    <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-background/80 border-4 border-[hsl(var(--space-cyan))] flex items-center justify-center overflow-hidden mb-4 shadow-[0_0_40px_rgba(0,255,255,0.5)]">
+                    <div className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full bg-background/80 border-4 border-[hsl(var(--space-cyan))] flex items-center justify-center overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.5)]">
                       <img 
                         src={getTeamLogo(team.team_id)} 
                         alt={team.team_name}
-                        className="w-full h-full object-contain p-4"
+                        className="w-full h-full object-contain p-6"
                       />
                     </div>
-                    <h3 className="font-orbitron font-bold text-xl md:text-2xl text-[hsl(var(--space-cyan))] mb-2">
+                    <h3 className="font-orbitron font-bold text-xl md:text-2xl text-[hsl(var(--space-cyan))] mt-4">
                       {team.team_name}
                     </h3>
-                    <p className="text-sm text-muted-foreground">
-                      Click to flip back
-                    </p>
                   </div>
                 </div>
               </div>

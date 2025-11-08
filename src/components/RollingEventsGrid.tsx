@@ -53,6 +53,7 @@ export const RollingEventsGrid = () => {
     const ctx = gsap.context(() => {
       cardsRef.current.forEach((card, index) => {
         if (card) {
+          // Entrance animation
           gsap.from(card, {
             scrollTrigger: {
               trigger: card,
@@ -65,6 +66,18 @@ export const RollingEventsGrid = () => {
             duration: 0.8,
             delay: index * 0.15,
             ease: 'power3.out',
+          });
+
+          // Parallax effect on scroll
+          gsap.to(card, {
+            scrollTrigger: {
+              trigger: card,
+              start: 'top bottom',
+              end: 'bottom top',
+              scrub: 1,
+            },
+            y: index % 2 === 0 ? -30 : 30, // Alternate direction
+            ease: 'none',
           });
 
           // Hover effect

@@ -24,6 +24,19 @@ export const WinnersHero = () => {
         duration: 0.8,
         ease: 'power3.out',
       }, '-=0.6');
+
+      // Parallax effect on scroll
+      gsap.to(titleRef.current, {
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: 'top top',
+          end: 'bottom top',
+          scrub: 1,
+        },
+        y: -150,
+        opacity: 0.3,
+        ease: 'none',
+      });
     }, heroRef);
 
     return () => ctx.revert();

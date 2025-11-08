@@ -254,9 +254,17 @@ export const Top3Podium = () => {
                       <h3 className="font-orbitron font-bold text-base md:text-xl lg:text-2xl mb-1 md:mb-2 text-foreground leading-tight">
                         {team.team_name}
                       </h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">
+                      <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">
                         Led by {team.leader_name}
                       </p>
+                      
+                      {/* Score Display */}
+                      <div className="mt-2 md:mt-3 px-3 py-2 md:px-4 md:py-2 bg-[hsl(var(--space-cyan))]/10 rounded-lg border border-[hsl(var(--space-cyan))]/30 transition-all duration-300 hover:bg-[hsl(var(--space-cyan))]/20">
+                        <p className="text-xl md:text-2xl lg:text-3xl font-bold text-[hsl(var(--space-cyan))]">
+                          {team.final_score}
+                        </p>
+                        <p className="text-[10px] md:text-xs text-muted-foreground">Final Score</p>
+                      </div>
                     </div>
 
                     {/* Podium Base Number */}

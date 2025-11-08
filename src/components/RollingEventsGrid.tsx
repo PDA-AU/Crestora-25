@@ -80,26 +80,35 @@ export const RollingEventsGrid = () => {
             ease: 'none',
           });
 
-          // Hover effect
-          card.addEventListener('mouseenter', () => {
-            gsap.to(card, {
-              scale: 1.05,
-              rotateY: 5,
-              boxShadow: '0 20px 60px hsl(var(--space-cyan) / 0.3)',
-              duration: 0.3,
-              ease: 'power2.out',
-            });
-          });
+          // Hover effect (desktop only)
+          const mediaQuery = window.matchMedia('(min-width: 1024px)');
+          
+          const handleMouseEnter = () => {
+            if (mediaQuery.matches) {
+              gsap.to(card, {
+                scale: 1.03,
+                rotateY: 3,
+                boxShadow: '0 20px 60px hsl(var(--space-cyan) / 0.3)',
+                duration: 0.3,
+                ease: 'power2.out',
+              });
+            }
+          };
 
-          card.addEventListener('mouseleave', () => {
-            gsap.to(card, {
-              scale: 1,
-              rotateY: 0,
-              boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
-              duration: 0.3,
-              ease: 'power2.out',
-            });
-          });
+          const handleMouseLeave = () => {
+            if (mediaQuery.matches) {
+              gsap.to(card, {
+                scale: 1,
+                rotateY: 0,
+                boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
+                duration: 0.3,
+                ease: 'power2.out',
+              });
+            }
+          };
+
+          card.addEventListener('mouseenter', handleMouseEnter);
+          card.addEventListener('mouseleave', handleMouseLeave);
         }
       });
     }, gridRef);
@@ -108,46 +117,46 @@ export const RollingEventsGrid = () => {
   }, []);
 
   return (
-    <section ref={gridRef} className="relative py-20 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-4 text-[hsl(var(--space-gold))]">
+    <section ref={gridRef} className="relative py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="font-orbitron text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 text-[hsl(var(--space-gold))]">
             🌟 Rolling Event Winners
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-base md:text-lg px-4">
             Individual achievements across special events
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
           {rollingWinners.map((event, index) => (
             <div
               key={event.event_name}
               ref={(el) => {
                 if (el) cardsRef.current[index] = el;
               }}
-              className="bg-gradient-to-br from-background/60 to-background/20 backdrop-blur-xl border-2 border-border rounded-2xl p-6 hover:border-[hsl(var(--space-cyan))]/50 transition-colors duration-300"
+              className="bg-gradient-to-br from-background/60 to-background/20 backdrop-blur-xl border-2 border-border rounded-2xl p-5 sm:p-6 hover:border-[hsl(var(--space-cyan))]/50 transition-all duration-300 w-full"
               style={{
                 boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
                 transformStyle: 'preserve-3d',
               }}
             >
               {/* Event Name */}
-              <h3 className="font-orbitron font-bold text-2xl mb-6 text-center text-[hsl(var(--space-cyan))]">
+              <h3 className="font-orbitron font-bold text-xl sm:text-2xl mb-4 md:mb-6 text-center text-[hsl(var(--space-cyan))]">
                 {event.event_name}
               </h3>
 
               {/* Winner */}
-              <div className="mb-4 p-4 bg-[hsl(var(--space-gold))]/10 border-2 border-[hsl(var(--space-gold))]/30 rounded-xl">
-                <div className="flex items-center gap-3 mb-2">
-                  <Trophy className="w-6 h-6 text-[hsl(var(--space-gold))]" />
-                  <span className="font-orbitron font-bold text-[hsl(var(--space-gold))]">
+              <div className="mb-3 md:mb-4 p-3 sm:p-4 bg-[hsl(var(--space-gold))]/10 border-2 border-[hsl(var(--space-gold))]/30 rounded-xl">
+                <div className="flex items-center gap-2 sm:gap-3 mb-2">
+                  <Trophy className="w-5 h-5 sm:w-6 sm:h-6 text-[hsl(var(--space-gold))] flex-shrink-0" />
+                  <span className="font-orbitron font-bold text-sm sm:text-base text-[hsl(var(--space-gold))]">
                     Winner
                   </span>
                 </div>
-                <p className="font-semibold text-lg text-foreground">{event.winner_team}</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="font-semibold text-base sm:text-lg text-foreground break-words">{event.winner_team}</p>
+                <p className="text-xs sm:text-sm text-muted-foreground break-words">
                   {event.winner_name} • {event.winner_regno}
                 </p>
                 <p className="text-xs text-[hsl(var(--space-gold))] mt-2 font-semibold">
@@ -156,15 +165,15 @@ export const RollingEventsGrid = () => {
               </div>
 
               {/* Runner-up */}
-              <div className="p-4 bg-muted/20 border-2 border-muted rounded-xl">
-                <div className="flex items-center gap-3 mb-2">
-                  <Medal className="w-6 h-6 text-gray-400" />
-                  <span className="font-orbitron font-bold text-gray-400">
+              <div className="p-3 sm:p-4 bg-muted/20 border-2 border-muted rounded-xl">
+                <div className="flex items-center gap-2 sm:gap-3 mb-2">
+                  <Medal className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 flex-shrink-0" />
+                  <span className="font-orbitron font-bold text-sm sm:text-base text-gray-400">
                     Runner-up
                   </span>
                 </div>
-                <p className="font-semibold text-lg text-foreground">{event.runnerup_team}</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="font-semibold text-base sm:text-lg text-foreground break-words">{event.runnerup_team}</p>
+                <p className="text-xs sm:text-sm text-muted-foreground break-words">
                   {event.runner_name} • {event.runner_regno}
                 </p>
                 <p className="text-xs text-muted-foreground mt-2 font-semibold">

@@ -10,7 +10,7 @@ import { localDataService } from "@/services/localDataService";
  */
 
 // Configuration - Change this to show different number of top teams
-const TOP_K_TEAMS = 5; // Change this number to show top 3, 10, etc.
+const TOP_K_TEAMS = 6; // Change this number to show top 3, 10, etc.
 
 // Local data function to fetch leaderboard data
 const fetchLeaderboard = async () => {

@@ -5,7 +5,8 @@ import confetti from 'canvas-confetti';
 import { Button } from '@/components/ui/button';
 import { Trophy, Medal, Award } from 'lucide-react';
 import leaderboardData from '@/data/leaderboard.json';
-import defaultClubLogo from '@/assets/logos/default-club.png';
+import { getTeamLogo } from '@/utils/teamLogoMapper';
+import { soundEffects } from '@/utils/soundEffects';
 import './Top3Podium.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -90,12 +91,16 @@ export const Top3Podium = () => {
   };
 
   const playAnimation = (isReplay = false) => {
+    // Play ceremony start sound
+    soundEffects.playCeremonyStart();
+    
     // Kill any existing animations and ScrollTriggers
     ScrollTrigger.getAll().forEach(st => st.kill());
     gsap.killTweensOf(cardsRef.current);
 
     const tl = gsap.timeline({
       onComplete: () => {
+        soundEffects.playWinnerReveal();
         if (!hasAnimated || isReplay) {
           triggerConfetti();
           if (!isReplay) setHasAnimated(true);
@@ -217,6 +222,9 @@ export const Top3Podium = () => {
                     card.style.setProperty('--rotate-x', `${rotateX}deg`);
                     card.style.setProperty('--rotate-y', `${rotateY}deg`);
                   }}
+                  onMouseEnter={() => {
+                    soundEffects.playHover();
+                  }}
                   onMouseLeave={(e) => {
                     const card = e.currentTarget;
                     card.style.setProperty('--rotate-x', '0deg');
@@ -226,7 +234,7 @@ export const Top3Podium = () => {
                   {/* Team Logo */}
                   <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-background/60 border-2 border-[hsl(var(--space-cyan))]/30 flex items-center justify-center overflow-hidden mb-3 transition-transform duration-300 hover:rotate-12">
                     <img 
-                      src={defaultClubLogo} 
+                      src={getTeamLogo(team.team_id)} 
                       alt={team.team_name}
                       className="w-12 h-12 md:w-16 md:h-16 object-contain"
                     />
@@ -246,18 +254,18 @@ export const Top3Podium = () => {
                   </div>
 
                   {/* Team Info */}
-                  <div className="text-center flex-1 flex flex-col justify-center">
-                    <h3 className="font-orbitron font-bold text-lg md:text-2xl mb-1 md:mb-2 text-foreground">
+                  <div className="text-center flex-1 flex flex-col justify-center mt-2">
+                    <h3 className="font-orbitron font-bold text-base md:text-xl lg:text-2xl mb-1 md:mb-2 text-foreground leading-tight">
                       {team.team_name}
                     </h3>
                     <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">
                       Led by {team.leader_name}
                     </p>
-                    <div className="mt-2 md:mt-4 px-3 py-2 md:px-4 md:py-2 bg-[hsl(var(--space-cyan))]/10 rounded-lg border border-[hsl(var(--space-cyan))]/30 transition-all duration-300 hover:bg-[hsl(var(--space-cyan))]/20">
-                      <p className="text-xl md:text-2xl font-bold text-[hsl(var(--space-cyan))]">
+                    <div className="mt-2 md:mt-3 px-2 py-1.5 md:px-4 md:py-2 bg-[hsl(var(--space-cyan))]/10 rounded-lg border border-[hsl(var(--space-cyan))]/30 transition-all duration-300 hover:bg-[hsl(var(--space-cyan))]/20">
+                      <p className="text-lg md:text-xl lg:text-2xl font-bold text-[hsl(var(--space-cyan))]">
                         {team.final_score}
                       </p>
-                      <p className="text-xs text-muted-foreground">Final Score</p>
+                      <p className="text-[10px] md:text-xs text-muted-foreground">Final Score</p>
                     </div>
                   </div>
 

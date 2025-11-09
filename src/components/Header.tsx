@@ -30,7 +30,7 @@ export const Header = () => {
           </div>
         </div>
 
-        <Link to="/winners">
+        <Link to="https://crestora-summit-voyage.lovable.app/winners">
           <Button 
             className="bg-[hsl(var(--space-gold))] hover:bg-[hsl(var(--space-gold))]/90 text-background font-orbitron font-bold gap-2"
             style={{

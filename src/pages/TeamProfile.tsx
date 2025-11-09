@@ -67,19 +67,24 @@ const TeamProfile = () => {
         const roundNumber = originalRoundNumber < 6 ? originalRoundNumber : originalRoundNumber - 1;
         if (roundNumber < 1 || roundNumber > 9) return;
 
-        // Get all teams that participated in this round
+        // Get all teams that participated in this round with non-zero scores
         const allScores = (await localDataService.getLeaderboard(100))
-          .filter((entry: any) => entry.round_scores?.[score.round_id] !== undefined)
+          .filter((entry: any) => {
+            const roundScore = entry.round_scores?.[score.round_id]?.score;
+            return roundScore !== undefined && roundScore > 0;
+          })
           .map((entry: any) => ({
             teamId: entry.team_id,
-            score: entry.round_scores[score.round_id].score
+            score: entry.round_scores[score.round_id].score,
+            rank: entry.round_scores[score.round_id].rank || 0
           }))
           .sort((a: any, b: any) => b.score - a.score);
 
-        // Calculate rank (1-based index)
-        const rank = allScores.findIndex((s: any) => s.teamId === teamId) + 1 || 1;
+        // Use the rank from the score if available, otherwise calculate it
+        const rank = score.round_rank > 0 ? score.round_rank : 
+                   allScores.findIndex((s: any) => s.teamId === teamId) + 1 || 1;
         const maxScore = 100; // Fixed max score of 100 for all rounds
-        const totalTeams = Math.max(1, allScores.length); // Ensure at least 1 team
+        const totalTeams = Math.max(1, allScores.length); // Total teams with non-zero scores
 
         // Update the round with completed data
         const roundIndex = roundNumber - 1;

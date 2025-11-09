@@ -41,6 +41,7 @@ export interface TeamScore {
   is_normalized: boolean;
   created_at: string;
   updated_at: string;
+  round_rank?: number; // Rank of the team in this specific round
   round_info?: {
     round_number: number;
     round_name: string;

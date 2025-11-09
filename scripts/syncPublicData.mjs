@@ -62,8 +62,14 @@ async function fetchRollingEvents() {
 }
 
 async function fetchTeamScores(teamId) {
-  const data = await fetchJson(`${BASE_URL}/teams/${encodeURIComponent(teamId)}/scores`);
-  return Array.isArray(data?.scores) ? data.scores : [];
+  const data = await fetchJson(`${BASE_URL}/teams/${teamId}/scores`);
+  if (!Array.isArray(data?.scores)) return [];
+  
+  // Add round_rank to each score
+  return data.scores.map(score => ({
+    ...score,
+    round_rank: score.rank // Add round_rank from the API response
+  }));
 }
 
 async function mapAndWriteTeams(teams) {

@@ -23,7 +23,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1299,
@@ -44,7 +45,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1363,
@@ -65,7 +67,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1528,
@@ -88,7 +91,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1556,
@@ -109,7 +113,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 18
       },
       {
         "id": 1598,
@@ -130,7 +135,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1607,
@@ -154,7 +160,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1621,
@@ -175,7 +182,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 7
       }
     ],
     "CRES-36A89": [
@@ -246,7 +254,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 8
       },
       {
         "id": 1183,
@@ -267,7 +276,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1314,
@@ -288,7 +298,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1554,
@@ -311,7 +322,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 11
       },
       {
         "id": 1575,
@@ -332,7 +344,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1592,
@@ -353,7 +366,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1619,
@@ -377,7 +391,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1629,
@@ -398,7 +413,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 2
       }
     ],
     "CRES-6AA19": [
@@ -469,7 +485,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 4
       },
       {
         "id": 1180,
@@ -490,7 +507,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1315,
@@ -511,7 +529,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1549,
@@ -534,7 +553,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 12
       },
       {
         "id": 1571,
@@ -555,7 +575,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1593,
@@ -576,7 +597,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1617,
@@ -600,7 +622,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1627,
@@ -621,7 +644,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1634,
@@ -644,7 +668,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 5
       }
     ],
     "CRES-D8F3D": [
@@ -670,7 +695,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 27
       },
       {
         "id": 1175,
@@ -691,7 +717,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1304,
@@ -712,7 +739,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1533,
@@ -735,7 +763,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 16
       },
       {
         "id": 1565,
@@ -756,7 +785,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1591,
@@ -777,7 +807,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1605,
@@ -801,7 +832,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 15
       }
     ],
     "CRES-865AB": [
@@ -827,7 +859,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 27
       },
       {
         "id": 1185,
@@ -848,7 +881,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1325,
@@ -869,7 +903,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1553,
@@ -892,7 +927,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1576,
@@ -913,7 +949,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 18
       },
       {
         "id": 1594,
@@ -934,7 +971,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1613,
@@ -958,7 +996,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 3
       }
     ],
     "CRES-F796C": [
@@ -984,7 +1023,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 12
       },
       {
         "id": 1186,
@@ -1005,7 +1045,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1305,
@@ -1026,7 +1067,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1552,
@@ -1049,7 +1091,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1577,
@@ -1070,7 +1113,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1589,
@@ -1091,7 +1135,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1611,
@@ -1115,7 +1160,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 16
       }
     ],
     "CRES-A824D": [
@@ -1141,7 +1187,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 21
       },
       {
         "id": 1298,
@@ -1186,7 +1233,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 24
       },
       {
         "id": 1179,
@@ -1207,7 +1255,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1311,
@@ -1228,7 +1277,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1550,
@@ -1251,7 +1301,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1570,
@@ -1272,7 +1323,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 21
       },
       {
         "id": 1601,
@@ -1293,7 +1345,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1606,
@@ -1317,7 +1370,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 2
       }
     ],
     "CRES-0B48A": [
@@ -1343,7 +1397,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 22
       },
       {
         "id": 1191,
@@ -1364,7 +1419,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1362,
@@ -1385,7 +1441,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1532,
@@ -1425,7 +1482,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 8
       }
     ],
     "CRES-CCB76": [
@@ -1451,7 +1509,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1178,
@@ -1472,7 +1531,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1306,
@@ -1493,7 +1553,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 28
       },
       {
         "id": 1542,
@@ -1516,7 +1577,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1569,
@@ -1537,7 +1599,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 17
       },
       {
         "id": 1599,
@@ -1558,7 +1621,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 15
       }
     ],
     "CRES-DE64E": [
@@ -1584,7 +1648,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1182,
@@ -1605,7 +1670,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1320,
@@ -1626,7 +1692,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1546,
@@ -1649,7 +1716,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1574,
@@ -1670,7 +1738,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1596,
@@ -1691,7 +1760,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1618,
@@ -1715,7 +1785,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 12
       },
       {
         "id": 1628,
@@ -1736,7 +1807,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1635,
@@ -1759,7 +1831,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 6
       }
     ],
     "CRES-FC821": [
@@ -1785,7 +1858,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 24
       },
       {
         "id": 1181,
@@ -1806,7 +1880,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 30
       },
       {
         "id": 1308,
@@ -1827,7 +1902,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 26
       }
     ],
     "CRES-29888": [
@@ -1853,7 +1929,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 31
       },
       {
         "id": 1171,
@@ -1874,7 +1951,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1302,
@@ -1895,7 +1973,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 25
       },
       {
         "id": 1536,
@@ -1918,7 +1997,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 8
       },
       {
         "id": 1561,
@@ -1939,7 +2019,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 18
       },
       {
         "id": 1597,
@@ -1960,7 +2041,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1615,
@@ -1984,7 +2066,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 14
       }
     ],
     "CRES-6E9FE": [
@@ -2010,7 +2093,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1176,
@@ -2031,7 +2115,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1324,
@@ -2052,7 +2137,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 30
       },
       {
         "id": 1539,
@@ -2075,7 +2161,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 18
       },
       {
         "id": 1566,
@@ -2096,7 +2183,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1595,
@@ -2117,7 +2205,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 19
       }
     ],
     "CRES-02B97": [
@@ -2728,7 +2817,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1193,
@@ -2749,7 +2839,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1316,
@@ -2770,7 +2861,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 22
       },
       {
         "id": 1527,
@@ -2793,7 +2885,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1583,
@@ -2814,7 +2907,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 22
       },
       {
         "id": 1600,
@@ -2835,7 +2929,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1608,
@@ -2859,7 +2954,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 13
       }
     ],
     "CRES-1658B": [
@@ -2885,7 +2981,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1170,
@@ -2906,7 +3003,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1321,
@@ -2927,7 +3025,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 22
       },
       {
         "id": 1531,
@@ -2950,7 +3049,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1559,
@@ -2971,7 +3071,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1588,
@@ -2992,7 +3093,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1609,
@@ -3016,7 +3118,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1623,
@@ -3037,7 +3140,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1632,
@@ -3060,7 +3164,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 4
       }
     ],
     "CRES-66BDB": [
@@ -3086,7 +3191,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 30
       },
       {
         "id": 1300,
@@ -3107,7 +3213,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1327,
@@ -3128,7 +3235,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 26
       },
       {
         "id": 1541,
@@ -3151,7 +3259,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 17
       },
       {
         "id": 1568,
@@ -3172,7 +3281,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 24
       },
       {
         "id": 1604,
@@ -3193,7 +3303,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 12
       }
     ],
     "CRES-7D89F": [
@@ -3309,7 +3420,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1189,
@@ -3330,7 +3442,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1328,
@@ -3351,7 +3464,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1544,
@@ -3415,7 +3529,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 12
       },
       {
         "id": 1297,
@@ -3436,7 +3551,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 30
       },
       {
         "id": 1318,
@@ -3457,7 +3573,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 4
       },
       {
         "id": 1547,
@@ -3497,7 +3614,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 8
       }
     ],
     "CRES-CEC96": [
@@ -3523,7 +3641,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 22
       },
       {
         "id": 1172,
@@ -3544,7 +3663,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1360,
@@ -3565,7 +3685,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1535,
@@ -3605,7 +3726,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 25
       }
     ],
     "CRES-D6283": [
@@ -3721,7 +3843,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 11
       },
       {
         "id": 1188,
@@ -3742,7 +3865,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1313,
@@ -3763,7 +3887,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1551,
@@ -3786,7 +3911,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1578,
@@ -3807,7 +3933,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 11
       }
     ],
     "CRES-E7868": [
@@ -3854,7 +3981,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 28
       },
       {
         "id": 1317,
@@ -3875,7 +4003,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 31
       }
     ],
     "CRES-34AE5": [
@@ -4261,7 +4390,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 27
       },
       {
         "id": 1169,
@@ -4282,7 +4412,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1309,
@@ -4303,7 +4434,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 24
       },
       {
         "id": 1530,
@@ -4547,7 +4679,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 15
       },
       {
         "id": 1184,
@@ -4568,7 +4701,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1312,
@@ -4589,7 +4723,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1545,
@@ -4698,7 +4833,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1177,
@@ -4719,7 +4855,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 27
       },
       {
         "id": 1319,
@@ -4740,7 +4877,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 14
       },
       {
         "id": 1540,
@@ -4780,7 +4918,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 5
       }
     ],
     "CRES-EC4EE": [
@@ -4806,7 +4945,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 18
       },
       {
         "id": 1174,
@@ -4827,7 +4967,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1323,
@@ -4848,7 +4989,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 19
       },
       {
         "id": 1538,
@@ -4871,7 +5013,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 4
       },
       {
         "id": 1564,
@@ -4892,7 +5035,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 23
       },
       {
         "id": 1603,
@@ -4913,7 +5057,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 8
       },
       {
         "id": 1610,
@@ -4937,7 +5082,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1626,
@@ -4958,7 +5104,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 9
       }
     ],
     "CRES-533F1": [
@@ -5029,7 +5176,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1190,
@@ -5050,7 +5198,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1307,
@@ -5071,7 +5220,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1543,
@@ -5094,7 +5244,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1580,
@@ -5115,7 +5266,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1590,
@@ -5136,7 +5288,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 8
       },
       {
         "id": 1620,
@@ -5160,7 +5313,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1630,
@@ -5181,7 +5335,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1636,
@@ -5204,7 +5359,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 2
       }
     ],
     "CRES-9C5EC": [
@@ -5275,7 +5431,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1173,
@@ -5296,7 +5453,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 20
       },
       {
         "id": 1326,
@@ -5317,7 +5475,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1534,
@@ -5340,7 +5499,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1563,
@@ -5361,7 +5521,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 8
       },
       {
         "id": 1602,
@@ -5382,7 +5543,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1616,
@@ -5406,7 +5568,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 10
       },
       {
         "id": 1625,
@@ -5427,7 +5590,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 4
       }
     ],
     "CRES-82750": [
@@ -5453,7 +5617,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1168,
@@ -5474,7 +5639,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1303,
@@ -5495,7 +5661,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 4
       },
       {
         "id": 1529,
@@ -5518,7 +5685,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1557,
@@ -5539,7 +5707,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1586,
@@ -5560,7 +5729,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1614,
@@ -5584,7 +5754,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1622,
@@ -5605,7 +5776,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1631,
@@ -5628,7 +5800,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 1
       }
     ],
     "CRES-E9E31": [
@@ -5654,7 +5827,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1296,
@@ -5675,7 +5849,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 2
       },
       {
         "id": 1310,
@@ -5696,7 +5871,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1537,
@@ -5719,7 +5895,8 @@
           "round_type": "title",
           "club": "Quiz Club of MIT",
           "date": "2025-10-31"
-        }
+        },
+        "round_rank": 1
       },
       {
         "id": 1560,
@@ -5740,7 +5917,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 11
       },
       {
         "id": 1587,
@@ -5761,7 +5939,8 @@
           "round_type": "title",
           "club": "TED Club of MIT",
           "date": null
-        }
+        },
+        "round_rank": 3
       },
       {
         "id": 1612,
@@ -5785,7 +5964,8 @@
           "round_type": "title",
           "club": "The Box Office of MIT",
           "date": "2025-11-01"
-        }
+        },
+        "round_rank": 7
       },
       {
         "id": 1624,
@@ -5806,7 +5986,8 @@
           "round_type": "title",
           "club": "CSMIT",
           "date": null
-        }
+        },
+        "round_rank": 6
       },
       {
         "id": 1633,
@@ -5829,7 +6010,8 @@
           "round_type": "title",
           "club": "AUSEC MIT",
           "date": "2025-11-05"
-        }
+        },
+        "round_rank": 3
       }
     ],
     "CRES-7FE08": [
@@ -5855,7 +6037,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 24
       },
       {
         "id": 1301,
@@ -5876,7 +6059,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 28
       },
       {
         "id": 1361,
@@ -5897,7 +6081,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 9
       },
       {
         "id": 1548,
@@ -6006,7 +6191,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": "2025-10-18"
-        }
+        },
+        "round_rank": 5
       },
       {
         "id": 1192,
@@ -6027,7 +6213,8 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
-        }
+        },
+        "round_rank": 13
       },
       {
         "id": 1322,
@@ -6048,7 +6235,8 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
+        },
+        "round_rank": 28
       },
       {
         "id": 1555,
@@ -6088,7 +6276,8 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
+        },
+        "round_rank": 11
       }
     ]
   }

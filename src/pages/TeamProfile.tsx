@@ -214,8 +214,11 @@ const TeamProfile = () => {
                 {teamPerformance.rounds.length > 0 && (
                   <div className="bg-background/20 border border-[hsl(var(--space-violet))]/30 rounded-lg p-6">
                     <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-violet))] mb-4 text-center">
-                      📊 Round-wise Performance
+                      📊 Completed Rounds
                     </h2>
+                    {teamPerformance.rounds.filter(round => round.isCompleted && round.score > 0).length === 0 && (
+                      <p className="text-center text-muted-foreground py-4">No completed rounds with scores yet</p>
+                    )}
                     <div className="overflow-x-auto">
                       <table className="w-full">
                         <thead>
@@ -227,15 +230,12 @@ const TeamProfile = () => {
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-border">
-                          {teamPerformance.rounds.map((round, index) => (
+                          {teamPerformance.rounds
+                            .filter(round => round.isCompleted && round.score > 0)
+                            .map((round, index) => (
                             <tr key={index}>
                               <td className="py-3">
                                 <div className="font-medium">{round.roundName}</div>
-                                <div className="text-xs text-muted-foreground">
-                                  {round.isCompleted 
-                                    ? `Rank: #${round.rank} of ${round.totalTeams}`
-                                    : 'Not started'}
-                                </div>
                               </td>
                               <td className="text-right">
                                 {round.isCompleted ? (

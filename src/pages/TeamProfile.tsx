@@ -175,8 +175,7 @@ const TeamProfile = () => {
               </div>
             </div>
 
-            {/* Team Performance Card */}
-            {teamPerformance && (
+            {teamPerformance ? (
               <div className="space-y-6">
                 <div className="bg-gradient-to-r from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 rounded-lg p-6">
                   <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))] mb-4 text-center">
@@ -207,7 +206,6 @@ const TeamProfile = () => {
                   </div>
                 </div>
 
-                {/* Round-wise Performance */}
                 {teamPerformance.rounds.length > 0 && (
                   <div className="bg-background/20 border border-[hsl(var(--space-violet))]/30 rounded-lg p-6">
                     <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-violet))] mb-4 text-center">
@@ -292,7 +290,6 @@ const TeamProfile = () => {
                   </div>
                 </div>
 
-                {/* Team Members */}
                 {team.members && team.members.length > 0 && (
                   <div className="mt-8">
                     <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-violet))] mb-4">Team Members</h2>
@@ -314,8 +311,11 @@ const TeamProfile = () => {
                   For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>
                 </p>
               </div>
-            </div>
-          </div>
+            ) : (
+              <div className="text-center py-8">
+                <p>Loading performance data...</p>
+              </div>
+            )}
           </div>
         </div>
       </div>

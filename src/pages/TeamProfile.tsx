@@ -314,30 +314,8 @@ const TeamProfile = () => {
                   For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>
                 </p>
               </div>
-              </div>
             </div>
-
-            {/* Team Members */}
-            {team.members && team.members.length > 0 && (
-              <div className="mt-8">
-                <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-violet))] mb-4">Team Members</h2>
-                <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-                  {team.members.map((member, index) => (
-                    <div key={member.id} className="bg-background/20 rounded-lg p-4">
-                      <h3 className="font-orbitron text-base font-semibold text-[hsl(var(--space-violet))] mb-2">
-                        {member.member_position}
-                      </h3>
-                      <p className="text-base">{member.member_name}</p>
-                      <p className="text-sm text-muted-foreground">{member.register_number}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <p className="mt-6 text-sm text-muted-foreground text-center">
-              For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>.
-            </p>
+          </div>
           </div>
         </div>
       </div>

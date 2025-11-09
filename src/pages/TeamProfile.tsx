@@ -2,14 +2,17 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { localDataService, type Team, type TeamMember, type TeamScore, type LeaderboardEntry } from '@/services/localDataService';
+import { cn } from '@/lib/utils';
 
 type RoundPerformance = {
-  roundNumber: number;
+  roundNumber: number;  // 1-9 after renumbering
+  originalRoundNumber: number;  // Original round number from data
   roundName: string;
   score: number;
   rank: number;
   maxScore: number;
   isCompleted: boolean;
+  totalTeams: number;
 };
 
 type TeamPerformance = {
@@ -38,22 +41,33 @@ const TeamProfile = () => {
       // Get team scores
       const teamScores = await localDataService.getTeamScores(teamId);
       
-      // Initialize all 9 rounds with default values
-      const allRounds: RoundPerformance[] = Array.from({ length: 9 }, (_, i) => ({
-        roundNumber: i + 1,
-        roundName: `Round ${i + 1}`,
-        score: 0,
-        rank: 0,
-        maxScore: 0,
-        isCompleted: false
-      }));
+      // Initialize all 9 rounds with default values (1-9, with 6 removed and 7-10 renumbered to 6-9)
+      const allRounds: RoundPerformance[] = Array.from({ length: 9 }, (_, i) => {
+        const originalRoundNum = i < 5 ? i + 1 : i + 2; // Skip round 6 (original round 6 becomes 7, etc.)
+        return {
+          roundNumber: i + 1,  // 1-9
+          originalRoundNumber: originalRoundNum,  // Original round number (1-5,7-10)
+          roundName: `Round ${i + 1}`,
+          score: 0,
+          rank: 0,
+          maxScore: 0,
+          isCompleted: false,
+          totalTeams: 0
+        };
+      });
 
       // Process completed rounds
       await Promise.all(teamScores.map(async (score) => {
-        const roundNumber = score.round_info?.round_number || 0;
+        const originalRoundNumber = score.round_info?.round_number || 0;
+        
+        // Skip if round number is invalid or round 6
+        if (originalRoundNumber < 1 || originalRoundNumber > 10 || originalRoundNumber === 6) return;
+        
+        // Calculate the renumbered round (1-5 stay same, 7-10 become 6-9)
+        const roundNumber = originalRoundNumber < 6 ? originalRoundNumber : originalRoundNumber - 1;
         if (roundNumber < 1 || roundNumber > 9) return;
 
-        // Get all scores for this round to calculate rank
+        // Get all teams that participated in this round
         const allScores = (await localDataService.getLeaderboard(100))
           .filter((entry: any) => entry.round_scores?.[score.round_id] !== undefined)
           .map((entry: any) => ({
@@ -62,22 +76,27 @@ const TeamProfile = () => {
           }))
           .sort((a: any, b: any) => b.score - a.score);
 
+        // Calculate rank (1-based index)
         const rank = allScores.findIndex((s: any) => s.teamId === teamId) + 1;
         const maxScore = allScores[0]?.score || 0;
+        const totalTeams = allScores.length;
 
         // Update the round with completed data
-        allRounds[roundNumber - 1] = {
+        const roundIndex = roundNumber - 1;
+        allRounds[roundIndex] = {
           roundNumber,
+          originalRoundNumber,
           roundName: score.round_info?.round_name || `Round ${roundNumber}`,
           score: score.score,
           rank,
           maxScore,
-          isCompleted: true
+          isCompleted: true,
+          totalTeams
         };
       }));
 
       return {
-        score: teamInLeaderboard.normalized_score || teamInLeaderboard.final_score || 0,
+        score: teamInLeaderboard.final_score || 0,  // Use final_score instead of normalized_score
         rank: teamInLeaderboard.rank || 0,
         percentile: teamInLeaderboard.percentile || 0,
         rounds: allRounds
@@ -165,21 +184,24 @@ const TeamProfile = () => {
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                     <div className="bg-background/20 p-4 rounded-lg">
-                      <p className="text-sm text-muted-foreground">Performance Score</p>
+                      <p className="text-sm text-muted-foreground">Total Points</p>
                       <p className="text-3xl font-bold text-[hsl(var(--space-gold))]">
-                        {teamPerformance.score.toFixed(2)}
+                        {teamPerformance.score.toFixed(1)}
                       </p>
                     </div>
                     <div className="bg-background/20 p-4 rounded-lg">
                       <p className="text-sm text-muted-foreground">Overall Rank</p>
                       <p className="text-3xl font-bold text-[hsl(var(--space-cyan))]">
                         #{teamPerformance.rank}
+                        <span className="block text-sm font-normal text-muted-foreground">
+                          Top {Math.ceil(teamPerformance.percentile)}% of teams
+                        </span>
                       </p>
                     </div>
                     <div className="bg-background/20 p-4 rounded-lg">
-                      <p className="text-sm text-muted-foreground">Percentile</p>
+                      <p className="text-sm text-muted-foreground">Rounds Completed</p>
                       <p className="text-3xl font-bold text-[hsl(var(--space-violet))]">
-                        {teamPerformance.percentile.toFixed(1)}%
+                        {teamPerformance.rounds.filter(r => r.isCompleted).length} / 9
                       </p>
                     </div>
                   </div>
@@ -206,18 +228,40 @@ const TeamProfile = () => {
                             <tr key={index}>
                               <td className="py-3">
                                 <div className="font-medium">{round.roundName}</div>
-                                <div className="text-xs text-muted-foreground">Round {round.roundNumber}</div>
+                                <div className="text-xs text-muted-foreground">
+                                  {round.isCompleted 
+                                    ? `Rank: #${round.rank} of ${round.totalTeams}`
+                                    : 'Not started'}
+                                </div>
                               </td>
                               <td className="text-right">
-                                <span className="font-mono">{round.score.toFixed(2)}</span>
+                                {round.isCompleted ? (
+                                  <span className="font-mono">{round.score.toFixed(1)}</span>
+                                ) : (
+                                  <span className="text-muted-foreground">—</span>
+                                )}
                               </td>
                               <td className="text-right">
-                                <span className="text-muted-foreground text-sm">/ {round.maxScore.toFixed(2)}</span>
+                                {round.isCompleted ? (
+                                  <span className="text-muted-foreground text-sm">/ {round.maxScore.toFixed(1)}</span>
+                                ) : (
+                                  <span className="text-muted-foreground">—</span>
+                                )}
                               </td>
                               <td className="text-right">
-                                <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[hsl(var(--space-cyan))]/10 text-[hsl(var(--space-cyan))] font-medium">
-                                  #{round.rank}
-                                </span>
+                                {round.isCompleted ? (
+                                  <span className={cn(
+                                    "inline-flex items-center justify-center min-w-8 h-8 rounded-full font-medium text-xs",
+                                    round.rank === 1 ? "bg-yellow-100 text-yellow-800" :
+                                    round.rank <= 3 ? "bg-purple-100 text-purple-800" :
+                                    round.rank <= 10 ? "bg-blue-100 text-blue-800" :
+                                    "bg-gray-100 text-gray-800"
+                                  )}>
+                                    #{round.rank}
+                                  </span>
+                                ) : (
+                                  <span className="text-muted-foreground">—</span>
+                                )}
                               </td>
                             </tr>
                           ))}
@@ -226,27 +270,50 @@ const TeamProfile = () => {
                     </div>
                   </div>
                 )}
-              </div>
-            )}
 
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="space-y-2 break-words">
-                <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Team Details</h2>
-                <p><span className="text-muted-foreground">Team ID:</span> <span className="break-all">{team.team_id}</span></p>
-                <p>
-                  <span className="text-muted-foreground">Status:</span>{' '}
-                  <span className={team.status?.toLowerCase() === 'active' ? 'text-green-500 font-medium' : ''}>
-                    {team.status || '—'}
-                  </span>
+                <div className="grid gap-6 md:grid-cols-2">
+                  <div className="space-y-2 break-words">
+                    <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Team Details</h2>
+                    <p><span className="text-muted-foreground">Team ID:</span> <span className="break-all">{team.team_id}</span></p>
+                    <p>
+                      <span className="text-muted-foreground">Status:</span>{' '}
+                      <span className={team.status?.toLowerCase() === 'active' ? 'text-green-500 font-medium' : ''}>
+                        {team.status || '—'}
+                      </span>
+                    </p>
+                    <p><span className="text-muted-foreground">Current Round:</span> {team.current_round ?? '—'}</p>
+                  </div>
+                  <div className="space-y-2 break-words">
+                    <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Leader</h2>
+                    <p className="text-base md:text-lg">{team.leader_name}</p>
+                    <p>Reg No: <span className="break-all">{team.leader_register_number}</span></p>
+                    <p>Email: <span className="break-all">{team.leader_email}</span></p>
+                    <p>Contact: <span className="break-all">{team.leader_contact}</span></p>
+                  </div>
+                </div>
+
+                {/* Team Members */}
+                {team.members && team.members.length > 0 && (
+                  <div className="mt-8">
+                    <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-violet))] mb-4">Team Members</h2>
+                    <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+                      {team.members.map((member, index) => (
+                        <div key={member.id} className="bg-background/20 rounded-lg p-4">
+                          <h3 className="font-orbitron text-base font-semibold text-[hsl(var(--space-violet))] mb-2">
+                            {member.member_position}
+                          </h3>
+                          <p className="text-base">{member.member_name}</p>
+                          <p className="text-sm text-muted-foreground">{member.register_number}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <p className="mt-6 text-sm text-muted-foreground text-center">
+                  For any queries, write to <a className="underline" href="mailto:pda@mitindia.edu">pda@mitindia.edu</a>
                 </p>
-                <p><span className="text-muted-foreground">Current Round:</span> {team.current_round ?? '—'}</p>
               </div>
-              <div className="space-y-2 break-words">
-                <h2 className="font-orbitron text-lg md:text-xl text-[hsl(var(--space-cyan))]">Leader</h2>
-                <p className="text-base md:text-lg">{team.leader_name}</p>
-                <p>Reg No: <span className="break-all">{team.leader_register_number}</span></p>
-                <p>Email: <span className="break-all">{team.leader_email}</span></p>
-                <p>Contact: <span className="break-all">{team.leader_contact}</span></p>
               </div>
             </div>
 

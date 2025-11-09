@@ -49,10 +49,10 @@ const TeamProfile = () => {
           originalRoundNumber: originalRoundNum,  // Original round number (1-5,7-10)
           roundName: `Round ${i + 1}`,
           score: 0,
-          rank: 0,
-          maxScore: 0,
+          rank: 1, // Default to rank 1
+          maxScore: 100, // Set default max score to 100
           isCompleted: false,
-          totalTeams: 0
+          totalTeams: 1 // Default to 1 team
         };
       });
 
@@ -77,9 +77,9 @@ const TeamProfile = () => {
           .sort((a: any, b: any) => b.score - a.score);
 
         // Calculate rank (1-based index)
-        const rank = allScores.findIndex((s: any) => s.teamId === teamId) + 1;
-        const maxScore = allScores[0]?.score || 0;
-        const totalTeams = allScores.length;
+        const rank = allScores.findIndex((s: any) => s.teamId === teamId) + 1 || 1;
+        const maxScore = 100; // Fixed max score of 100 for all rounds
+        const totalTeams = Math.max(1, allScores.length); // Ensure at least 1 team
 
         // Update the round with completed data
         const roundIndex = roundNumber - 1;

@@ -295,29 +295,37 @@
       "mode": "offline",
       "club": "AUSEC MIT",
       "type": "offline",
-      "date": null,
+      "date": "2025-11-05",
       "description": "A virtual investing challenge simulating real-world trading decisions and reacting to market news in real time.",
       "extended_description": "",
       "form_link": "",
       "contact": "",
       "venue": null,
-      "status": "in_progress",
-      "is_evaluated": false,
-      "is_frozen": false,
+      "status": "completed",
+      "is_evaluated": true,
+      "is_frozen": true,
       "is_wildcard": false,
       "criteria": [
         {
-          "name": "Overall Performance",
+          "name": "Choice of companies",
           "weight": 100,
           "max_score": 100,
           "max_points": 100
+        },
+        {
+          "name": "Portfolio",
+          "max_points": 50
+        },
+        {
+          "name": "Game play",
+          "max_points": 50
         }
       ],
-      "max_score": null,
-      "min_score": null,
-      "avg_score": null,
+      "max_score": 77.5,
+      "min_score": 30.9,
+      "avg_score": 51.2083,
       "created_at": "2025-10-21T18:59:32",
-      "updated_at": "2025-11-04T22:45:03"
+      "updated_at": "2025-11-09T06:22:21"
     }
   ],
   "rolling_events": [

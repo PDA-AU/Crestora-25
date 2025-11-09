@@ -1,34 +1,89 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { localDataService, type Team, type TeamMember } from '@/services/localDataService';
+import { localDataService, type Team, type TeamMember, type TeamScore, type LeaderboardEntry } from '@/services/localDataService';
 
-type TeamScore = {
+type RoundPerformance = {
+  roundNumber: number;
+  roundName: string;
   score: number;
+  rank: number;
+  maxScore: number;
+  isCompleted: boolean;
+};
+
+type TeamPerformance = {
+  score: number;
+  rank: number;
+  percentile: number;
+  rounds: RoundPerformance[];
 };
 
 const TeamProfile = () => {
   const { teamId } = useParams();
   const navigate = useNavigate();
   const [team, setTeam] = useState<Team | null>(null);
-  const [teamScore, setTeamScore] = useState<TeamScore | null>(null);
+  const [teamPerformance, setTeamPerformance] = useState<TeamPerformance | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // Local function to get team score from leaderboard (using local data instead of API)
-  const getTeamScoreFromLeaderboard = async (teamId: string): Promise<TeamScore | null> => {
+  // Function to get team performance data including round-wise scores and ranks for all 9 rounds
+  const getTeamPerformance = async (teamId: string): Promise<TeamPerformance | null> => {
     try {
+      // Get leaderboard data
       const leaderboard = await localDataService.getLeaderboard(100);
-      const teamInLeaderboard = leaderboard.find((team: any) => team.team_id === teamId);
-      if (teamInLeaderboard) {
-        const score = teamInLeaderboard.normalized_score || teamInLeaderboard.final_score || 0;
-        return {
-          score: score
+      const teamInLeaderboard = leaderboard.find((team: LeaderboardEntry) => team.team_id === teamId);
+      
+      if (!teamInLeaderboard) return null;
+
+      // Get team scores
+      const teamScores = await localDataService.getTeamScores(teamId);
+      
+      // Initialize all 9 rounds with default values
+      const allRounds: RoundPerformance[] = Array.from({ length: 9 }, (_, i) => ({
+        roundNumber: i + 1,
+        roundName: `Round ${i + 1}`,
+        score: 0,
+        rank: 0,
+        maxScore: 0,
+        isCompleted: false
+      }));
+
+      // Process completed rounds
+      await Promise.all(teamScores.map(async (score) => {
+        const roundNumber = score.round_info?.round_number || 0;
+        if (roundNumber < 1 || roundNumber > 9) return;
+
+        // Get all scores for this round to calculate rank
+        const allScores = (await localDataService.getLeaderboard(100))
+          .filter((entry: any) => entry.round_scores?.[score.round_id] !== undefined)
+          .map((entry: any) => ({
+            teamId: entry.team_id,
+            score: entry.round_scores[score.round_id].score
+          }))
+          .sort((a: any, b: any) => b.score - a.score);
+
+        const rank = allScores.findIndex((s: any) => s.teamId === teamId) + 1;
+        const maxScore = allScores[0]?.score || 0;
+
+        // Update the round with completed data
+        allRounds[roundNumber - 1] = {
+          roundNumber,
+          roundName: score.round_info?.round_name || `Round ${roundNumber}`,
+          score: score.score,
+          rank,
+          maxScore,
+          isCompleted: true
         };
-      }
+      }));
+
       return {
-        score: 0
+        score: teamInLeaderboard.normalized_score || teamInLeaderboard.final_score || 0,
+        rank: teamInLeaderboard.rank || 0,
+        percentile: teamInLeaderboard.percentile || 0,
+        rounds: allRounds
       };
     } catch (error) {
+      console.error('Error fetching team performance:', error);
       return null;
     }
   };
@@ -42,9 +97,9 @@ const TeamProfile = () => {
           const parsedTeam = JSON.parse(teamData);
           setTeam(parsedTeam);
           
-          // Fetch team score from leaderboard
-          const score = await getTeamScoreFromLeaderboard(parsedTeam.team_id);
-          setTeamScore(score);
+          // Fetch team performance data
+          const performance = await getTeamPerformance(parsedTeam.team_id);
+          setTeamPerformance(performance);
         }
       } catch (error) {
         console.error('Error loading team data:', error);
@@ -101,18 +156,76 @@ const TeamProfile = () => {
               </div>
             </div>
 
-            {/* Team Performance Score Card */}
-            {teamScore && (
-              <div className="bg-gradient-to-r from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 rounded-lg p-6 mb-6">
-                <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))] mb-4 text-center">
-                  🏆 Team Performance
-                </h2>
-                <div className="text-center">
-                  <p className="text-sm text-muted-foreground mb-2">Performance Score</p>
-                  <p className="text-4xl font-bold text-[hsl(var(--space-gold))]">
-                    {teamScore.score}
-                  </p>
+            {/* Team Performance Card */}
+            {teamPerformance && (
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-[hsl(var(--space-cyan))]/10 to-[hsl(var(--space-violet))]/10 border border-[hsl(var(--space-cyan))]/30 rounded-lg p-6">
+                  <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-cyan))] mb-4 text-center">
+                    🏆 Team Performance
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div className="bg-background/20 p-4 rounded-lg">
+                      <p className="text-sm text-muted-foreground">Performance Score</p>
+                      <p className="text-3xl font-bold text-[hsl(var(--space-gold))]">
+                        {teamPerformance.score.toFixed(2)}
+                      </p>
+                    </div>
+                    <div className="bg-background/20 p-4 rounded-lg">
+                      <p className="text-sm text-muted-foreground">Overall Rank</p>
+                      <p className="text-3xl font-bold text-[hsl(var(--space-cyan))]">
+                        #{teamPerformance.rank}
+                      </p>
+                    </div>
+                    <div className="bg-background/20 p-4 rounded-lg">
+                      <p className="text-sm text-muted-foreground">Percentile</p>
+                      <p className="text-3xl font-bold text-[hsl(var(--space-violet))]">
+                        {teamPerformance.percentile.toFixed(1)}%
+                      </p>
+                    </div>
+                  </div>
                 </div>
+
+                {/* Round-wise Performance */}
+                {teamPerformance.rounds.length > 0 && (
+                  <div className="bg-background/20 border border-[hsl(var(--space-violet))]/30 rounded-lg p-6">
+                    <h2 className="font-orbitron text-xl font-bold text-[hsl(var(--space-violet))] mb-4 text-center">
+                      📊 Round-wise Performance
+                    </h2>
+                    <div className="overflow-x-auto">
+                      <table className="w-full">
+                        <thead>
+                          <tr className="text-left text-sm text-muted-foreground border-b border-border">
+                            <th className="pb-2">Round</th>
+                            <th className="text-right pb-2">Score</th>
+                            <th className="text-right pb-2">Max Score</th>
+                            <th className="text-right pb-2">Rank</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-border">
+                          {teamPerformance.rounds.map((round, index) => (
+                            <tr key={index}>
+                              <td className="py-3">
+                                <div className="font-medium">{round.roundName}</div>
+                                <div className="text-xs text-muted-foreground">Round {round.roundNumber}</div>
+                              </td>
+                              <td className="text-right">
+                                <span className="font-mono">{round.score.toFixed(2)}</span>
+                              </td>
+                              <td className="text-right">
+                                <span className="text-muted-foreground text-sm">/ {round.maxScore.toFixed(2)}</span>
+                              </td>
+                              <td className="text-right">
+                                <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[hsl(var(--space-cyan))]/10 text-[hsl(var(--space-cyan))] font-medium">
+                                  #{round.rank}
+                                </span>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 

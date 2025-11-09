@@ -1,361 +1,5 @@
 {
   "team_scores": {
-    "CRES-F0C47": [
-      {
-        "id": 1012,
-        "team_id": "CRES-F0C47",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 90.5,
-        "criteria_scores": {
-          "Content": 27,
-          "Creativity": 16.5,
-          "Presentation": 27.5,
-          "Individuality": 19.5
-        },
-        "raw_total_score": 90.5,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:14:00",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1183,
-        "team_id": "CRES-F0C47",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 95,
-        "criteria_scores": {
-          "MCQ ": 19
-        },
-        "raw_total_score": 19,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:05:16",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1314,
-        "team_id": "CRES-F0C47",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 75,
-        "criteria_scores": {
-          "Overall Performance": 30
-        },
-        "raw_total_score": 30,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:28:32",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1554,
-        "team_id": "CRES-F0C47",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 21.2,
-        "criteria_scores": {
-          "Round 1": 13,
-          "Round 2": 20,
-          "Round 3": 20
-        },
-        "raw_total_score": 53,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:57:11",
-        "updated_at": "2025-11-01T05:04:00",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1575,
-        "team_id": "CRES-F0C47",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 92,
-        "criteria_scores": {
-          "Overall Performance": 46
-        },
-        "raw_total_score": 46,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:58:22",
-        "updated_at": "2025-10-26T17:58:47",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1592,
-        "team_id": "CRES-F0C47",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Overall Performance": 8
-        },
-        "raw_total_score": 8,
-        "is_normalized": true,
-        "created_at": "2025-10-29T18:19:44",
-        "updated_at": "2025-10-29T18:22:32",
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1619,
-        "team_id": "CRES-F0C47",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 70,
-        "criteria_scores": {
-          "Creativity": 15,
-          "Spontaneity": 14,
-          "Coordination": 13,
-          "Acting & performance": 14
-        },
-        "raw_total_score": 56,
-        "is_normalized": true,
-        "created_at": "2025-11-01T16:18:56",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      },
-      {
-        "id": 1629,
-        "team_id": "CRES-F0C47",
-        "round_id": 13,
-        "event_id": "CRESTORA25",
-        "score": 89,
-        "criteria_scores": {
-          "Overall Performance": 89
-        },
-        "raw_total_score": 89,
-        "is_normalized": true,
-        "created_at": "2025-11-04T21:23:56",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 9,
-          "round_name": "Pixel Pitch",
-          "round_type": "title",
-          "club": "CSMIT",
-          "date": null
-        }
-      }
-    ],
-    "CRES-CCB76": [
-      {
-        "id": 999,
-        "team_id": "CRES-CCB76",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 92,
-        "criteria_scores": {
-          "Content": 27,
-          "Creativity": 20,
-          "Presentation": 28,
-          "Individuality": 17
-        },
-        "raw_total_score": 92,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:06:54",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1178,
-        "team_id": "CRES-CCB76",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "MCQ ": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:04:19",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1306,
-        "team_id": "CRES-CCB76",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 62.5,
-        "criteria_scores": {
-          "Overall Performance": 25
-        },
-        "raw_total_score": 25,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:10:10",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1542,
-        "team_id": "CRES-CCB76",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 7.2,
-        "criteria_scores": {
-          "Round 1": 5,
-          "Round 2": 0,
-          "Round 3": 13
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:56:30",
-        "updated_at": "2025-11-01T05:18:08",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1569,
-        "team_id": "CRES-CCB76",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 81,
-        "criteria_scores": {
-          "Overall Performance": 40.5
-        },
-        "raw_total_score": 40.5,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:48:52",
-        "updated_at": "2025-10-27T04:13:36",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1599,
-        "team_id": "CRES-CCB76",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 70,
-        "criteria_scores": {
-          "Overall Performance": 7
-        },
-        "raw_total_score": 7,
-        "is_normalized": true,
-        "created_at": "2025-10-31T17:22:38",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      }
-    ],
-    "CRES-36A89": [
-      {
-        "id": 1018,
-        "team_id": "CRES-36A89",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:15:42",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1219,
-        "team_id": "CRES-36A89",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:12:48",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
     "CRES-96DA2": [
       {
         "id": 967,
@@ -534,6 +178,229 @@
         }
       }
     ],
+    "CRES-36A89": [
+      {
+        "id": 1018,
+        "team_id": "CRES-36A89",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:42",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1219,
+        "team_id": "CRES-36A89",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:48",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-F0C47": [
+      {
+        "id": 1012,
+        "team_id": "CRES-F0C47",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 90.5,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 16.5,
+          "Presentation": 27.5,
+          "Individuality": 19.5
+        },
+        "raw_total_score": 90.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:14:00",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1183,
+        "team_id": "CRES-F0C47",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1314,
+        "team_id": "CRES-F0C47",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Overall Performance": 30
+        },
+        "raw_total_score": 30,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:28:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1554,
+        "team_id": "CRES-F0C47",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 21.2,
+        "criteria_scores": {
+          "Round 1": 13,
+          "Round 2": 20,
+          "Round 3": 20
+        },
+        "raw_total_score": 53,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:57:11",
+        "updated_at": "2025-11-01T05:04:00",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1575,
+        "team_id": "CRES-F0C47",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 92,
+        "criteria_scores": {
+          "Overall Performance": 46
+        },
+        "raw_total_score": 46,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:58:22",
+        "updated_at": "2025-10-26T17:58:47",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1592,
+        "team_id": "CRES-F0C47",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 8
+        },
+        "raw_total_score": 8,
+        "is_normalized": true,
+        "created_at": "2025-10-29T18:19:44",
+        "updated_at": "2025-10-29T18:22:32",
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1619,
+        "team_id": "CRES-F0C47",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Creativity": 15,
+          "Spontaneity": 14,
+          "Coordination": 13,
+          "Acting & performance": 14
+        },
+        "raw_total_score": 56,
+        "is_normalized": true,
+        "created_at": "2025-11-01T16:18:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      },
+      {
+        "id": 1629,
+        "team_id": "CRES-F0C47",
+        "round_id": 13,
+        "event_id": "CRESTORA25",
+        "score": 89,
+        "criteria_scores": {
+          "Overall Performance": 89
+        },
+        "raw_total_score": 89,
+        "is_normalized": true,
+        "created_at": "2025-11-04T21:23:56",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 9,
+          "round_name": "Pixel Pitch",
+          "round_type": "title",
+          "club": "CSMIT",
+          "date": null
+        }
+      }
+    ],
     "CRES-6AA19": [
       {
         "id": 1030,
@@ -575,6 +442,1121 @@
           "round_name": "Visionary Voyage",
           "round_type": "title",
           "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-0ED4B": [
+      {
+        "id": 1004,
+        "team_id": "CRES-0ED4B",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 94.5,
+        "criteria_scores": {
+          "Content": 28,
+          "Creativity": 19.5,
+          "Presentation": 28.5,
+          "Individuality": 18.5
+        },
+        "raw_total_score": 94.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:08:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1180,
+        "team_id": "CRES-0ED4B",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1315,
+        "team_id": "CRES-0ED4B",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 87.5,
+        "criteria_scores": {
+          "Overall Performance": 35
+        },
+        "raw_total_score": 35,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:28:46",
+        "updated_at": "2025-10-24T16:17:27",
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1549,
+        "team_id": "CRES-0ED4B",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 17.2,
+        "criteria_scores": {
+          "Round 1": 20,
+          "Round 2": 0,
+          "Round 3": 23
+        },
+        "raw_total_score": 43,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:57:00",
+        "updated_at": "2025-11-01T05:15:38",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1571,
+        "team_id": "CRES-0ED4B",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 92,
+        "criteria_scores": {
+          "Overall Performance": 46
+        },
+        "raw_total_score": 46,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:49:35",
+        "updated_at": "2025-10-27T04:18:16",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1593,
+        "team_id": "CRES-0ED4B",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 88,
+        "criteria_scores": {
+          "Overall Performance": 8.8
+        },
+        "raw_total_score": 8.8,
+        "is_normalized": true,
+        "created_at": "2025-10-29T18:20:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1617,
+        "team_id": "CRES-0ED4B",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 66.25,
+        "criteria_scores": {
+          "Creativity": 15,
+          "Spontaneity": 13,
+          "Coordination": 12,
+          "Acting & performance": 13
+        },
+        "raw_total_score": 53,
+        "is_normalized": true,
+        "created_at": "2025-11-01T16:15:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      },
+      {
+        "id": 1627,
+        "team_id": "CRES-0ED4B",
+        "round_id": 13,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "Overall Performance": 90
+        },
+        "raw_total_score": 90,
+        "is_normalized": true,
+        "created_at": "2025-11-04T21:23:29",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 9,
+          "round_name": "Pixel Pitch",
+          "round_type": "title",
+          "club": "CSMIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1634,
+        "team_id": "CRES-0ED4B",
+        "round_id": 12,
+        "event_id": "CRESTORA25",
+        "score": 31.45,
+        "criteria_scores": {
+          "Game play": 0,
+          "Portfolio": 0,
+          "Choice of companies": 62.9
+        },
+        "raw_total_score": 62.9,
+        "is_normalized": true,
+        "created_at": "2025-11-08T16:03:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
+          "round_type": "title",
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
+        }
+      }
+    ],
+    "CRES-D8F3D": [
+      {
+        "id": 993,
+        "team_id": "CRES-D8F3D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1175,
+        "team_id": "CRES-D8F3D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:43",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1304,
+        "team_id": "CRES-D8F3D",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Overall Performance": 33
+        },
+        "raw_total_score": 33,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1533,
+        "team_id": "CRES-D8F3D",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 12.8,
+        "criteria_scores": {
+          "Round 1": 12,
+          "Round 2": 5,
+          "Round 3": 15
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:56:13",
+        "updated_at": "2025-11-01T05:07:43",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1565,
+        "team_id": "CRES-D8F3D",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 82,
+        "criteria_scores": {
+          "Overall Performance": 41
+        },
+        "raw_total_score": 41,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:46:39",
+        "updated_at": "2025-10-27T04:13:37",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1591,
+        "team_id": "CRES-D8F3D",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 73,
+        "criteria_scores": {
+          "Overall Performance": 7.3
+        },
+        "raw_total_score": 7.3,
+        "is_normalized": true,
+        "created_at": "2025-10-29T18:19:29",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1605,
+        "team_id": "CRES-D8F3D",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 38.75,
+        "criteria_scores": {
+          "Creativity": 7,
+          "Spontaneity": 8,
+          "Coordination": 7,
+          "Acting & performance": 9
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-11-01T14:29:45",
+        "updated_at": "2025-11-01T14:49:38",
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      }
+    ],
+    "CRES-865AB": [
+      {
+        "id": 1014,
+        "team_id": "CRES-865AB",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 14,
+          "Presentation": 24,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:14:58",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1185,
+        "team_id": "CRES-865AB",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 100,
+        "criteria_scores": {
+          "MCQ ": 20
+        },
+        "raw_total_score": 20,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1325,
+        "team_id": "CRES-865AB",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:32:37",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1553,
+        "team_id": "CRES-865AB",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 7.2,
+        "criteria_scores": {
+          "Round 1": 0,
+          "Round 2": 0,
+          "Round 3": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:57:08",
+        "updated_at": "2025-11-01T05:04:14",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1576,
+        "team_id": "CRES-865AB",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 40
+        },
+        "raw_total_score": 40,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:58:55",
+        "updated_at": "2025-10-26T17:59:12",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1594,
+        "team_id": "CRES-865AB",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Overall Performance": 7
+        },
+        "raw_total_score": 7,
+        "is_normalized": true,
+        "created_at": "2025-10-31T17:20:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1613,
+        "team_id": "CRES-865AB",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 78.75,
+        "criteria_scores": {
+          "Creativity": 15,
+          "Spontaneity": 14,
+          "Coordination": 16,
+          "Acting & performance": 18
+        },
+        "raw_total_score": 63,
+        "is_normalized": true,
+        "created_at": "2025-11-01T15:36:58",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      }
+    ],
+    "CRES-F796C": [
+      {
+        "id": 1015,
+        "team_id": "CRES-F796C",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 84,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 17,
+          "Presentation": 25,
+          "Individuality": 17
+        },
+        "raw_total_score": 84,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1186,
+        "team_id": "CRES-F796C",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:05:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1305,
+        "team_id": "CRES-F796C",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1552,
+        "team_id": "CRES-F796C",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 16.4,
+        "criteria_scores": {
+          "Round 1": 0,
+          "Round 2": 10,
+          "Round 3": 31
+        },
+        "raw_total_score": 41,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:57:07",
+        "updated_at": "2025-11-01T05:16:25",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1577,
+        "team_id": "CRES-F796C",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 82,
+        "criteria_scores": {
+          "Overall Performance": 41
+        },
+        "raw_total_score": 41,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:59:19",
+        "updated_at": "2025-10-26T17:59:43",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1589,
+        "team_id": "CRES-F796C",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Overall Performance": 8.5
+        },
+        "raw_total_score": 8.5,
+        "is_normalized": true,
+        "created_at": "2025-10-29T18:18:59",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1611,
+        "team_id": "CRES-F796C",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 28.75,
+        "criteria_scores": {
+          "Creativity": 7,
+          "Spontaneity": 4,
+          "Coordination": 4,
+          "Acting & performance": 8
+        },
+        "raw_total_score": 23,
+        "is_normalized": true,
+        "created_at": "2025-11-01T15:27:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      }
+    ],
+    "CRES-A824D": [
+      {
+        "id": 969,
+        "team_id": "CRES-A824D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 81,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 16
+        },
+        "raw_total_score": 81,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:55:49",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1298,
+        "team_id": "CRES-A824D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:05:37",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-17B89": [
+      {
+        "id": 1003,
+        "team_id": "CRES-17B89",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 79,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 17
+        },
+        "raw_total_score": 79,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:07:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1179,
+        "team_id": "CRES-17B89",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 95,
+        "criteria_scores": {
+          "MCQ ": 19
+        },
+        "raw_total_score": 19,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1311,
+        "team_id": "CRES-17B89",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "Overall Performance": 30
+        },
+        "raw_total_score": 30,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:27:41",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1550,
+        "team_id": "CRES-17B89",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 14.4,
+        "criteria_scores": {
+          "Round 1": 18,
+          "Round 2": 0,
+          "Round 3": 18
+        },
+        "raw_total_score": 36,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:57:02",
+        "updated_at": "2025-11-01T05:13:26",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1570,
+        "team_id": "CRES-17B89",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Overall Performance": 39
+        },
+        "raw_total_score": 39,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:49:11",
+        "updated_at": "2025-10-27T04:13:30",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1601,
+        "team_id": "CRES-17B89",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Overall Performance": 7
+        },
+        "raw_total_score": 7,
+        "is_normalized": true,
+        "created_at": "2025-10-31T17:23:16",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1606,
+        "team_id": "CRES-17B89",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 83.75,
+        "criteria_scores": {
+          "Creativity": 16,
+          "Spontaneity": 16,
+          "Coordination": 18,
+          "Acting & performance": 17
+        },
+        "raw_total_score": 67,
+        "is_normalized": true,
+        "created_at": "2025-11-01T14:43:25",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      }
+    ],
+    "CRES-0B48A": [
+      {
+        "id": 1025,
+        "team_id": "CRES-0B48A",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Content": 24,
+          "Creativity": 17,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 80,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:28:42",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1191,
+        "team_id": "CRES-0B48A",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:06:51",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1362,
+        "team_id": "CRES-0B48A",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Overall Performance": 31
+        },
+        "raw_total_score": 31,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1532,
+        "team_id": "CRES-0B48A",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:55:45",
+        "updated_at": "2025-10-26T13:07:29",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1581,
+        "team_id": "CRES-0B48A",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 86,
+        "criteria_scores": {
+          "Overall Performance": 43
+        },
+        "raw_total_score": 43,
+        "is_normalized": true,
+        "created_at": "2025-10-26T18:02:16",
+        "updated_at": "2025-10-26T18:02:35",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      }
+    ],
+    "CRES-CCB76": [
+      {
+        "id": 999,
+        "team_id": "CRES-CCB76",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 92,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 20,
+          "Presentation": 28,
+          "Individuality": 17
+        },
+        "raw_total_score": 92,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:06:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1178,
+        "team_id": "CRES-CCB76",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:04:19",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1306,
+        "team_id": "CRES-CCB76",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 62.5,
+        "criteria_scores": {
+          "Overall Performance": 25
+        },
+        "raw_total_score": 25,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:10:10",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1542,
+        "team_id": "CRES-CCB76",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 7.2,
+        "criteria_scores": {
+          "Round 1": 5,
+          "Round 2": 0,
+          "Round 3": 13
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:56:30",
+        "updated_at": "2025-11-01T05:18:08",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1569,
+        "team_id": "CRES-CCB76",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 81,
+        "criteria_scores": {
+          "Overall Performance": 40.5
+        },
+        "raw_total_score": 40.5,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:48:52",
+        "updated_at": "2025-10-27T04:13:36",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1599,
+        "team_id": "CRES-CCB76",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Overall Performance": 7
+        },
+        "raw_total_score": 7,
+        "is_normalized": true,
+        "created_at": "2025-10-31T17:22:38",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
           "date": null
         }
       }
@@ -755,6 +1737,29 @@
           "club": "CSMIT",
           "date": null
         }
+      },
+      {
+        "id": 1635,
+        "team_id": "CRES-DE64E",
+        "round_id": 12,
+        "event_id": "CRESTORA25",
+        "score": 30.9,
+        "criteria_scores": {
+          "Game play": 0,
+          "Portfolio": 0,
+          "Choice of companies": 61.8
+        },
+        "raw_total_score": 61.8,
+        "is_normalized": true,
+        "created_at": "2025-11-08T16:03:32",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
+          "round_type": "title",
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
+        }
       }
     ],
     "CRES-FC821": [
@@ -822,292 +1827,6 @@
           "round_type": "title",
           "club": "MIT Quill",
           "date": "2025-10-20"
-        }
-      }
-    ],
-    "CRES-0B48A": [
-      {
-        "id": 1025,
-        "team_id": "CRES-0B48A",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Content": 24,
-          "Creativity": 17,
-          "Presentation": 23,
-          "Individuality": 16
-        },
-        "raw_total_score": 80,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:28:42",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1191,
-        "team_id": "CRES-0B48A",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "MCQ ": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:06:51",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1362,
-        "team_id": "CRES-0B48A",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 77.5,
-        "criteria_scores": {
-          "Overall Performance": 31
-        },
-        "raw_total_score": 31,
-        "is_normalized": true,
-        "created_at": "2025-10-24T16:14:32",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1532,
-        "team_id": "CRES-0B48A",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:55:45",
-        "updated_at": "2025-10-26T13:07:29",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1581,
-        "team_id": "CRES-0B48A",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 86,
-        "criteria_scores": {
-          "Overall Performance": 43
-        },
-        "raw_total_score": 43,
-        "is_normalized": true,
-        "created_at": "2025-10-26T18:02:16",
-        "updated_at": "2025-10-26T18:02:35",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      }
-    ],
-    "CRES-6E9FE": [
-      {
-        "id": 995,
-        "team_id": "CRES-6E9FE",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 82,
-        "criteria_scores": {
-          "Content": 26,
-          "Creativity": 16,
-          "Presentation": 24,
-          "Individuality": 16
-        },
-        "raw_total_score": 82,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:03:50",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1176,
-        "team_id": "CRES-6E9FE",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "MCQ ": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:03:56",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1324,
-        "team_id": "CRES-6E9FE",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 55,
-        "criteria_scores": {
-          "Overall Performance": 22
-        },
-        "raw_total_score": 22,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:32:08",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1539,
-        "team_id": "CRES-6E9FE",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 10.4,
-        "criteria_scores": {
-          "Round 1": 3,
-          "Round 2": 10,
-          "Round 3": 13
-        },
-        "raw_total_score": 26,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:56:24",
-        "updated_at": "2025-11-01T05:15:19",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1566,
-        "team_id": "CRES-6E9FE",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 82,
-        "criteria_scores": {
-          "Overall Performance": 41
-        },
-        "raw_total_score": 41,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:47:16",
-        "updated_at": "2025-10-27T04:13:37",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1595,
-        "team_id": "CRES-6E9FE",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 65,
-        "criteria_scores": {
-          "Overall Performance": 6.5
-        },
-        "raw_total_score": 6.5,
-        "is_normalized": true,
-        "created_at": "2025-10-31T17:21:11",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      }
-    ],
-    "CRES-26AC7": [
-      {
-        "id": 984,
-        "team_id": "CRES-26AC7",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:01:52",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1209,
-        "team_id": "CRES-26AC7",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:09:48",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
         }
       }
     ],
@@ -1268,22 +1987,22 @@
         }
       }
     ],
-    "CRES-D9834": [
+    "CRES-6E9FE": [
       {
-        "id": 989,
-        "team_id": "CRES-D9834",
+        "id": 995,
+        "team_id": "CRES-6E9FE",
         "round_id": 6,
         "event_id": "CRESTORA25",
-        "score": 0,
+        "score": 82,
         "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
+          "Content": 26,
+          "Creativity": 16,
+          "Presentation": 24,
+          "Individuality": 16
         },
-        "raw_total_score": 0,
+        "raw_total_score": 82,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:02:55",
+        "created_at": "2025-10-22T11:03:50",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -1294,21 +2013,109 @@
         }
       },
       {
-        "id": 1205,
-        "team_id": "CRES-D9834",
+        "id": 1176,
+        "team_id": "CRES-6E9FE",
         "round_id": 16,
         "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:09:33",
+        "created_at": "2025-10-23T17:03:56",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
           "round_name": "Visionary Voyage",
           "round_type": "title",
           "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1324,
+        "team_id": "CRES-6E9FE",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 55,
+        "criteria_scores": {
+          "Overall Performance": 22
+        },
+        "raw_total_score": 22,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:32:08",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1539,
+        "team_id": "CRES-6E9FE",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 10.4,
+        "criteria_scores": {
+          "Round 1": 3,
+          "Round 2": 10,
+          "Round 3": 13
+        },
+        "raw_total_score": 26,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:56:24",
+        "updated_at": "2025-11-01T05:15:19",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1566,
+        "team_id": "CRES-6E9FE",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 82,
+        "criteria_scores": {
+          "Overall Performance": 41
+        },
+        "raw_total_score": 41,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:47:16",
+        "updated_at": "2025-10-27T04:13:37",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1595,
+        "team_id": "CRES-6E9FE",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 65,
+        "criteria_scores": {
+          "Overall Performance": 6.5
+        },
+        "raw_total_score": 6.5,
+        "is_normalized": true,
+        "created_at": "2025-10-31T17:21:11",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
           "date": null
         }
       }
@@ -1403,10 +2210,10 @@
         }
       }
     ],
-    "CRES-D76FC": [
+    "CRES-D9834": [
       {
-        "id": 976,
-        "team_id": "CRES-D76FC",
+        "id": 989,
+        "team_id": "CRES-D9834",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -1418,7 +2225,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:01:05",
+        "created_at": "2025-10-22T11:02:55",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -1429,15 +2236,60 @@
         }
       },
       {
-        "id": 1195,
-        "team_id": "CRES-D76FC",
+        "id": 1205,
+        "team_id": "CRES-D9834",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:08:20",
+        "created_at": "2025-10-23T17:09:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-26AC7": [
+      {
+        "id": 984,
+        "team_id": "CRES-26AC7",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1209,
+        "team_id": "CRES-26AC7",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:48",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -1493,51 +2345,6 @@
         }
       }
     ],
-    "CRES-BBA19": [
-      {
-        "id": 980,
-        "team_id": "CRES-BBA19",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:01:44",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1213,
-        "team_id": "CRES-BBA19",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:10:03",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
     "CRES-68273": [
       {
         "id": 1001,
@@ -1573,6 +2380,51 @@
         "raw_total_score": 0,
         "is_normalized": true,
         "created_at": "2025-10-23T17:09:03",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-D76FC": [
+      {
+        "id": 976,
+        "team_id": "CRES-D76FC",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:05",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1195,
+        "team_id": "CRES-D76FC",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:08:20",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -1628,10 +2480,10 @@
         }
       }
     ],
-    "CRES-B28C4": [
+    "CRES-BBA19": [
       {
-        "id": 996,
-        "team_id": "CRES-B28C4",
+        "id": 980,
+        "team_id": "CRES-BBA19",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -1643,7 +2495,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:04:02",
+        "created_at": "2025-10-22T11:01:44",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -1654,60 +2506,15 @@
         }
       },
       {
-        "id": 1201,
-        "team_id": "CRES-B28C4",
+        "id": 1213,
+        "team_id": "CRES-BBA19",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:09:13",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
-    "CRES-75534": [
-      {
-        "id": 1032,
-        "team_id": "CRES-75534",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:32:19",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1224,
-        "team_id": "CRES-75534",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:13:21",
+        "created_at": "2025-10-23T17:10:03",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -1763,6 +2570,51 @@
         }
       }
     ],
+    "CRES-B28C4": [
+      {
+        "id": 996,
+        "team_id": "CRES-B28C4",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:04:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1201,
+        "team_id": "CRES-B28C4",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:13",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
     "CRES-2F008": [
       {
         "id": 1007,
@@ -1808,10 +2660,10 @@
         }
       }
     ],
-    "CRES-7D89F": [
+    "CRES-75534": [
       {
-        "id": 1031,
-        "team_id": "CRES-7D89F",
+        "id": 1032,
+        "team_id": "CRES-75534",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -1823,7 +2675,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:32:18",
+        "created_at": "2025-10-22T11:32:19",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -1834,15 +2686,15 @@
         }
       },
       {
-        "id": 1223,
-        "team_id": "CRES-7D89F",
+        "id": 1224,
+        "team_id": "CRES-75534",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:13:20",
+        "created_at": "2025-10-23T17:13:21",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -2186,50 +3038,28 @@
           "club": "CSMIT",
           "date": null
         }
-      }
-    ],
-    "CRES-A2BF5": [
-      {
-        "id": 985,
-        "team_id": "CRES-A2BF5",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:01:54",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
       },
       {
-        "id": 1208,
-        "team_id": "CRES-A2BF5",
-        "round_id": 16,
+        "id": 1632,
+        "team_id": "CRES-1658B",
+        "round_id": 12,
         "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
+        "score": 52.85,
+        "criteria_scores": {
+          "Game play": 25,
+          "Portfolio": 20,
+          "Choice of companies": 60.7
+        },
+        "raw_total_score": 105.7,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:09:43",
-        "updated_at": null,
+        "created_at": "2025-11-08T16:01:41",
+        "updated_at": "2025-11-08T16:02:05",
         "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
           "round_type": "title",
-          "club": "PDA",
-          "date": null
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
         }
       }
     ],
@@ -2366,6 +3196,96 @@
         }
       }
     ],
+    "CRES-7D89F": [
+      {
+        "id": 1031,
+        "team_id": "CRES-7D89F",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:18",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1223,
+        "team_id": "CRES-7D89F",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:20",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-A2BF5": [
+      {
+        "id": 985,
+        "team_id": "CRES-A2BF5",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:54",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1208,
+        "team_id": "CRES-A2BF5",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:43",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
     "CRES-24DF1": [
       {
         "id": 1023,
@@ -2469,365 +3389,6 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
-      }
-    ],
-    "CRES-17B89": [
-      {
-        "id": 1003,
-        "team_id": "CRES-17B89",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 79,
-        "criteria_scores": {
-          "Content": 24,
-          "Creativity": 15,
-          "Presentation": 23,
-          "Individuality": 17
-        },
-        "raw_total_score": 79,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:07:39",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1179,
-        "team_id": "CRES-17B89",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 95,
-        "criteria_scores": {
-          "MCQ ": 19
-        },
-        "raw_total_score": 19,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:04:36",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1311,
-        "team_id": "CRES-17B89",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 75,
-        "criteria_scores": {
-          "Overall Performance": 30
-        },
-        "raw_total_score": 30,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:27:41",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1550,
-        "team_id": "CRES-17B89",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 14.4,
-        "criteria_scores": {
-          "Round 1": 18,
-          "Round 2": 0,
-          "Round 3": 18
-        },
-        "raw_total_score": 36,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:57:02",
-        "updated_at": "2025-11-01T05:13:26",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1570,
-        "team_id": "CRES-17B89",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 78,
-        "criteria_scores": {
-          "Overall Performance": 39
-        },
-        "raw_total_score": 39,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:49:11",
-        "updated_at": "2025-10-27T04:13:30",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1601,
-        "team_id": "CRES-17B89",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 70,
-        "criteria_scores": {
-          "Overall Performance": 7
-        },
-        "raw_total_score": 7,
-        "is_normalized": true,
-        "created_at": "2025-10-31T17:23:16",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1606,
-        "team_id": "CRES-17B89",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 83.75,
-        "criteria_scores": {
-          "Creativity": 16,
-          "Spontaneity": 16,
-          "Coordination": 18,
-          "Acting & performance": 17
-        },
-        "raw_total_score": 67,
-        "is_normalized": true,
-        "created_at": "2025-11-01T14:43:25",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      }
-    ],
-    "CRES-F796C": [
-      {
-        "id": 1015,
-        "team_id": "CRES-F796C",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 84,
-        "criteria_scores": {
-          "Content": 25,
-          "Creativity": 17,
-          "Presentation": 25,
-          "Individuality": 17
-        },
-        "raw_total_score": 84,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:15:16",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1186,
-        "team_id": "CRES-F796C",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 95,
-        "criteria_scores": {
-          "MCQ ": 19
-        },
-        "raw_total_score": 19,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:05:52",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1305,
-        "team_id": "CRES-F796C",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Overall Performance": 32
-        },
-        "raw_total_score": 32,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:09:54",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1552,
-        "team_id": "CRES-F796C",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 16.4,
-        "criteria_scores": {
-          "Round 1": 0,
-          "Round 2": 10,
-          "Round 3": 31
-        },
-        "raw_total_score": 41,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:57:07",
-        "updated_at": "2025-11-01T05:16:25",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1577,
-        "team_id": "CRES-F796C",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 82,
-        "criteria_scores": {
-          "Overall Performance": 41
-        },
-        "raw_total_score": 41,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:59:19",
-        "updated_at": "2025-10-26T17:59:43",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1589,
-        "team_id": "CRES-F796C",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 85,
-        "criteria_scores": {
-          "Overall Performance": 8.5
-        },
-        "raw_total_score": 8.5,
-        "is_normalized": true,
-        "created_at": "2025-10-29T18:18:59",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1611,
-        "team_id": "CRES-F796C",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 28.75,
-        "criteria_scores": {
-          "Creativity": 7,
-          "Spontaneity": 4,
-          "Coordination": 4,
-          "Acting & performance": 8
-        },
-        "raw_total_score": 23,
-        "is_normalized": true,
-        "created_at": "2025-11-01T15:27:23",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      }
-    ],
-    "CRES-A824D": [
-      {
-        "id": 969,
-        "team_id": "CRES-A824D",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 81,
-        "criteria_scores": {
-          "Content": 25,
-          "Creativity": 16,
-          "Presentation": 24,
-          "Individuality": 16
-        },
-        "raw_total_score": 81,
-        "is_normalized": true,
-        "created_at": "2025-10-22T10:55:49",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1298,
-        "team_id": "CRES-A824D",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-24T07:05:37",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
         }
       }
     ],
@@ -3047,341 +3608,6 @@
         }
       }
     ],
-    "CRES-865AB": [
-      {
-        "id": 1014,
-        "team_id": "CRES-865AB",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 78,
-        "criteria_scores": {
-          "Content": 24,
-          "Creativity": 14,
-          "Presentation": 24,
-          "Individuality": 16
-        },
-        "raw_total_score": 78,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:14:58",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1185,
-        "team_id": "CRES-865AB",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 100,
-        "criteria_scores": {
-          "MCQ ": 20
-        },
-        "raw_total_score": 20,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:05:33",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1325,
-        "team_id": "CRES-865AB",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Overall Performance": 32
-        },
-        "raw_total_score": 32,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:32:37",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1553,
-        "team_id": "CRES-865AB",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 7.2,
-        "criteria_scores": {
-          "Round 1": 0,
-          "Round 2": 0,
-          "Round 3": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:57:08",
-        "updated_at": "2025-11-01T05:04:14",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1576,
-        "team_id": "CRES-865AB",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Overall Performance": 40
-        },
-        "raw_total_score": 40,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:58:55",
-        "updated_at": "2025-10-26T17:59:12",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1594,
-        "team_id": "CRES-865AB",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 70,
-        "criteria_scores": {
-          "Overall Performance": 7
-        },
-        "raw_total_score": 7,
-        "is_normalized": true,
-        "created_at": "2025-10-31T17:20:41",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1613,
-        "team_id": "CRES-865AB",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 78.75,
-        "criteria_scores": {
-          "Creativity": 15,
-          "Spontaneity": 14,
-          "Coordination": 16,
-          "Acting & performance": 18
-        },
-        "raw_total_score": 63,
-        "is_normalized": true,
-        "created_at": "2025-11-01T15:36:58",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      }
-    ],
-    "CRES-0ED4B": [
-      {
-        "id": 1004,
-        "team_id": "CRES-0ED4B",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 94.5,
-        "criteria_scores": {
-          "Content": 28,
-          "Creativity": 19.5,
-          "Presentation": 28.5,
-          "Individuality": 18.5
-        },
-        "raw_total_score": 94.5,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:08:22",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1180,
-        "team_id": "CRES-0ED4B",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 95,
-        "criteria_scores": {
-          "MCQ ": 19
-        },
-        "raw_total_score": 19,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:04:46",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1315,
-        "team_id": "CRES-0ED4B",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 87.5,
-        "criteria_scores": {
-          "Overall Performance": 35
-        },
-        "raw_total_score": 35,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:28:46",
-        "updated_at": "2025-10-24T16:17:27",
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1549,
-        "team_id": "CRES-0ED4B",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 17.2,
-        "criteria_scores": {
-          "Round 1": 20,
-          "Round 2": 0,
-          "Round 3": 23
-        },
-        "raw_total_score": 43,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:57:00",
-        "updated_at": "2025-11-01T05:15:38",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1571,
-        "team_id": "CRES-0ED4B",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 92,
-        "criteria_scores": {
-          "Overall Performance": 46
-        },
-        "raw_total_score": 46,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:49:35",
-        "updated_at": "2025-10-27T04:18:16",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1593,
-        "team_id": "CRES-0ED4B",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 88,
-        "criteria_scores": {
-          "Overall Performance": 8.8
-        },
-        "raw_total_score": 8.8,
-        "is_normalized": true,
-        "created_at": "2025-10-29T18:20:02",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1617,
-        "team_id": "CRES-0ED4B",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 66.25,
-        "criteria_scores": {
-          "Creativity": 15,
-          "Spontaneity": 13,
-          "Coordination": 12,
-          "Acting & performance": 13
-        },
-        "raw_total_score": 53,
-        "is_normalized": true,
-        "created_at": "2025-11-01T16:15:46",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      },
-      {
-        "id": 1627,
-        "team_id": "CRES-0ED4B",
-        "round_id": 13,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "Overall Performance": 90
-        },
-        "raw_total_score": 90,
-        "is_normalized": true,
-        "created_at": "2025-11-04T21:23:29",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 9,
-          "round_name": "Pixel Pitch",
-          "round_type": "title",
-          "club": "CSMIT",
-          "date": null
-        }
-      }
-    ],
     "CRES-D6283": [
       {
         "id": 1019,
@@ -3584,208 +3810,6 @@
         }
       }
     ],
-    "CRES-D8F3D": [
-      {
-        "id": 993,
-        "team_id": "CRES-D8F3D",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 78,
-        "criteria_scores": {
-          "Content": 24,
-          "Creativity": 15,
-          "Presentation": 23,
-          "Individuality": 16
-        },
-        "raw_total_score": 78,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:03:22",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1175,
-        "team_id": "CRES-D8F3D",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 85,
-        "criteria_scores": {
-          "MCQ ": 17
-        },
-        "raw_total_score": 17,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:03:43",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1304,
-        "team_id": "CRES-D8F3D",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 82.5,
-        "criteria_scores": {
-          "Overall Performance": 33
-        },
-        "raw_total_score": 33,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:09:39",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1533,
-        "team_id": "CRES-D8F3D",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 12.8,
-        "criteria_scores": {
-          "Round 1": 12,
-          "Round 2": 5,
-          "Round 3": 15
-        },
-        "raw_total_score": 32,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:56:13",
-        "updated_at": "2025-11-01T05:07:43",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1565,
-        "team_id": "CRES-D8F3D",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 82,
-        "criteria_scores": {
-          "Overall Performance": 41
-        },
-        "raw_total_score": 41,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:46:39",
-        "updated_at": "2025-10-27T04:13:37",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1591,
-        "team_id": "CRES-D8F3D",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 73,
-        "criteria_scores": {
-          "Overall Performance": 7.3
-        },
-        "raw_total_score": 7.3,
-        "is_normalized": true,
-        "created_at": "2025-10-29T18:19:29",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1605,
-        "team_id": "CRES-D8F3D",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 38.75,
-        "criteria_scores": {
-          "Creativity": 7,
-          "Spontaneity": 8,
-          "Coordination": 7,
-          "Acting & performance": 9
-        },
-        "raw_total_score": 31,
-        "is_normalized": true,
-        "created_at": "2025-11-01T14:29:45",
-        "updated_at": "2025-11-01T14:49:38",
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      }
-    ],
-    "CRES-C2033": [
-      {
-        "id": 1029,
-        "team_id": "CRES-C2033",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:32:14",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1222,
-        "team_id": "CRES-C2033",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:13:04",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
     "CRES-E7868": [
       {
         "id": 1020,
@@ -3899,6 +3923,51 @@
         }
       }
     ],
+    "CRES-C2033": [
+      {
+        "id": 1029,
+        "team_id": "CRES-C2033",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:32:14",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1222,
+        "team_id": "CRES-C2033",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:04",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
     "CRES-5C704": [
       {
         "id": 978,
@@ -3989,51 +4058,6 @@
         }
       }
     ],
-    "CRES-957CD": [
-      {
-        "id": 981,
-        "team_id": "CRES-957CD",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:01:46",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1212,
-        "team_id": "CRES-957CD",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:09:58",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
     "CRES-96298": [
       {
         "id": 983,
@@ -4079,10 +4103,10 @@
         }
       }
     ],
-    "CRES-9C07A": [
+    "CRES-F1B19": [
       {
-        "id": 992,
-        "team_id": "CRES-9C07A",
+        "id": 1010,
+        "team_id": "CRES-F1B19",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -4094,7 +4118,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:03:02",
+        "created_at": "2025-10-22T11:12:56",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -4105,15 +4129,60 @@
         }
       },
       {
-        "id": 1214,
-        "team_id": "CRES-9C07A",
+        "id": 1216,
+        "team_id": "CRES-F1B19",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:10:07",
+        "created_at": "2025-10-23T17:12:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-957CD": [
+      {
+        "id": 981,
+        "team_id": "CRES-957CD",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:46",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1212,
+        "team_id": "CRES-957CD",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:09:58",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -4169,6 +4238,157 @@
         }
       }
     ],
+    "CRES-974DA": [
+      {
+        "id": 970,
+        "team_id": "CRES-974DA",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 78,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 15,
+          "Presentation": 22,
+          "Individuality": 16
+        },
+        "raw_total_score": 78,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:56:09",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1169,
+        "team_id": "CRES-974DA",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1309,
+        "team_id": "CRES-974DA",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 70,
+        "criteria_scores": {
+          "Overall Performance": 28
+        },
+        "raw_total_score": 28,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:26:17",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1530,
+        "team_id": "CRES-974DA",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:54:54",
+        "updated_at": "2025-10-26T13:07:22",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1558,
+        "team_id": "CRES-974DA",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:42:36",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      }
+    ],
+    "CRES-9C07A": [
+      {
+        "id": 992,
+        "team_id": "CRES-9C07A",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:03:02",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1214,
+        "team_id": "CRES-9C07A",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:10:07",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
     "CRES-EAB94": [
       {
         "id": 991,
@@ -4214,10 +4434,10 @@
         }
       }
     ],
-    "CRES-F1B19": [
+    "CRES-D3603": [
       {
-        "id": 1010,
-        "team_id": "CRES-F1B19",
+        "id": 987,
+        "team_id": "CRES-D3603",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -4229,7 +4449,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:12:56",
+        "created_at": "2025-10-22T11:02:52",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -4240,15 +4460,60 @@
         }
       },
       {
-        "id": 1216,
-        "team_id": "CRES-F1B19",
+        "id": 1207,
+        "team_id": "CRES-D3603",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:12:33",
+        "created_at": "2025-10-23T17:09:39",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      }
+    ],
+    "CRES-8501D": [
+      {
+        "id": 1022,
+        "team_id": "CRES-8501D",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:27:30",
+        "updated_at": "2025-10-22T11:30:05",
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1225,
+        "team_id": "CRES-8501D",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:13:22",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -4365,116 +4630,10 @@
         }
       }
     ],
-    "CRES-974DA": [
+    "CRES-B49F4": [
       {
-        "id": 970,
-        "team_id": "CRES-974DA",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 78,
-        "criteria_scores": {
-          "Content": 25,
-          "Creativity": 15,
-          "Presentation": 22,
-          "Individuality": 16
-        },
-        "raw_total_score": 78,
-        "is_normalized": true,
-        "created_at": "2025-10-22T10:56:09",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1169,
-        "team_id": "CRES-974DA",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "MCQ ": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:02:36",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1309,
-        "team_id": "CRES-974DA",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 70,
-        "criteria_scores": {
-          "Overall Performance": 28
-        },
-        "raw_total_score": 28,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:26:17",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1530,
-        "team_id": "CRES-974DA",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:54:54",
-        "updated_at": "2025-10-26T13:07:22",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1558,
-        "team_id": "CRES-974DA",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:42:36",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      }
-    ],
-    "CRES-8501D": [
-      {
-        "id": 1022,
-        "team_id": "CRES-8501D",
+        "id": 1033,
+        "team_id": "CRES-B49F4",
         "round_id": 6,
         "event_id": "CRESTORA25",
         "score": 0,
@@ -4486,52 +4645,7 @@
         },
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:27:30",
-        "updated_at": "2025-10-22T11:30:05",
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1225,
-        "team_id": "CRES-8501D",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:13:22",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
-    "CRES-D3603": [
-      {
-        "id": 987,
-        "team_id": "CRES-D3603",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:02:52",
+        "created_at": "2025-10-22T11:32:52",
         "updated_at": null,
         "round_info": {
           "round_number": 1,
@@ -4542,15 +4656,15 @@
         }
       },
       {
-        "id": 1207,
-        "team_id": "CRES-D3603",
+        "id": 1221,
+        "team_id": "CRES-B49F4",
         "round_id": 16,
         "event_id": "CRESTORA25",
         "score": 0,
         "criteria_scores": {},
         "raw_total_score": 0,
         "is_normalized": true,
-        "created_at": "2025-10-23T17:09:39",
+        "created_at": "2025-10-23T17:13:02",
         "updated_at": null,
         "round_info": {
           "round_number": 2,
@@ -4666,51 +4780,6 @@
           "round_type": "title",
           "club": "MIT Meteorology Club",
           "date": "2025-10-26"
-        }
-      }
-    ],
-    "CRES-B49F4": [
-      {
-        "id": 1033,
-        "team_id": "CRES-B49F4",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:32:52",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1221,
-        "team_id": "CRES-B49F4",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:13:02",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
         }
       }
     ],
@@ -4882,407 +4951,6 @@
         "raw_total_score": 78,
         "is_normalized": true,
         "created_at": "2025-11-04T21:23:17",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 9,
-          "round_name": "Pixel Pitch",
-          "round_type": "title",
-          "club": "CSMIT",
-          "date": null
-        }
-      }
-    ],
-    "CRES-F53E6": [
-      {
-        "id": 1016,
-        "team_id": "CRES-F53E6",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {
-          "Content": 0,
-          "Creativity": 0,
-          "Presentation": 0,
-          "Individuality": 0
-        },
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:15:38",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1217,
-        "team_id": "CRES-F53E6",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:12:38",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      }
-    ],
-    "CRES-82750": [
-      {
-        "id": 968,
-        "team_id": "CRES-82750",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 97,
-        "criteria_scores": {
-          "Content": 29.5,
-          "Creativity": 20,
-          "Presentation": 29.5,
-          "Individuality": 18
-        },
-        "raw_total_score": 97,
-        "is_normalized": true,
-        "created_at": "2025-10-22T10:54:28",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1168,
-        "team_id": "CRES-82750",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 90,
-        "criteria_scores": {
-          "MCQ ": 18
-        },
-        "raw_total_score": 18,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:02:22",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1303,
-        "team_id": "CRES-82750",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 85,
-        "criteria_scores": {
-          "Overall Performance": 34
-        },
-        "raw_total_score": 34,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:09:25",
-        "updated_at": "2025-10-24T16:16:30",
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1529,
-        "team_id": "CRES-82750",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 33.2,
-        "criteria_scores": {
-          "Round 1": 39,
-          "Round 2": 20,
-          "Round 3": 24
-        },
-        "raw_total_score": 83,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:54:44",
-        "updated_at": "2025-11-01T05:03:20",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1557,
-        "team_id": "CRES-82750",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 94,
-        "criteria_scores": {
-          "Overall Performance": 47
-        },
-        "raw_total_score": 47,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:41:52",
-        "updated_at": "2025-10-27T04:16:40",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1586,
-        "team_id": "CRES-82750",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 85,
-        "criteria_scores": {
-          "Overall Performance": 8.5
-        },
-        "raw_total_score": 8.5,
-        "is_normalized": true,
-        "created_at": "2025-10-29T18:18:00",
-        "updated_at": "2025-10-29T18:21:12",
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1614,
-        "team_id": "CRES-82750",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 72.5,
-        "criteria_scores": {
-          "Creativity": 15,
-          "Spontaneity": 14,
-          "Coordination": 14,
-          "Acting & performance": 15
-        },
-        "raw_total_score": 58,
-        "is_normalized": true,
-        "created_at": "2025-11-01T15:42:47",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      },
-      {
-        "id": 1622,
-        "team_id": "CRES-82750",
-        "round_id": 13,
-        "event_id": "CRESTORA25",
-        "score": 84,
-        "criteria_scores": {
-          "Overall Performance": 84
-        },
-        "raw_total_score": 84,
-        "is_normalized": true,
-        "created_at": "2025-11-04T21:22:33",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 9,
-          "round_name": "Pixel Pitch",
-          "round_type": "title",
-          "club": "CSMIT",
-          "date": null
-        }
-      }
-    ],
-    "CRES-93A6F": [
-      {
-        "id": 977,
-        "team_id": "CRES-93A6F",
-        "round_id": 6,
-        "event_id": "CRESTORA25",
-        "score": 91.5,
-        "criteria_scores": {
-          "Content": 27,
-          "Creativity": 18,
-          "Presentation": 27.5,
-          "Individuality": 19
-        },
-        "raw_total_score": 91.5,
-        "is_normalized": true,
-        "created_at": "2025-10-22T11:01:28",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
-          "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1173,
-        "team_id": "CRES-93A6F",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 85,
-        "criteria_scores": {
-          "MCQ ": 17
-        },
-        "raw_total_score": 17,
-        "is_normalized": true,
-        "created_at": "2025-10-23T17:03:15",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1326,
-        "team_id": "CRES-93A6F",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 82.5,
-        "criteria_scores": {
-          "Overall Performance": 33
-        },
-        "raw_total_score": 33,
-        "is_normalized": true,
-        "created_at": "2025-10-24T15:40:52",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1534,
-        "team_id": "CRES-93A6F",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 21.6,
-        "criteria_scores": {
-          "Round 1": 12,
-          "Round 2": 15,
-          "Round 3": 27
-        },
-        "raw_total_score": 54,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:56:15",
-        "updated_at": "2025-11-01T06:11:49",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1563,
-        "team_id": "CRES-93A6F",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 86,
-        "criteria_scores": {
-          "Overall Performance": 43
-        },
-        "raw_total_score": 43,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:45:49",
-        "updated_at": "2025-10-27T04:16:23",
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
-        }
-      },
-      {
-        "id": 1602,
-        "team_id": "CRES-93A6F",
-        "round_id": 9,
-        "event_id": "CRESTORA25",
-        "score": 92,
-        "criteria_scores": {
-          "Overall Performance": 9.2
-        },
-        "raw_total_score": 9.2,
-        "is_normalized": true,
-        "created_at": "2025-10-31T17:23:35",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 5,
-          "round_name": "Mimik Talk",
-          "round_type": "title",
-          "club": "TED Club of MIT",
-          "date": null
-        }
-      },
-      {
-        "id": 1616,
-        "team_id": "CRES-93A6F",
-        "round_id": 10,
-        "event_id": "CRESTORA25",
-        "score": 65,
-        "criteria_scores": {
-          "Creativity": 15,
-          "Spontaneity": 12,
-          "Coordination": 12,
-          "Acting & performance": 13
-        },
-        "raw_total_score": 52,
-        "is_normalized": true,
-        "created_at": "2025-11-01T16:12:48",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 8,
-          "round_name": "Channel Surfing",
-          "round_type": "title",
-          "club": "The Box Office of MIT",
-          "date": "2025-11-01"
-        }
-      },
-      {
-        "id": 1625,
-        "team_id": "CRES-93A6F",
-        "round_id": 13,
-        "event_id": "CRESTORA25",
-        "score": 88,
-        "criteria_scores": {
-          "Overall Performance": 88
-        },
-        "raw_total_score": 88,
-        "is_normalized": true,
-        "created_at": "2025-11-04T21:23:06",
         "updated_at": null,
         "round_info": {
           "round_number": 9,
@@ -5514,111 +5182,28 @@
           "club": "CSMIT",
           "date": null
         }
-      }
-    ],
-    "CRES-7FE08": [
+      },
       {
-        "id": 1008,
-        "team_id": "CRES-7FE08",
-        "round_id": 6,
+        "id": 1636,
+        "team_id": "CRES-51027",
+        "round_id": 12,
         "event_id": "CRESTORA25",
-        "score": 79,
+        "score": 58,
         "criteria_scores": {
-          "Content": 25,
-          "Creativity": 15,
-          "Presentation": 23,
-          "Individuality": 16
+          "Game play": 0,
+          "Portfolio": 50,
+          "Choice of companies": 66
         },
-        "raw_total_score": 79,
+        "raw_total_score": 116,
         "is_normalized": true,
-        "created_at": "2025-10-22T11:09:33",
+        "created_at": "2025-11-08T16:03:52",
         "updated_at": null,
         "round_info": {
-          "round_number": 1,
-          "round_name": "Team Introduction",
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
           "round_type": "title",
-          "club": "PDA",
-          "date": "2025-10-18"
-        }
-      },
-      {
-        "id": 1301,
-        "team_id": "CRES-7FE08",
-        "round_id": 16,
-        "event_id": "CRESTORA25",
-        "score": 75,
-        "criteria_scores": {
-          "MCQ ": 15
-        },
-        "raw_total_score": 15,
-        "is_normalized": true,
-        "created_at": "2025-10-24T07:33:28",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 2,
-          "round_name": "Visionary Voyage",
-          "round_type": "title",
-          "club": "PDA",
-          "date": null
-        }
-      },
-      {
-        "id": 1361,
-        "team_id": "CRES-7FE08",
-        "round_id": 8,
-        "event_id": "CRESTORA25",
-        "score": 80,
-        "criteria_scores": {
-          "Overall Performance": 32
-        },
-        "raw_total_score": 32,
-        "is_normalized": true,
-        "created_at": "2025-10-24T16:14:23",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 3,
-          "round_name": "Once Upon a Time...",
-          "round_type": "title",
-          "club": "MIT Quill",
-          "date": "2025-10-20"
-        }
-      },
-      {
-        "id": 1548,
-        "team_id": "CRES-7FE08",
-        "round_id": 11,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-26T12:56:58",
-        "updated_at": "2025-10-26T13:07:53",
-        "round_info": {
-          "round_number": 7,
-          "round_name": "Quiz Whizzz",
-          "round_type": "title",
-          "club": "Quiz Club of MIT",
-          "date": "2025-10-31"
-        }
-      },
-      {
-        "id": 1572,
-        "team_id": "CRES-7FE08",
-        "round_id": 7,
-        "event_id": "CRESTORA25",
-        "score": 0,
-        "criteria_scores": {},
-        "raw_total_score": 0,
-        "is_normalized": true,
-        "created_at": "2025-10-26T17:49:59",
-        "updated_at": null,
-        "round_info": {
-          "round_number": 4,
-          "round_name": "MeteoSolve",
-          "round_type": "title",
-          "club": "MIT Meteorology Club",
-          "date": "2025-10-26"
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
         }
       }
     ],
@@ -5664,6 +5249,385 @@
           "round_type": "title",
           "club": "PDA",
           "date": null
+        }
+      }
+    ],
+    "CRES-93A6F": [
+      {
+        "id": 977,
+        "team_id": "CRES-93A6F",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 91.5,
+        "criteria_scores": {
+          "Content": 27,
+          "Creativity": 18,
+          "Presentation": 27.5,
+          "Individuality": 19
+        },
+        "raw_total_score": 91.5,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:01:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1173,
+        "team_id": "CRES-93A6F",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "MCQ ": 17
+        },
+        "raw_total_score": 17,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:03:15",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1326,
+        "team_id": "CRES-93A6F",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 82.5,
+        "criteria_scores": {
+          "Overall Performance": 33
+        },
+        "raw_total_score": 33,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:40:52",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1534,
+        "team_id": "CRES-93A6F",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 21.6,
+        "criteria_scores": {
+          "Round 1": 12,
+          "Round 2": 15,
+          "Round 3": 27
+        },
+        "raw_total_score": 54,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:56:15",
+        "updated_at": "2025-11-01T06:11:49",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1563,
+        "team_id": "CRES-93A6F",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 86,
+        "criteria_scores": {
+          "Overall Performance": 43
+        },
+        "raw_total_score": 43,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:45:49",
+        "updated_at": "2025-10-27T04:16:23",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1602,
+        "team_id": "CRES-93A6F",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 92,
+        "criteria_scores": {
+          "Overall Performance": 9.2
+        },
+        "raw_total_score": 9.2,
+        "is_normalized": true,
+        "created_at": "2025-10-31T17:23:35",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1616,
+        "team_id": "CRES-93A6F",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 65,
+        "criteria_scores": {
+          "Creativity": 15,
+          "Spontaneity": 12,
+          "Coordination": 12,
+          "Acting & performance": 13
+        },
+        "raw_total_score": 52,
+        "is_normalized": true,
+        "created_at": "2025-11-01T16:12:48",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      },
+      {
+        "id": 1625,
+        "team_id": "CRES-93A6F",
+        "round_id": 13,
+        "event_id": "CRESTORA25",
+        "score": 88,
+        "criteria_scores": {
+          "Overall Performance": 88
+        },
+        "raw_total_score": 88,
+        "is_normalized": true,
+        "created_at": "2025-11-04T21:23:06",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 9,
+          "round_name": "Pixel Pitch",
+          "round_type": "title",
+          "club": "CSMIT",
+          "date": null
+        }
+      }
+    ],
+    "CRES-82750": [
+      {
+        "id": 968,
+        "team_id": "CRES-82750",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 97,
+        "criteria_scores": {
+          "Content": 29.5,
+          "Creativity": 20,
+          "Presentation": 29.5,
+          "Individuality": 18
+        },
+        "raw_total_score": 97,
+        "is_normalized": true,
+        "created_at": "2025-10-22T10:54:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1168,
+        "team_id": "CRES-82750",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 90,
+        "criteria_scores": {
+          "MCQ ": 18
+        },
+        "raw_total_score": 18,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:02:22",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1303,
+        "team_id": "CRES-82750",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Overall Performance": 34
+        },
+        "raw_total_score": 34,
+        "is_normalized": true,
+        "created_at": "2025-10-24T15:09:25",
+        "updated_at": "2025-10-24T16:16:30",
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1529,
+        "team_id": "CRES-82750",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 33.2,
+        "criteria_scores": {
+          "Round 1": 39,
+          "Round 2": 20,
+          "Round 3": 24
+        },
+        "raw_total_score": 83,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:54:44",
+        "updated_at": "2025-11-01T05:03:20",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1557,
+        "team_id": "CRES-82750",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 94,
+        "criteria_scores": {
+          "Overall Performance": 47
+        },
+        "raw_total_score": 47,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:41:52",
+        "updated_at": "2025-10-27T04:16:40",
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      },
+      {
+        "id": 1586,
+        "team_id": "CRES-82750",
+        "round_id": 9,
+        "event_id": "CRESTORA25",
+        "score": 85,
+        "criteria_scores": {
+          "Overall Performance": 8.5
+        },
+        "raw_total_score": 8.5,
+        "is_normalized": true,
+        "created_at": "2025-10-29T18:18:00",
+        "updated_at": "2025-10-29T18:21:12",
+        "round_info": {
+          "round_number": 5,
+          "round_name": "Mimik Talk",
+          "round_type": "title",
+          "club": "TED Club of MIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1614,
+        "team_id": "CRES-82750",
+        "round_id": 10,
+        "event_id": "CRESTORA25",
+        "score": 72.5,
+        "criteria_scores": {
+          "Creativity": 15,
+          "Spontaneity": 14,
+          "Coordination": 14,
+          "Acting & performance": 15
+        },
+        "raw_total_score": 58,
+        "is_normalized": true,
+        "created_at": "2025-11-01T15:42:47",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 8,
+          "round_name": "Channel Surfing",
+          "round_type": "title",
+          "club": "The Box Office of MIT",
+          "date": "2025-11-01"
+        }
+      },
+      {
+        "id": 1622,
+        "team_id": "CRES-82750",
+        "round_id": 13,
+        "event_id": "CRESTORA25",
+        "score": 84,
+        "criteria_scores": {
+          "Overall Performance": 84
+        },
+        "raw_total_score": 84,
+        "is_normalized": true,
+        "created_at": "2025-11-04T21:22:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 9,
+          "round_name": "Pixel Pitch",
+          "round_type": "title",
+          "club": "CSMIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1631,
+        "team_id": "CRES-82750",
+        "round_id": 12,
+        "event_id": "CRESTORA25",
+        "score": 77.5,
+        "criteria_scores": {
+          "Game play": 50,
+          "Portfolio": 40,
+          "Choice of companies": 65
+        },
+        "raw_total_score": 155,
+        "is_normalized": true,
+        "created_at": "2025-11-08T16:01:10",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
+          "round_type": "title",
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
         }
       }
     ],
@@ -5841,6 +5805,180 @@
           "round_name": "Pixel Pitch",
           "round_type": "title",
           "club": "CSMIT",
+          "date": null
+        }
+      },
+      {
+        "id": 1633,
+        "team_id": "CRES-E9E31",
+        "round_id": 12,
+        "event_id": "CRESTORA25",
+        "score": 56.55,
+        "criteria_scores": {
+          "Game play": 35,
+          "Portfolio": 30,
+          "Choice of companies": 48.1
+        },
+        "raw_total_score": 113.1,
+        "is_normalized": true,
+        "created_at": "2025-11-08T16:02:40",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 10,
+          "round_name": "Market Mavericks.",
+          "round_type": "title",
+          "club": "AUSEC MIT",
+          "date": "2025-11-05"
+        }
+      }
+    ],
+    "CRES-7FE08": [
+      {
+        "id": 1008,
+        "team_id": "CRES-7FE08",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 79,
+        "criteria_scores": {
+          "Content": 25,
+          "Creativity": 15,
+          "Presentation": 23,
+          "Individuality": 16
+        },
+        "raw_total_score": 79,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:09:33",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1301,
+        "team_id": "CRES-7FE08",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 75,
+        "criteria_scores": {
+          "MCQ ": 15
+        },
+        "raw_total_score": 15,
+        "is_normalized": true,
+        "created_at": "2025-10-24T07:33:28",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
+          "date": null
+        }
+      },
+      {
+        "id": 1361,
+        "team_id": "CRES-7FE08",
+        "round_id": 8,
+        "event_id": "CRESTORA25",
+        "score": 80,
+        "criteria_scores": {
+          "Overall Performance": 32
+        },
+        "raw_total_score": 32,
+        "is_normalized": true,
+        "created_at": "2025-10-24T16:14:23",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 3,
+          "round_name": "Once Upon a Time...",
+          "round_type": "title",
+          "club": "MIT Quill",
+          "date": "2025-10-20"
+        }
+      },
+      {
+        "id": 1548,
+        "team_id": "CRES-7FE08",
+        "round_id": 11,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-26T12:56:58",
+        "updated_at": "2025-10-26T13:07:53",
+        "round_info": {
+          "round_number": 7,
+          "round_name": "Quiz Whizzz",
+          "round_type": "title",
+          "club": "Quiz Club of MIT",
+          "date": "2025-10-31"
+        }
+      },
+      {
+        "id": 1572,
+        "team_id": "CRES-7FE08",
+        "round_id": 7,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-26T17:49:59",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 4,
+          "round_name": "MeteoSolve",
+          "round_type": "title",
+          "club": "MIT Meteorology Club",
+          "date": "2025-10-26"
+        }
+      }
+    ],
+    "CRES-F53E6": [
+      {
+        "id": 1016,
+        "team_id": "CRES-F53E6",
+        "round_id": 6,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {
+          "Content": 0,
+          "Creativity": 0,
+          "Presentation": 0,
+          "Individuality": 0
+        },
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-22T11:15:38",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 1,
+          "round_name": "Team Introduction",
+          "round_type": "title",
+          "club": "PDA",
+          "date": "2025-10-18"
+        }
+      },
+      {
+        "id": 1217,
+        "team_id": "CRES-F53E6",
+        "round_id": 16,
+        "event_id": "CRESTORA25",
+        "score": 0,
+        "criteria_scores": {},
+        "raw_total_score": 0,
+        "is_normalized": true,
+        "created_at": "2025-10-23T17:12:38",
+        "updated_at": null,
+        "round_info": {
+          "round_number": 2,
+          "round_name": "Visionary Voyage",
+          "round_type": "title",
+          "club": "PDA",
           "date": null
         }
       }

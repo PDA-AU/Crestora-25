@@ -113,12 +113,17 @@ class LocalDataService {
     }
     
     // Check password (using leader's register number as password)
-    if (team.leader_register_number !== password) {
-      throw new Error('Invalid password');
+    const validPassword = team.leader_register_number === password || 
+                         (team as any).password === password ||
+                         team.leader_register_number === password.trim();
+    
+    if (!validPassword) {
+      throw new Error('Invalid password. Please use your register number as password.');
     }
     
-    // Check if team is active
-    if (team.status !== 'ACTIVE' && team.status !== 'ELIMINATED') {
+    // Check if team is active - allow COMPLETED status to login as well
+    const allowedStatuses = ['ACTIVE', 'ELIMINATED', 'COMPLETED'];
+    if (!allowedStatuses.includes(team.status)) {
       throw new Error(`Team is ${team.status.toLowerCase()}. Please contact organizers.`);
     }
     
